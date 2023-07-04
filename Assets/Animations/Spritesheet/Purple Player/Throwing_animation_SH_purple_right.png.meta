@@ -1,0 +1,521 @@
+fileFormatVersion: 2
+guid: bbc8d6781ac361f41897497918f9bb24
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3297184241895391247
+    second: Throwing_animation_SH_purple_right_0
+  - first:
+      213: 2858133665904275382
+    second: Throwing_animation_SH_purple_right_1
+  - first:
+      213: -6156219199482519547
+    second: Throwing_animation_SH_purple_right_2
+  - first:
+      213: -1150821509899930270
+    second: Throwing_animation_SH_purple_right_3
+  - first:
+      213: 5159237456425679519
+    second: Throwing_animation_SH_purple_right_4
+  - first:
+      213: 6139662711817789916
+    second: Throwing_animation_SH_purple_right_5
+  - first:
+      213: -8577571880351957473
+    second: Throwing_animation_SH_purple_right_6
+  - first:
+      213: -3840345637088406387
+    second: Throwing_animation_SH_purple_right_7
+  - first:
+      213: 6990393167116011006
+    second: Throwing_animation_SH_purple_right_8
+  - first:
+      213: -6644147603006553917
+    second: Throwing_animation_SH_purple_right_9
+  - first:
+      213: 4593197567177315637
+    second: Throwing_animation_SH_purple_right_10
+  - first:
+      213: 6213226229967208854
+    second: Throwing_animation_SH_purple_right_11
+  - first:
+      213: -1412525883333948780
+    second: Throwing_animation_SH_purple_right_12
+  - first:
+      213: 8321589005142200254
+    second: Throwing_animation_SH_purple_right_13
+  - first:
+      213: -6557671438668833214
+    second: Throwing_animation_SH_purple_right_14
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 2
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Throwing_animation_SH_purple_right_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5000
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ff3fc6b66c0e32d0800000000000000
+      internalID: -3297184241895391247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Throwing_animation_SH_purple_right_1
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 5000
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bf2fc41d612aa720800000000000000
+      internalID: 2858133665904275382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Throwing_animation_SH_purple_right_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4300
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 500a76f4147b09aa0800000000000000
+      internalID: -6156219199482519547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Throwing_animation_SH_purple_right_3
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 4300
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 265398e1fe57700f0800000000000000
+      internalID: -1150821509899930270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Throwing_animation_SH_purple_right_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3600
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9a742eb12b499740800000000000000
+      internalID: 5159237456425679519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Throwing_animation_SH_purple_right_5
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 3600
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd16c9205b6743550800000000000000
+      internalID: 6139662711817789916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Throwing_animation_SH_purple_right_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2900
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1efd3c12d756f880800000000000000
+      internalID: -8577571880351957473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Throwing_animation_SH_purple_right_7
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 2900
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d84df967df954bac0800000000000000
+      internalID: -3840345637088406387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Throwing_animation_SH_purple_right_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2200
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef5844e7c8dd20160800000000000000
+      internalID: 6990393167116011006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Throwing_animation_SH_purple_right_9
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 2200
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c0088f05fe3bc3a0800000000000000
+      internalID: -6644147603006553917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Throwing_animation_SH_purple_right_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1500
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 535dacef9d05ebf30800000000000000
+      internalID: 4593197567177315637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Throwing_animation_SH_purple_right_11
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 1500
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 691c55a4650d93650800000000000000
+      internalID: 6213226229967208854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Throwing_animation_SH_purple_right_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 800
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49ac5d76133b56ce0800000000000000
+      internalID: -1412525883333948780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Throwing_animation_SH_purple_right_13
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 800
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebf0c4a4c193c7370800000000000000
+      internalID: 8321589005142200254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Throwing_animation_SH_purple_right_14
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 100
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24e5b6012987ef4a0800000000000000
+      internalID: -6557671438668833214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 20a2b67655addc948bf8bba7f11aa1aa
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Throwing_animation_SH_purple_right_0: -3297184241895391247
+      Throwing_animation_SH_purple_right_7: -3840345637088406387
+      Throwing_animation_SH_purple_right_2: -6156219199482519547
+      Throwing_animation_SH_purple_right_4: 5159237456425679519
+      Throwing_animation_SH_purple_right_6: -8577571880351957473
+      Throwing_animation_SH_purple_right_14: -6557671438668833214
+      Throwing_animation_SH_purple_right_11: 6213226229967208854
+      Throwing_animation_SH_purple_right_10: 4593197567177315637
+      Throwing_animation_SH_purple_right_3: -1150821509899930270
+      Throwing_animation_SH_purple_right_5: 6139662711817789916
+      Throwing_animation_SH_purple_right_8: 6990393167116011006
+      Throwing_animation_SH_purple_right_12: -1412525883333948780
+      Throwing_animation_SH_purple_right_13: 8321589005142200254
+      Throwing_animation_SH_purple_right_1: 2858133665904275382
+      Throwing_animation_SH_purple_right_9: -6644147603006553917
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,633 @@
+fileFormatVersion: 2
+guid: 528d3e43f1d2ed34a8e2357c44d54eb5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 542166050117880299
+    second: vertical_dash_up_reversed_0
+  - first:
+      213: 3679625719817615125
+    second: vertical_dash_up_reversed_1
+  - first:
+      213: -7839917462675650056
+    second: vertical_dash_up_reversed_2
+  - first:
+      213: -3600238843164997985
+    second: vertical_dash_up_reversed_3
+  - first:
+      213: -174133995139382937
+    second: vertical_dash_up_reversed_4
+  - first:
+      213: 2999553767178975571
+    second: vertical_dash_up_reversed_5
+  - first:
+      213: 7886875804730473672
+    second: vertical_dash_up_reversed_6
+  - first:
+      213: 6858352844498952376
+    second: vertical_dash_up_reversed_7
+  - first:
+      213: -3701765142350945756
+    second: vertical_dash_up_reversed_8
+  - first:
+      213: 529905420189478049
+    second: vertical_dash_up_reversed_9
+  - first:
+      213: 2871258742742011223
+    second: vertical_dash_up_reversed_10
+  - first:
+      213: 3558271818163467849
+    second: vertical_dash_up_reversed_11
+  - first:
+      213: -3387880253152423436
+    second: vertical_dash_up_reversed_12
+  - first:
+      213: 7819983405891422654
+    second: vertical_dash_up_reversed_13
+  - first:
+      213: -6472009408979000170
+    second: vertical_dash_up_reversed_14
+  - first:
+      213: 3309605752525731395
+    second: vertical_dash_up_reversed_15
+  - first:
+      213: 8669020294834956061
+    second: vertical_dash_up_reversed_16
+  - first:
+      213: 8387294730534944354
+    second: vertical_dash_up_reversed_17
+  - first:
+      213: -8849704929390728251
+    second: vertical_dash_up_reversed_18
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 2
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: vertical_dash_up_reversed_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6400
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be98d8a6629268700800000000000000
+      internalID: 542166050117880299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vertical_dash_up_reversed_1
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 6400
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 517be10c818a01330800000000000000
+      internalID: 3679625719817615125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vertical_dash_up_reversed_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5700
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f906d8fa94033390800000000000000
+      internalID: -7839917462675650056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vertical_dash_up_reversed_3
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 5700
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f964696d8d1690ec0800000000000000
+      internalID: -3600238843164997985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vertical_dash_up_reversed_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5000
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 761c564dd0a559df0800000000000000
+      internalID: -174133995139382937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vertical_dash_up_reversed_5
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 5000
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3593369424e80a920800000000000000
+      internalID: 2999553767178975571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vertical_dash_up_reversed_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4300
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cc359802cfc37d60800000000000000
+      internalID: 7886875804730473672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vertical_dash_up_reversed_7
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 4300
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b066a03393cd2f50800000000000000
+      internalID: 6858352844498952376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vertical_dash_up_reversed_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3600
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 422af304730b0acc0800000000000000
+      internalID: -3701765142350945756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vertical_dash_up_reversed_9
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 3600
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1aca2fe0c2a9a5700800000000000000
+      internalID: 529905420189478049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vertical_dash_up_reversed_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2900
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75d4f5b2d92c8d720800000000000000
+      internalID: 2871258742742011223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vertical_dash_up_reversed_11
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 2900
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 946bae7bd55816130800000000000000
+      internalID: 3558271818163467849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vertical_dash_up_reversed_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2200
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f11a490cd4dbf0d0800000000000000
+      internalID: -3387880253152423436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vertical_dash_up_reversed_13
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 2200
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb98b91c979268c60800000000000000
+      internalID: 7819983405891422654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vertical_dash_up_reversed_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1500
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69422d29bbdce26a0800000000000000
+      internalID: -6472009408979000170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vertical_dash_up_reversed_15
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 1500
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 346b2e995e41eed20800000000000000
+      internalID: 3309605752525731395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vertical_dash_up_reversed_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 800
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d172a48170c8e4870800000000000000
+      internalID: 8669020294834956061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vertical_dash_up_reversed_17
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 800
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26e7a00ae18a56470800000000000000
+      internalID: 8387294730534944354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vertical_dash_up_reversed_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 100
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cb64a421488f2580800000000000000
+      internalID: -8849704929390728251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 4af9fbc0d6410e047b1f6a6a29998f69
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      vertical_dash_up_reversed_10: 2871258742742011223
+      vertical_dash_up_reversed_14: -6472009408979000170
+      vertical_dash_up_reversed_15: 3309605752525731395
+      vertical_dash_up_reversed_13: 7819983405891422654
+      vertical_dash_up_reversed_12: -3387880253152423436
+      vertical_dash_up_reversed_4: -174133995139382937
+      vertical_dash_up_reversed_2: -7839917462675650056
+      vertical_dash_up_reversed_6: 7886875804730473672
+      vertical_dash_up_reversed_3: -3600238843164997985
+      vertical_dash_up_reversed_5: 2999553767178975571
+      vertical_dash_up_reversed_11: 3558271818163467849
+      vertical_dash_up_reversed_8: -3701765142350945756
+      vertical_dash_up_reversed_18: -8849704929390728251
+      vertical_dash_up_reversed_1: 3679625719817615125
+      vertical_dash_up_reversed_16: 8669020294834956061
+      vertical_dash_up_reversed_9: 529905420189478049
+      vertical_dash_up_reversed_7: 6858352844498952376
+      vertical_dash_up_reversed_17: 8387294730534944354
+      vertical_dash_up_reversed_0: 542166050117880299
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

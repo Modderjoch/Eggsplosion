@@ -1,0 +1,821 @@
+fileFormatVersion: 2
+guid: b619e54526851e945ad9e5ea542058de
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8507182161990540594
+    second: purple_running_animation_right_0
+  - first:
+      213: -7132442647361485747
+    second: purple_running_animation_right_1
+  - first:
+      213: 9223357858185959265
+    second: purple_running_animation_right_2
+  - first:
+      213: -8165625343251094404
+    second: purple_running_animation_right_3
+  - first:
+      213: 3413443539112480431
+    second: purple_running_animation_right_4
+  - first:
+      213: -169462903111001954
+    second: purple_running_animation_right_5
+  - first:
+      213: -6678343237615459250
+    second: purple_running_animation_right_6
+  - first:
+      213: -1847483006396329287
+    second: purple_running_animation_right_7
+  - first:
+      213: 3489749082612793953
+    second: purple_running_animation_right_8
+  - first:
+      213: 8934160198430607068
+    second: purple_running_animation_right_9
+  - first:
+      213: 4414509218466672986
+    second: purple_running_animation_right_10
+  - first:
+      213: -1231027904924120326
+    second: purple_running_animation_right_11
+  - first:
+      213: 1308966650412698126
+    second: purple_running_animation_right_12
+  - first:
+      213: -2356515803872182411
+    second: purple_running_animation_right_13
+  - first:
+      213: 9105666702120381142
+    second: purple_running_animation_right_14
+  - first:
+      213: -5390024052126617462
+    second: purple_running_animation_right_15
+  - first:
+      213: 250747674782184729
+    second: purple_running_animation_right_16
+  - first:
+      213: 1318351947670939542
+    second: purple_running_animation_right_17
+  - first:
+      213: 2173564289136130227
+    second: purple_running_animation_right_18
+  - first:
+      213: -7258349153690270956
+    second: purple_running_animation_right_19
+  - first:
+      213: -628426919719540110
+    second: purple_running_animation_right_20
+  - first:
+      213: -1176457890049203981
+    second: purple_running_animation_right_21
+  - first:
+      213: -8874513930039238886
+    second: purple_running_animation_right_22
+  - first:
+      213: -2478451460121615730
+    second: purple_running_animation_right_23
+  - first:
+      213: 962010336781048846
+    second: purple_running_animation_right_24
+  - first:
+      213: 6313100603664094252
+    second: purple_running_animation_right_25
+  - first:
+      213: 6164782582336557095
+    second: purple_running_animation_right_26
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 2
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: purple_running_animation_right_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 9200
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23d5cf47a159f0670800000000000000
+      internalID: 8507182161990540594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_running_animation_right_1
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 9200
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d440c279339740d90800000000000000
+      internalID: -7132442647361485747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_running_animation_right_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8500
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1675b75ca13ffff70800000000000000
+      internalID: 9223357858185959265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_running_animation_right_3
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 8500
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c74679e730fddae80800000000000000
+      internalID: -8165625343251094404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_running_animation_right_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7800
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faec6a940dcfe5f20800000000000000
+      internalID: 3413443539112480431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_running_animation_right_5
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 7800
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9856713362f5adf0800000000000000
+      internalID: -169462903111001954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_running_animation_right_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7100
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e446cc17532c153a0800000000000000
+      internalID: -6678343237615459250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_running_animation_right_7
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 7100
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b21d2b7efb6c56e0800000000000000
+      internalID: -1847483006396329287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_running_animation_right_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6400
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16281681d441e6030800000000000000
+      internalID: 3489749082612793953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_running_animation_right_9
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 6400
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd6c3e18d538cfb70800000000000000
+      internalID: 8934160198430607068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_running_animation_right_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5700
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a51b460cebc734d30800000000000000
+      internalID: 4414509218466672986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_running_animation_right_11
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 5700
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afa876a84a28aeee0800000000000000
+      internalID: -1231027904924120326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_running_animation_right_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5000
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0a8eacbb326a2210800000000000000
+      internalID: 1308966650412698126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_running_animation_right_13
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 5000
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57fba9a9c59fb4fd0800000000000000
+      internalID: -2356515803872182411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_running_animation_right_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4300
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6daecf62f93dd5e70800000000000000
+      internalID: 9105666702120381142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_running_animation_right_15
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 4300
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a807e22aea9c235b0800000000000000
+      internalID: -5390024052126617462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_running_animation_right_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3600
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 915b5a38ea5da7300800000000000000
+      internalID: 250747674782184729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_running_animation_right_17
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 3600
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 697eed98c1abb4210800000000000000
+      internalID: 1318351947670939542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_running_animation_right_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2900
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b8fe66743d0a2e10800000000000000
+      internalID: 2173564289136130227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_running_animation_right_19
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 2900
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 413c88ea6e9254b90800000000000000
+      internalID: -7258349153690270956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_running_animation_right_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2200
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27ae2dacb016747f0800000000000000
+      internalID: -628426919719540110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_running_animation_right_21
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 2200
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f0696a38c16cafe0800000000000000
+      internalID: -1176457890049203981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_running_animation_right_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1500
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1f51cd899467d480800000000000000
+      internalID: -8874513930039238886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_running_animation_right_23
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 1500
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8227664785ca9dd0800000000000000
+      internalID: -2478451460121615730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_running_animation_right_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 800
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0c961aed4fb95d00800000000000000
+      internalID: 962010336781048846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_running_animation_right_25
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 800
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c24d3b00d83ac9750800000000000000
+      internalID: 6313100603664094252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_running_animation_right_26
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 100
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7209fa1a815bd8550800000000000000
+      internalID: 6164782582336557095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: aa7defb8c776ef348b8c53d0a768a8b8
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      purple_running_animation_right_2: 9223357858185959265
+      purple_running_animation_right_22: -8874513930039238886
+      purple_running_animation_right_14: 9105666702120381142
+      purple_running_animation_right_26: 6164782582336557095
+      purple_running_animation_right_19: -7258349153690270956
+      purple_running_animation_right_0: 8507182161990540594
+      purple_running_animation_right_5: -169462903111001954
+      purple_running_animation_right_6: -6678343237615459250
+      purple_running_animation_right_20: -628426919719540110
+      purple_running_animation_right_13: -2356515803872182411
+      purple_running_animation_right_10: 4414509218466672986
+      purple_running_animation_right_9: 8934160198430607068
+      purple_running_animation_right_16: 250747674782184729
+      purple_running_animation_right_8: 3489749082612793953
+      purple_running_animation_right_21: -1176457890049203981
+      purple_running_animation_right_15: -5390024052126617462
+      purple_running_animation_right_23: -2478451460121615730
+      purple_running_animation_right_12: 1308966650412698126
+      purple_running_animation_right_11: -1231027904924120326
+      purple_running_animation_right_25: 6313100603664094252
+      purple_running_animation_right_3: -8165625343251094404
+      purple_running_animation_right_4: 3413443539112480431
+      purple_running_animation_right_1: -7132442647361485747
+      purple_running_animation_right_17: 1318351947670939542
+      purple_running_animation_right_7: -1847483006396329287
+      purple_running_animation_right_24: 962010336781048846
+      purple_running_animation_right_18: 2173564289136130227
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

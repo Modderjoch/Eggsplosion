@@ -1,0 +1,821 @@
+fileFormatVersion: 2
+guid: f6b20422d674f5a4f943884a235b7954
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2072773699662462693
+    second: green_running_animation_right_0
+  - first:
+      213: 3816783748082313898
+    second: green_running_animation_right_1
+  - first:
+      213: -79110046287923997
+    second: green_running_animation_right_2
+  - first:
+      213: -6242416039180124252
+    second: green_running_animation_right_3
+  - first:
+      213: 2576253904477242576
+    second: green_running_animation_right_4
+  - first:
+      213: -4655789967093406551
+    second: green_running_animation_right_5
+  - first:
+      213: -6352369801718092729
+    second: green_running_animation_right_6
+  - first:
+      213: 5760863008113970727
+    second: green_running_animation_right_7
+  - first:
+      213: -1339373867116425105
+    second: green_running_animation_right_8
+  - first:
+      213: 8634414200695297016
+    second: green_running_animation_right_9
+  - first:
+      213: -4276011739476170688
+    second: green_running_animation_right_10
+  - first:
+      213: -6807848355281872828
+    second: green_running_animation_right_11
+  - first:
+      213: 2374651389935427193
+    second: green_running_animation_right_12
+  - first:
+      213: 1860759177527254170
+    second: green_running_animation_right_13
+  - first:
+      213: 3524127821044076078
+    second: green_running_animation_right_14
+  - first:
+      213: 357104642391873189
+    second: green_running_animation_right_15
+  - first:
+      213: -2256936822903610979
+    second: green_running_animation_right_16
+  - first:
+      213: 5762366771918372978
+    second: green_running_animation_right_17
+  - first:
+      213: -8200705564032260012
+    second: green_running_animation_right_18
+  - first:
+      213: -6053395569059613834
+    second: green_running_animation_right_19
+  - first:
+      213: 4332798714865554832
+    second: green_running_animation_right_20
+  - first:
+      213: -6939825865021137316
+    second: green_running_animation_right_21
+  - first:
+      213: -3541029036610714435
+    second: green_running_animation_right_22
+  - first:
+      213: -827553772567104322
+    second: green_running_animation_right_23
+  - first:
+      213: 757271472895902731
+    second: green_running_animation_right_24
+  - first:
+      213: -6167589866516032950
+    second: green_running_animation_right_25
+  - first:
+      213: -1690132243322928392
+    second: green_running_animation_right_26
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 2
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: green_running_animation_right_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 9200
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b11c8db5d470c33e0800000000000000
+      internalID: -2072773699662462693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_running_animation_right_1
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 9200
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaa2ee0c890f7f430800000000000000
+      internalID: 3816783748082313898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_running_animation_right_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8500
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e4f7d005d1f6eef0800000000000000
+      internalID: -79110046287923997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_running_animation_right_3
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 8500
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4afb774afab7e59a0800000000000000
+      internalID: -6242416039180124252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_running_animation_right_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7800
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d4449bc641b0c320800000000000000
+      internalID: 2576253904477242576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_running_animation_right_5
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 7800
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a4e19e31bf436fb0800000000000000
+      internalID: -4655789967093406551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_running_animation_right_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7100
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74caca65259d7d7a0800000000000000
+      internalID: -6352369801718092729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_running_animation_right_7
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 7100
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72e425e2262b2ff40800000000000000
+      internalID: 5760863008113970727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_running_animation_right_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6400
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f60951d6096996de0800000000000000
+      internalID: -1339373867116425105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_running_animation_right_9
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 6400
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f3180ce7f993d770800000000000000
+      internalID: 8634414200695297016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_running_animation_right_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5700
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0486f1d6afd88a4c0800000000000000
+      internalID: -4276011739476170688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_running_animation_right_11
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 5700
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44852ba8df9a581a0800000000000000
+      internalID: -6807848355281872828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_running_animation_right_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5000
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97e1d729bd474f020800000000000000
+      internalID: 2374651389935427193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_running_animation_right_13
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 5000
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9c5f0dfc9eb2d910800000000000000
+      internalID: 1860759177527254170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_running_animation_right_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4300
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2e4764e49738e030800000000000000
+      internalID: 3524127821044076078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_running_animation_right_15
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 4300
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a6196db7c0b4f400800000000000000
+      internalID: 357104642391873189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_running_animation_right_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3600
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d91e456daefbda0e0800000000000000
+      internalID: -2256936822903610979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_running_animation_right_17
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 3600
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27085b97c0a08ff40800000000000000
+      internalID: 5762366771918372978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_running_animation_right_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2900
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 458a94c1dbd313e80800000000000000
+      internalID: -8200705564032260012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_running_animation_right_19
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 2900
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 673374d5dc40efba0800000000000000
+      internalID: -6053395569059613834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_running_animation_right_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2200
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09594da9971312c30800000000000000
+      internalID: 4332798714865554832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_running_animation_right_21
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 2200
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5ed8500529c0bf90800000000000000
+      internalID: -6939825865021137316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_running_animation_right_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1500
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db489753adcbbdec0800000000000000
+      internalID: -3541029036610714435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_running_animation_right_23
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 1500
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb47a997a30f384f0800000000000000
+      internalID: -827553772567104322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_running_animation_right_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 800
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b044f74746e528a00800000000000000
+      internalID: 757271472895902731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_running_animation_right_25
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 800
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a42530691b1586aa0800000000000000
+      internalID: -6167589866516032950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_running_animation_right_26
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 100
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f28d4deda17b88e0800000000000000
+      internalID: -1690132243322928392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 9bd9d405074384841a88b5665b150d87
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      green_running_animation_right_24: 757271472895902731
+      green_running_animation_right_22: -3541029036610714435
+      green_running_animation_right_21: -6939825865021137316
+      green_running_animation_right_7: 5760863008113970727
+      green_running_animation_right_16: -2256936822903610979
+      green_running_animation_right_15: 357104642391873189
+      green_running_animation_right_1: 3816783748082313898
+      green_running_animation_right_13: 1860759177527254170
+      green_running_animation_right_17: 5762366771918372978
+      green_running_animation_right_18: -8200705564032260012
+      green_running_animation_right_9: 8634414200695297016
+      green_running_animation_right_11: -6807848355281872828
+      green_running_animation_right_0: -2072773699662462693
+      green_running_animation_right_2: -79110046287923997
+      green_running_animation_right_14: 3524127821044076078
+      green_running_animation_right_20: 4332798714865554832
+      green_running_animation_right_12: 2374651389935427193
+      green_running_animation_right_19: -6053395569059613834
+      green_running_animation_right_26: -1690132243322928392
+      green_running_animation_right_3: -6242416039180124252
+      green_running_animation_right_5: -4655789967093406551
+      green_running_animation_right_8: -1339373867116425105
+      green_running_animation_right_25: -6167589866516032950
+      green_running_animation_right_4: 2576253904477242576
+      green_running_animation_right_6: -6352369801718092729
+      green_running_animation_right_10: -4276011739476170688
+      green_running_animation_right_23: -827553772567104322
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

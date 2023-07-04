@@ -1,0 +1,833 @@
+fileFormatVersion: 2
+guid: 211e65784d9b11e4a9ded2280a0bee78
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1999758600641347540
+    second: Finished_running_animation_SH_Right_0
+  - first:
+      213: -588112637471615070
+    second: Finished_running_animation_SH_Right_1
+  - first:
+      213: 6756885314659415413
+    second: Finished_running_animation_SH_Right_2
+  - first:
+      213: -7423892393618102084
+    second: Finished_running_animation_SH_Right_3
+  - first:
+      213: -2771881515661967739
+    second: Finished_running_animation_SH_Right_4
+  - first:
+      213: -2195277338581873300
+    second: Finished_running_animation_SH_Right_5
+  - first:
+      213: 8005143260359595754
+    second: Finished_running_animation_SH_Right_6
+  - first:
+      213: 6534623044013961726
+    second: Finished_running_animation_SH_Right_7
+  - first:
+      213: 5470687076770333463
+    second: Finished_running_animation_SH_Right_8
+  - first:
+      213: 1323835752178219090
+    second: Finished_running_animation_SH_Right_9
+  - first:
+      213: 8391689863336897325
+    second: Finished_running_animation_SH_Right_10
+  - first:
+      213: 6089278596009942097
+    second: Finished_running_animation_SH_Right_11
+  - first:
+      213: -7650993104952294353
+    second: Finished_running_animation_SH_Right_12
+  - first:
+      213: 883268325735331385
+    second: Finished_running_animation_SH_Right_13
+  - first:
+      213: 5836090323632567478
+    second: Finished_running_animation_SH_Right_14
+  - first:
+      213: 4898617890581093083
+    second: Finished_running_animation_SH_Right_15
+  - first:
+      213: -5087272503634439072
+    second: Finished_running_animation_SH_Right_16
+  - first:
+      213: 1295020318443717992
+    second: Finished_running_animation_SH_Right_17
+  - first:
+      213: 4109185038594424122
+    second: Finished_running_animation_SH_Right_18
+  - first:
+      213: 2807371107436506058
+    second: Finished_running_animation_SH_Right_19
+  - first:
+      213: -2981192054654029793
+    second: Finished_running_animation_SH_Right_20
+  - first:
+      213: -7537224021617809371
+    second: Finished_running_animation_SH_Right_21
+  - first:
+      213: -3812180347952323352
+    second: Finished_running_animation_SH_Right_22
+  - first:
+      213: 2715184993483650362
+    second: Finished_running_animation_SH_Right_23
+  - first:
+      213: -422349618646058859
+    second: Finished_running_animation_SH_Right_24
+  - first:
+      213: 3451507484819911638
+    second: Finished_running_animation_SH_Right_25
+  - first:
+      213: 8974327892902645962
+    second: Finished_running_animation_SH_Right_26
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 2
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Finished_running_animation_SH_Right_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 9200
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4df72c32ad190cb10800000000000000
+      internalID: 1999758600641347540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Finished_running_animation_SH_Right_1
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 9200
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a716931caa96d7f0800000000000000
+      internalID: -588112637471615070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Finished_running_animation_SH_Right_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8500
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 575f358e46745cd50800000000000000
+      internalID: 6756885314659415413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Finished_running_animation_SH_Right_3
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 8500
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb82ba3933909f890800000000000000
+      internalID: -7423892393618102084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Finished_running_animation_SH_Right_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7800
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58e3f73927c4889d0800000000000000
+      internalID: -2771881515661967739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Finished_running_animation_SH_Right_5
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 7800
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6dcc5244eec881e0800000000000000
+      internalID: -2195277338581873300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Finished_running_animation_SH_Right_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7100
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae698d9d16bf71f60800000000000000
+      internalID: 8005143260359595754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Finished_running_animation_SH_Right_7
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 7100
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef1b88f5905afaa50800000000000000
+      internalID: 6534623044013961726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Finished_running_animation_SH_Right_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6400
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 713473059e8cbeb40800000000000000
+      internalID: 5470687076770333463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Finished_running_animation_SH_Right_9
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 6400
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2587b854a953f5210800000000000000
+      internalID: 1323835752178219090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Finished_running_animation_SH_Right_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5700
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2b21793875457470800000000000000
+      internalID: 8391689863336897325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Finished_running_animation_SH_Right_11
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 5700
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15cdf85ee96718450800000000000000
+      internalID: 6089278596009942097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Finished_running_animation_SH_Right_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5000
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f240b58ce4632d590800000000000000
+      internalID: -7650993104952294353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Finished_running_animation_SH_Right_13
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 5000
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 936feccccdff14c00800000000000000
+      internalID: 883268325735331385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Finished_running_animation_SH_Right_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4300
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b4b6397a35fdf050800000000000000
+      internalID: 5836090323632567478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Finished_running_animation_SH_Right_15
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 4300
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bda957a74036bf340800000000000000
+      internalID: 4898617890581093083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Finished_running_animation_SH_Right_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3600
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 064d1498c906669b0800000000000000
+      internalID: -5087272503634439072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Finished_running_animation_SH_Right_17
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 3600
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86540c94e16d8f110800000000000000
+      internalID: 1295020318443717992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Finished_running_animation_SH_Right_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2900
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3d35cd6502c60930800000000000000
+      internalID: 4109185038594424122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Finished_running_animation_SH_Right_19
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 2900
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acba27be529c5f620800000000000000
+      internalID: 2807371107436506058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Finished_running_animation_SH_Right_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2200
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f10312f0f9da0a6d0800000000000000
+      internalID: -2981192054654029793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Finished_running_animation_SH_Right_21
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 2200
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 528edeeafa6666790800000000000000
+      internalID: -7537224021617809371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Finished_running_animation_SH_Right_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1500
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e4a39cdb2a681bc0800000000000000
+      internalID: -3812180347952323352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Finished_running_animation_SH_Right_23
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 1500
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a35701cad564ea520800000000000000
+      internalID: 2715184993483650362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Finished_running_animation_SH_Right_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 800
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59874917243832af0800000000000000
+      internalID: -422349618646058859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Finished_running_animation_SH_Right_25
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 800
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d3fa4445c736ef20800000000000000
+      internalID: 3451507484819911638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Finished_running_animation_SH_Right_26
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 100
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac0975aaba73b8c70800000000000000
+      internalID: 8974327892902645962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: ef6ca1e6a089c264eb62e55234a5d9f1
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Finished_running_animation_SH_Right_11: 6089278596009942097
+      Finished_running_animation_SH_Right_5: -2195277338581873300
+      Finished_running_animation_SH_Right_9: 1323835752178219090
+      Finished_running_animation_SH_Right_4: -2771881515661967739
+      Finished_running_animation_SH_Right_0: 1999758600641347540
+      Finished_running_animation_SH_Right_22: -3812180347952323352
+      Finished_running_animation_SH_Right_20: -2981192054654029793
+      Finished_running_animation_SH_Right_7: 6534623044013961726
+      Finished_running_animation_SH_Right_17: 1295020318443717992
+      Finished_running_animation_SH_Right_6: 8005143260359595754
+      Finished_running_animation_SH_Right_3: -7423892393618102084
+      Finished_running_animation_SH_Right_10: 8391689863336897325
+      Finished_running_animation_SH_Right_12: -7650993104952294353
+      Finished_running_animation_SH_Right_25: 3451507484819911638
+      Finished_running_animation_SH_Right_15: 4898617890581093083
+      Finished_running_animation_SH_Right_16: -5087272503634439072
+      Finished_running_animation_SH_Right_19: 2807371107436506058
+      Finished_running_animation_SH_Right_18: 4109185038594424122
+      Finished_running_animation_SH_Right_13: 883268325735331385
+      Finished_running_animation_SH_Right_2: 6756885314659415413
+      Finished_running_animation_SH_Right_8: 5470687076770333463
+      Finished_running_animation_SH_Right_24: -422349618646058859
+      Finished_running_animation_SH_Right_1: -588112637471615070
+      Finished_running_animation_SH_Right_23: 2715184993483650362
+      Finished_running_animation_SH_Right_21: -7537224021617809371
+      Finished_running_animation_SH_Right_26: 8974327892902645962
+      Finished_running_animation_SH_Right_14: 5836090323632567478
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

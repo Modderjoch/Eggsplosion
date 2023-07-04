@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - PickUp
+  - Wall
+  - Bullet
+  - FirePoint
+  - Multiplayer
+  - Test
+  - Bomba
+  - BulletWall
+  - SpriteBox
+  - BackButton
+  - CasualFFA
+  - CompFFA
+  - Competitive
+  - Casual
+  - GameCam
+  - GameAudio
+  - Leaderboard
+  - CasualInfo
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Exsplosives
+  - Player
+  - Vest
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Background
+    uniqueID: 1494769739
+    locked: 0
+  - name: Trail
+    uniqueID: 1051209187
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: front
+    uniqueID: 507865669
+    locked: 0
+  - name: instances
+    uniqueID: 1624179957
+    locked: 0
+  - name: PopUps
+    uniqueID: 2153724069
+    locked: 0
