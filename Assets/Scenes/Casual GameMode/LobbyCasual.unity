@@ -135,6 +135,7 @@ GameObject:
   - component: {fileID: 146201650}
   - component: {fileID: 146201649}
   - component: {fileID: 146201648}
+  - component: {fileID: 146201651}
   m_Layer: 5
   m_Name: Return
   m_TagString: Untagged
@@ -198,7 +199,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: e61a783d08e4e724ab42968cdc0c4de6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 99e4d92a5e50e954ab1f137f1c22c8b0, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -216,6 +217,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 146201646}
   m_CullTransparentMesh: 1
+--- !u!114 &146201651
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 146201646}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19761a90a186adc47969503e2a3cd946, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  keyboardInput: {fileID: 21300000, guid: d10e9d6d34672f745998ae7ebe8c64e1, type: 3}
+  playstationInput: {fileID: 21300000, guid: e61a783d08e4e724ab42968cdc0c4de6, type: 3}
+  xboxInput: {fileID: 21300000, guid: 99e4d92a5e50e954ab1f137f1c22c8b0, type: 3}
+  nintendoInput: {fileID: 21300000, guid: 465f618571379a14b97ef1735518aa70, type: 3}
 --- !u!1 &435336828
 GameObject:
   m_ObjectHideFlags: 0
@@ -343,6 +360,7 @@ GameObject:
   - component: {fileID: 469940641}
   - component: {fileID: 469940640}
   - component: {fileID: 469940642}
+  - component: {fileID: 469940643}
   m_Layer: 5
   m_Name: Image
   m_TagString: Untagged
@@ -390,7 +408,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 71c789607a2e5974e9ba3d5d8e7a666e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 8133e2492746e35458e0295900d7a789, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -424,6 +442,22 @@ Animation:
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
   m_CullingType: 0
+--- !u!114 &469940643
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 469940638}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19761a90a186adc47969503e2a3cd946, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  keyboardInput: {fileID: 21300000, guid: 71fb537681fded449a533bc3ac705e9e, type: 3}
+  playstationInput: {fileID: 21300000, guid: 71c789607a2e5974e9ba3d5d8e7a666e, type: 3}
+  xboxInput: {fileID: 21300000, guid: 8133e2492746e35458e0295900d7a789, type: 3}
+  nintendoInput: {fileID: 21300000, guid: f542c92e2e179b745ab7fa6fabe75ca8, type: 3}
 --- !u!1 &503912015
 GameObject:
   m_ObjectHideFlags: 0
@@ -1431,6 +1465,10 @@ PrefabInstance:
 
 '
       objectReference: {fileID: 0}
+    - target: {fileID: 947294928375456019, guid: 675c1b5bf12297a458538b5632ca1ada, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: aab143b11d1671b41befd5ef50c88214, type: 3}
     - target: {fileID: 2219953396286518821, guid: 675c1b5bf12297a458538b5632ca1ada, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: -799
@@ -1439,6 +1477,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -679
       objectReference: {fileID: 0}
+    - target: {fileID: 3199962912182489621, guid: 675c1b5bf12297a458538b5632ca1ada, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 5a74b1a17dad18e48a13d8478a1bbc36, type: 3}
     - target: {fileID: 3445528696299983777, guid: 675c1b5bf12297a458538b5632ca1ada, type: 3}
       propertyPath: m_Name
       value: SubtractRound

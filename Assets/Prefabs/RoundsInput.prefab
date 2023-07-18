@@ -172,6 +172,7 @@ GameObject:
   - component: {fileID: 8196043388460259665}
   - component: {fileID: 3824785299209921141}
   - component: {fileID: 947294928375456019}
+  - component: {fileID: 3818489787268555698}
   m_Layer: 5
   m_Name: AddPrompt
   m_TagString: Untagged
@@ -237,6 +238,22 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &3818489787268555698
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2635639705627278958}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19761a90a186adc47969503e2a3cd946, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  keyboardInput: {fileID: 21300000, guid: 7180cbf488de5e04b96c908ecbed9194, type: 3}
+  playstationInput: {fileID: 21300000, guid: 370334a652d1e7245b10d272c2709bdd, type: 3}
+  xboxInput: {fileID: 21300000, guid: aab143b11d1671b41befd5ef50c88214, type: 3}
+  nintendoInput: {fileID: 21300000, guid: c663974dac07cdc4a820cbb46f599954, type: 3}
 --- !u!1 &2749963403450563089
 GameObject:
   m_ObjectHideFlags: 0
@@ -620,6 +637,7 @@ GameObject:
   - component: {fileID: 5465103787554914906}
   - component: {fileID: 510056814178251993}
   - component: {fileID: 3199962912182489621}
+  - component: {fileID: 6840304154886429229}
   m_Layer: 5
   m_Name: SubtractPrompt
   m_TagString: Untagged
@@ -685,6 +703,22 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &6840304154886429229
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4906606329589665509}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19761a90a186adc47969503e2a3cd946, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  keyboardInput: {fileID: 21300000, guid: eeed471813e66284196b4663cb0dec04, type: 3}
+  playstationInput: {fileID: 21300000, guid: f4c94c825882eb9409d193b25c861af5, type: 3}
+  xboxInput: {fileID: 21300000, guid: 5a74b1a17dad18e48a13d8478a1bbc36, type: 3}
+  nintendoInput: {fileID: 21300000, guid: 006f401f06a3b104d9d7bde5c78e401f, type: 3}
 --- !u!1 &6614609733834328789
 GameObject:
   m_ObjectHideFlags: 0
