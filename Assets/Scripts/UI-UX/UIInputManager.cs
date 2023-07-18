@@ -26,6 +26,7 @@ public class UIInputManager : MonoBehaviour
         controls = new UI_Controls();
         uiActions = controls.UI;
 
+        uiActions.Navigate.performed += _ => menuHandler.DetectInputDevice();
         uiActions.Leaderboard.performed += _ => menuHandler.Leaderboard();
         uiActions.Eggsplanation.performed += _ => menuHandler.Eggsplanation();
         uiActions.Cancel.performed += _ => menuHandler.Cancel();

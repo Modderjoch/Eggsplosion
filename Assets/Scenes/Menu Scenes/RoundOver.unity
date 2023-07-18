@@ -211,6 +211,7 @@ GameObject:
   - component: {fileID: 274635201}
   - component: {fileID: 274635200}
   - component: {fileID: 274635199}
+  - component: {fileID: 274635202}
   m_Layer: 5
   m_Name: Continue
   m_TagString: Untagged
@@ -274,7 +275,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 71c789607a2e5974e9ba3d5d8e7a666e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 8133e2492746e35458e0295900d7a789, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -292,6 +293,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 274635197}
   m_CullTransparentMesh: 1
+--- !u!114 &274635202
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 274635197}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19761a90a186adc47969503e2a3cd946, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  keyboardInput: {fileID: 21300000, guid: 8423a500a0e5a4c46ac8b8fc32f4c2d5, type: 3}
+  playstationInput: {fileID: 21300000, guid: 71c789607a2e5974e9ba3d5d8e7a666e, type: 3}
+  xboxInput: {fileID: 21300000, guid: 8133e2492746e35458e0295900d7a789, type: 3}
+  nintendoInput: {fileID: 21300000, guid: f542c92e2e179b745ab7fa6fabe75ca8, type: 3}
 --- !u!1 &347886039
 GameObject:
   m_ObjectHideFlags: 0
@@ -1982,6 +1999,7 @@ GameObject:
   - component: {fileID: 2109613689}
   - component: {fileID: 2109613688}
   - component: {fileID: 2109613687}
+  - component: {fileID: 2109613690}
   m_Layer: 5
   m_Name: Return
   m_TagString: Untagged
@@ -2045,7 +2063,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: e61a783d08e4e724ab42968cdc0c4de6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 99e4d92a5e50e954ab1f137f1c22c8b0, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2063,6 +2081,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2109613685}
   m_CullTransparentMesh: 1
+--- !u!114 &2109613690
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2109613685}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19761a90a186adc47969503e2a3cd946, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  keyboardInput: {fileID: 21300000, guid: d10e9d6d34672f745998ae7ebe8c64e1, type: 3}
+  playstationInput: {fileID: 21300000, guid: e61a783d08e4e724ab42968cdc0c4de6, type: 3}
+  xboxInput: {fileID: 21300000, guid: 99e4d92a5e50e954ab1f137f1c22c8b0, type: 3}
+  nintendoInput: {fileID: 21300000, guid: 465f618571379a14b97ef1735518aa70, type: 3}
 --- !u!1 &2111717785
 GameObject:
   m_ObjectHideFlags: 0
