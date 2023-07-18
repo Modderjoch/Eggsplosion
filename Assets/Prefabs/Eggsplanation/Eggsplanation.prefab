@@ -168,6 +168,7 @@ MonoBehaviour:
   storyCanvas: {fileID: 4270907970153028205}
   powerupCanvas: {fileID: 4270907970630462542}
   eventsCanvas: {fileID: 4270907970358140669}
+  buttonPrompts: []
 --- !u!1 &3232572158576039710
 GameObject:
   m_ObjectHideFlags: 0
@@ -668,7 +669,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: Story
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: dd1af12e6a5d6044abc6f5d307cba6dd, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -732,7 +733,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!1 &4270907969535689604
@@ -3970,6 +3971,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01614664b831546d2ae94a42149d80ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_SendPointerHoverToParent: 1
   m_MoveRepeatDelay: 0.5
   m_MoveRepeatRate: 0.1
   m_XRTrackingOrigin: {fileID: 0}
@@ -3986,6 +3988,7 @@ MonoBehaviour:
   m_TrackedDeviceOrientationAction: {fileID: 0}
   m_DeselectOnBackgroundClick: 1
   m_PointerBehavior: 0
+  m_CursorLockBehavior: 0
 --- !u!1 &4270907970485709096
 GameObject:
   m_ObjectHideFlags: 0
@@ -7532,6 +7535,7 @@ MonoBehaviour:
   storyCanvas: {fileID: 4270907970153028205}
   powerupCanvas: {fileID: 4270907970630462542}
   eventsCanvas: {fileID: 4270907970358140669}
+  buttonPrompts: []
 --- !u!1 &6270257499170214259
 GameObject:
   m_ObjectHideFlags: 0
@@ -7700,6 +7704,7 @@ MonoBehaviour:
   storyCanvas: {fileID: 4270907970153028205}
   powerupCanvas: {fileID: 4270907970630462542}
   eventsCanvas: {fileID: 4270907970358140669}
+  buttonPrompts: []
 --- !u!1 &6448385192951542844
 GameObject:
   m_ObjectHideFlags: 0
@@ -7868,6 +7873,7 @@ MonoBehaviour:
   storyCanvas: {fileID: 4270907970153028205}
   powerupCanvas: {fileID: 4270907970630462542}
   eventsCanvas: {fileID: 4270907970358140669}
+  buttonPrompts: []
 --- !u!1 &7425800033561741384
 GameObject:
   m_ObjectHideFlags: 0
@@ -7928,6 +7934,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01614664b831546d2ae94a42149d80ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_SendPointerHoverToParent: 1
   m_MoveRepeatDelay: 0.5
   m_MoveRepeatRate: 0.1
   m_XRTrackingOrigin: {fileID: 0}
@@ -7944,3 +7951,4 @@ MonoBehaviour:
   m_TrackedDeviceOrientationAction: {fileID: 0}
   m_DeselectOnBackgroundClick: 1
   m_PointerBehavior: 0
+  m_CursorLockBehavior: 0
