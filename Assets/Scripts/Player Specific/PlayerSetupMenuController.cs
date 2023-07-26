@@ -39,6 +39,8 @@ public class PlayerSetupMenuController : MonoBehaviour
     private bool inputEnabled;
 
     private Navigation inputFieldNavigation; // make global variable to avoid code repition 
+
+    private KeyboardScript keyboardScript;
     private void Awake()
     {
         inputFieldNavigation = mainInputField.GetComponent<InputField>().navigation;      
