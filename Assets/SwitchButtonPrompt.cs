@@ -17,7 +17,9 @@ public class SwitchButtonPrompt: MonoBehaviour
     {
         menuHandler = GameObject.Find("UIManager").GetComponent<MenuHandler>();
         menuHandler.AddPrompt(gameObject);
+  
         currentController = menuHandler.lastGamepad.displayName;
+        
 
         inputImage = gameObject.GetComponent<Image>();
 

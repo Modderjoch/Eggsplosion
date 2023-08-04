@@ -13,6 +13,7 @@ using UnityEngine;
 #if !DISABLESTEAMWORKS
 using System.Collections;
 using Steamworks;
+using UnityEditor;
 #endif
 
 //
@@ -36,6 +37,7 @@ public class SteamManager : MonoBehaviour {
 		}
 	}
 
+    
 	protected bool m_bInitialized = false;
 	public static bool Initialized {
 		get {
@@ -96,7 +98,7 @@ public class SteamManager : MonoBehaviour {
 			// Once you get a Steam AppID assigned by Valve, you need to replace AppId_t.Invalid with it and
 			// remove steam_appid.txt from the game depot. eg: "(AppId_t)480" or "new AppId_t(480)".
 			// See the Valve documentation for more information: https://partner.steamgames.com/doc/sdk/api#initialization_and_shutdown
-			if (SteamAPI.RestartAppIfNecessary(AppId_t.Invalid)) {
+			if (SteamAPI.RestartAppIfNecessary((AppId_t)2469370)) {
 				Debug.Log("[Steamworks.NET] Shutting down because RestartAppIfNecessary returned true. Steam will restart the application.");
 
 				Application.Quit();
@@ -125,7 +127,7 @@ public class SteamManager : MonoBehaviour {
 
 			return;
 		}
-
+		Debug.Log("steamWorks is initialized!");
 		s_EverInitialized = true;
 	}
 
@@ -163,6 +165,7 @@ public class SteamManager : MonoBehaviour {
 
 		SteamAPI.Shutdown();
 	}
+	
 
 	protected virtual void Update() {
 		if (!m_bInitialized) {
@@ -171,6 +174,7 @@ public class SteamManager : MonoBehaviour {
 
 		// Run Steam client callbacks
 		SteamAPI.RunCallbacks();
+	
 	}
 #else
 	public static bool Initialized {
