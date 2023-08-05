@@ -175,12 +175,12 @@ public class MenuHandler : MonoBehaviour
         // Output the last input device used
         if (keyboardUsed)
         {
-            Debug.Log("Last input device used: Keyboard");
+            //Debug.Log("Last input device used: Keyboard");
             SwitchUI("Keyboard");
         }
         else if (lastGamepad != null)
         {
-            Debug.Log("Last input device used: " + lastGamepad.displayName);
+            //Debug.Log("Last input device used: " + lastGamepad.displayName);
             SwitchUI(lastGamepad.displayName);
         }
     }
@@ -189,7 +189,7 @@ public class MenuHandler : MonoBehaviour
     {
         for (int i = 0; i < buttonPrompts.Count; i++)
         {
-            Debug.Log("Switching UI");
+            //Debug.Log("Switching UI");
 
             if (buttonPrompts[i] != null)
             {
@@ -212,7 +212,7 @@ public class MenuHandler : MonoBehaviour
                         image.sprite = switchPrompt.xboxInput;
                         break;
                     default:
-                        Debug.Log("Default case");
+                        //Debug.Log("Default case");
                         image.sprite = switchPrompt.xboxInput;
                         break;
                 }

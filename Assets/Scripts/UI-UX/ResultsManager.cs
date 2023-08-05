@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class ResultsManager : MonoBehaviour
 {
-    PlayerConfiguration[] playerConfigs;
+    public PlayerConfiguration[] playerConfigs;
     public GameObject canvas;
     public GameObject prefab;
     List<HighScoreEntry> highScores;
