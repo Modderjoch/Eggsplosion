@@ -1,4 +1,15 @@
 <?xml version="1.0"?>
 <Leaderboard xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <list />
+  <list>
+    <HighScoreEntry>
+      <score>10</score>
+      <playerName>yomama</playerName>
+      <playerIcon>2</playerIcon>
+    </HighScoreEntry>
+    <HighScoreEntry>
+      <score>7</score>
+      <playerName>notyomama</playerName>
+      <playerIcon>2</playerIcon>
+    </HighScoreEntry>
+  </list>
 </Leaderboard>

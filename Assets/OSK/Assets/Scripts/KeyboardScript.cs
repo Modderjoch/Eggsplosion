@@ -2,19 +2,16 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.EventSystems;
 
 public class KeyboardScript : MonoBehaviour
 {
-
     public InputField TextField;
-    public GameObject RusLayoutSml, RusLayoutBig, EngLayoutSml, EngLayoutBig, SymbLayout;
+    public GameObject EngLayoutSml, EngLayoutBig, KeyboardButton, aButton, ReadyButton, CapsButtonLow, CapsButtonBig;
 
     public void alphabetFunction(string alphabet)
     {
-
-
         TextField.text=TextField.text + alphabet;
-
     }
 
     public void BackSpace()
@@ -26,21 +23,54 @@ public class KeyboardScript : MonoBehaviour
 
     public void CloseAllLayouts()
     {
-
-        RusLayoutSml.SetActive(false);
-        RusLayoutBig.SetActive(false);
         EngLayoutSml.SetActive(false);
         EngLayoutBig.SetActive(false);
-        SymbLayout.SetActive(false);
+        KeyboardButton.SetActive(false);
+    }
 
+    public void SwitchLayout()
+    {
+        if (EngLayoutSml.activeSelf)
+        {
+            EngLayoutSml.SetActive(false);
+            EngLayoutBig.SetActive(true);
+        }
+        else
+        {
+            EngLayoutBig.SetActive(false);
+            EngLayoutSml.SetActive(true);
+        }
     }
 
     public void ShowLayout(GameObject SetLayout)
     {
-
         CloseAllLayouts();
         SetLayout.SetActive(true);
-
     }
 
+    public void Caps(BaseEventData eventData)
+    {
+        if (EngLayoutSml.activeSelf)
+        {
+            eventData.selectedObject = CapsButtonLow;
+        }
+        else
+        {
+            eventData.selectedObject = CapsButtonBig;
+        }
+    }
+
+    public void EnableKeyboard(BaseEventData eventData)
+    {
+        CloseAllLayouts();
+        ShowLayout(EngLayoutSml);
+        eventData.selectedObject = aButton;
+    }
+
+    public void DisableKeyboard(BaseEventData eventData)
+    {
+        CloseAllLayouts();
+        ShowLayout(KeyboardButton);
+        eventData.selectedObject = ReadyButton;
+    }
 }
