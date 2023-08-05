@@ -48,7 +48,7 @@ public class LeaderBoardManager : MonoBehaviour
         textObjects[boardInstance].GetComponent<LeaderBoardPanel>().spriteId = spriteId;
     }
 
-    public void clearLeaderBoard()
+    public void ClearLeaderBoard()
     {
         foreach (var board in textObjects)
         {
@@ -60,7 +60,7 @@ public class LeaderBoardManager : MonoBehaviour
         numberOfBoards = 0;     
     }
 
-    public void updateLists()
+    public void UpdateLists()
     {
         highScores = XMLManager.instance.LoadScores();
         bestScores = highScores.OrderByDescending(s => s.score).Take(5).ToList();
@@ -71,8 +71,8 @@ public class LeaderBoardManager : MonoBehaviour
         //    List<HighScoreEntry> list = new List<HighScoreEntry>();
         //    clearLeaderBoard();
 
-        clearLeaderBoard();
-        XMLManager.instance.clearSaveFile();
+        ClearLeaderBoard();
+        XMLManager.instance.ClearSaveFile();
         InitiateLeaderboard();
     }
 }
