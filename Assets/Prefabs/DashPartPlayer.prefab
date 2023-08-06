@@ -157,6 +157,7 @@ MonoBehaviour:
   sprite: {fileID: 6968566838566790352}
   playerNameText: {fileID: 3466384369924658320}
   ID: 0
+  controlscheme: 
   player: {fileID: 161273018238503366}
   anim: {fileID: 3195372699508575020}
   myPrefab: {fileID: 3107902083938792372, guid: df7d7032f0f734944aaac56e73c1a147, type: 3}
@@ -164,7 +165,9 @@ MonoBehaviour:
   num: 100
   isBlue: 0
   isTeams: 0
+  isCasual: 0
   scale: {x: 20, y: 20, z: 1}
+  spawnPos: {x: 0, y: 0, z: 0}
   eggsplosivePU: {fileID: 3416611735055664402}
   bouncePU: {fileID: 755544535119633578}
   TimerVest: {fileID: 3289663120720938122}
@@ -901,7 +904,6 @@ RectTransform:
   - {fileID: 9216003575026595427}
   - {fileID: 844703641120583683}
   - {fileID: 645082300412758420}
-  - {fileID: 3623342291298296152}
   - {fileID: 4757797090888518326}
   - {fileID: 1039001640426801065}
   - {fileID: 2118127871662193739}
@@ -1071,7 +1073,7 @@ SpriteRenderer:
   m_SpriteSortPoint: 0
 --- !u!95 &3195372699508575020
 Animator:
-  serializedVersion: 4
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1088,7 +1090,8 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!114 &1521008316269079053
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1979,7 +1982,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 9148478042444093461}
-  m_RootOrder: 15
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -2167,7 +2170,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 9148478042444093461}
-  m_RootOrder: 13
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -2348,12 +2351,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5438017633891179446}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -958.803, y: -538.907, z: 0}
-  m_LocalScale: {x: 0.13, y: 0.13, z: 4.7474694}
+  m_LocalPosition: {x: 3.8748198, y: -1.7496445, z: 0}
+  m_LocalScale: {x: 1.2064108, y: 1.2064108, z: 44.056908}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 9148478042444093461}
-  m_RootOrder: 12
+  m_Father: {fileID: 1039001640426801065}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &3043585207661046532
 SpriteRenderer:
@@ -2521,7 +2524,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 9148478042444093461}
-  m_RootOrder: 16
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &8382816553619856554
 SpriteRenderer:
@@ -2605,9 +2608,10 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.10775765, y: 0.10775765, z: 0.10775765}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 3623342291298296152}
   m_Father: {fileID: 9148478042444093461}
-  m_RootOrder: 14
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
