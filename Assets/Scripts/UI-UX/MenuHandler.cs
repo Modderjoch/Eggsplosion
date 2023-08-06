@@ -1,5 +1,7 @@
+using Steamworks;
 using System.Collections;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using UnityEngine;
 using UnityEngine.InputSystem;
@@ -22,6 +24,8 @@ public class MenuHandler : MonoBehaviour
 
     [SerializeField] private List<GameObject> buttonPrompts = new List<GameObject>();
     [HideInInspector] public Gamepad lastGamepad;
+    [HideInInspector] public int lastGamepadIndex;
+
     private bool keyboardUsed = false;
 
     public void Leaderboard()
@@ -153,14 +157,17 @@ public class MenuHandler : MonoBehaviour
 
     public void DetectInputDevice()
     {
-        var gamepads = Gamepad.all;
+        var gamepads = Gamepad.all.ToArray();
 
         // Iterate over all connected gamepads
-        foreach (var gamepad in gamepads)
+        for(int i = 0; i < gamepads.Length; i++)
         {
+            var gamepad = gamepads[i];
+
             if (gamepad.wasUpdatedThisFrame)
             {
                 lastGamepad = gamepad;
+                lastGamepadIndex = i;
                 keyboardUsed = false; // Reset keyboard usage flag when a gamepad is used
             }
         }
@@ -187,6 +194,17 @@ public class MenuHandler : MonoBehaviour
 
     private void SwitchUI(string inputType)
     {
+        InputHandle_t inputHandle = SteamInput.GetControllerForGamepadIndex(lastGamepadIndex);
+        ESteamInputType inputTypeSteam = SteamInput.GetInputTypeForHandle(inputHandle);
+
+        string filePath = "log.txt"; // Replace this with the desired file path
+
+        // Open the file in append mode
+        using (StreamWriter writer = new StreamWriter(filePath, true))
+        {
+            writer.WriteLine(inputTypeSteam.ToString());
+        }
+
         for (int i = 0; i < buttonPrompts.Count; i++)
         {
             //Debug.Log("Switching UI");
@@ -197,19 +215,32 @@ public class MenuHandler : MonoBehaviour
                 Image image = prompt.GetComponent<Image>();
                 SwitchButtonPrompt switchPrompt = prompt.GetComponent<SwitchButtonPrompt>();
 
-                switch (inputType)
+                switch (inputTypeSteam)
                 {
-                    case "Keyboard":
-                        image.sprite = switchPrompt.keyboardInput;
+                    //Xbox Input Prompts
+                    case ESteamInputType.k_ESteamInputType_XBox360Controller:
+                    case ESteamInputType.k_ESteamInputType_XBoxOneController:
+                        image.sprite = switchPrompt.xboxInput;
                         break;
-                    case "DualSense Wireless Controller":
-                        image.sprite = switchPrompt.playstationInput;
-                        break;
-                    case "Nintendo Switch Pro Controller":
+                    //Nintendo Input Prompts
+                    case ESteamInputType.k_ESteamInputType_SwitchJoyConSingle:
+                    case ESteamInputType.k_ESteamInputType_SwitchJoyConPair:
+                    case ESteamInputType.k_ESteamInputType_SwitchProController:
                         image.sprite = switchPrompt.nintendoInput;
                         break;
-                    case "Xbox Controller":
-                        image.sprite = switchPrompt.xboxInput;
+                    //Playstation Input Prompts
+                    case ESteamInputType.k_ESteamInputType_PS3Controller:
+                    case ESteamInputType.k_ESteamInputType_PS4Controller:
+                    case ESteamInputType.k_ESteamInputType_PS5Controller:
+                        image.sprite = switchPrompt.playstationInput;
+                        break;
+                    //Steam Input Prompts
+                    case ESteamInputType.k_ESteamInputType_SteamController:
+                    case ESteamInputType.k_ESteamInputType_SteamDeckController:
+                        image.sprite = switchPrompt.steamDeckInput;
+                        break;
+                    case ESteamInputType.k_ESteamInputType_Unknown:
+                        image.sprite = switchPrompt.keyboardInput;
                         break;
                     default:
                         //Debug.Log("Default case");

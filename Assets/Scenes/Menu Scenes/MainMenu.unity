@@ -439,6 +439,7 @@ MonoBehaviour:
   playstationInput: {fileID: 21300000, guid: 66091e4bea3fd654ca342cac3152eda5, type: 3}
   xboxInput: {fileID: 21300000, guid: c1d9df5fedbbe0b4ca72e31d9ff254c8, type: 3}
   nintendoInput: {fileID: 21300000, guid: b89cdd86fe77d7041b49f0dbc94f6ebe, type: 3}
+  steamDeckInput: {fileID: 21300000, guid: 9f61e751c960a2f49b4df55bf4b9e46d, type: 3}
 --- !u!1 &474122762
 GameObject:
   m_ObjectHideFlags: 0
@@ -549,6 +550,7 @@ MonoBehaviour:
   playstationInput: {fileID: 21300000, guid: 370334a652d1e7245b10d272c2709bdd, type: 3}
   xboxInput: {fileID: 21300000, guid: aab143b11d1671b41befd5ef50c88214, type: 3}
   nintendoInput: {fileID: 21300000, guid: c663974dac07cdc4a820cbb46f599954, type: 3}
+  steamDeckInput: {fileID: 21300000, guid: 385352a407ddc55438652fb4cc8058f3, type: 3}
 --- !u!1 &502577486
 GameObject:
   m_ObjectHideFlags: 0
@@ -832,6 +834,7 @@ MonoBehaviour:
   playstationInput: {fileID: 21300000, guid: 370334a652d1e7245b10d272c2709bdd, type: 3}
   xboxInput: {fileID: 21300000, guid: aab143b11d1671b41befd5ef50c88214, type: 3}
   nintendoInput: {fileID: 21300000, guid: c663974dac07cdc4a820cbb46f599954, type: 3}
+  steamDeckInput: {fileID: 0}
 --- !u!1 &648576333
 GameObject:
   m_ObjectHideFlags: 0
@@ -1789,6 +1792,7 @@ MonoBehaviour:
   buttonPrompts:
   - {fileID: 371136449}
   - {fileID: 474122762}
+  lastGamepadIndex: 0
 --- !u!1 &1376144780
 GameObject:
   m_ObjectHideFlags: 0
@@ -2105,7 +2109,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1823839227
 MonoBehaviour:
   m_ObjectHideFlags: 0
