@@ -21,6 +21,7 @@ public class PlayerStats : MonoBehaviour
     public TextMeshPro playerNameText;
     public int score { get; set; }
     public int ID;
+    public string controlscheme;
    
     public GameObject player;
     public Animator anim;
@@ -211,6 +212,7 @@ public class PlayerStats : MonoBehaviour
         playerNameText.text = config.playerName;
         ID = playerConfig.playerIndex;
         score = playerConfig.playerScore;
+        controlscheme = config.playerInput.currentControlScheme;
     }
     public IEnumerator FlashRed()
     {
