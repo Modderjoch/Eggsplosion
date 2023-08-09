@@ -63,7 +63,7 @@ TextureImporter:
       213: -6568807703356221984
     second: dash_down_finished_purple_19
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -123,15 +123,16 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 8192
+    maxTextureSize: 512
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
-    crunchedCompression: 0
+    crunchedCompression: 1
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
@@ -174,6 +175,30 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Windows Store Apps
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
     maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
@@ -619,25 +644,25 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       dash_down_finished_purple_0: -489491389291439883
-      dash_down_finished_purple_11: 2969589261434380185
-      dash_down_finished_purple_3: 4994543648793826413
       dash_down_finished_purple_1: -5807255104954064308
-      dash_down_finished_purple_13: 6855512177680561338
+      dash_down_finished_purple_10: -2283567002512291376
+      dash_down_finished_purple_11: 2969589261434380185
       dash_down_finished_purple_12: 1844237423684106434
-      dash_down_finished_purple_7: -4674652743719560030
-      dash_down_finished_purple_9: -7401824407338353013
-      dash_down_finished_purple_2: 3750845749564592432
+      dash_down_finished_purple_13: 6855512177680561338
       dash_down_finished_purple_14: 1339637423338977814
-      dash_down_finished_purple_4: 30189043175858203
       dash_down_finished_purple_15: 8349140982985581767
       dash_down_finished_purple_16: -4280507308487538538
       dash_down_finished_purple_17: 1270263967850828284
       dash_down_finished_purple_18: 4069194542969665350
-      dash_down_finished_purple_6: -1675197344545442160
-      dash_down_finished_purple_10: -2283567002512291376
-      dash_down_finished_purple_5: 583914670569437613
-      dash_down_finished_purple_8: 7254707895078999094
       dash_down_finished_purple_19: -6568807703356221984
+      dash_down_finished_purple_2: 3750845749564592432
+      dash_down_finished_purple_3: 4994543648793826413
+      dash_down_finished_purple_4: 30189043175858203
+      dash_down_finished_purple_5: 583914670569437613
+      dash_down_finished_purple_6: -1675197344545442160
+      dash_down_finished_purple_7: -4674652743719560030
+      dash_down_finished_purple_8: 7254707895078999094
+      dash_down_finished_purple_9: -7401824407338353013
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

@@ -3,7 +3,7 @@ guid: ce043c4dca2f97844bca641d4a141c33
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -63,15 +63,16 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 8192
+    maxTextureSize: 512
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
-    crunchedCompression: 0
+    crunchedCompression: 1
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
@@ -126,6 +127,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Server
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
     maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
@@ -486,22 +499,22 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      vegetable_deco_1: 1473914807
-      generic_deco_18: -620473714
-      vegetable_deco_11: 1334232551
-      vegetable_deco_10: 360576246
-      vegetable_deco_0: -415207533
-      vegetable_deco_6: -2093963809
-      generic_deco_17: -777307581
-      vegetable_deco_8: 1140717399
-      vegetable_deco_7: 311901865
-      vegetable_deco_4: -271901643
       generic_deco_16: 2007949272
-      vegetable_deco_3: 96421344
-      vegetable_deco_2: -780338803
-      vegetable_deco_9: 702013380
-      vegetable_deco_5: 1073405791
+      generic_deco_17: -777307581
+      generic_deco_18: -620473714
       generic_deco_20: -1031536877
+      vegetable_deco_0: -415207533
+      vegetable_deco_1: 1473914807
+      vegetable_deco_10: 360576246
+      vegetable_deco_11: 1334232551
+      vegetable_deco_2: -780338803
+      vegetable_deco_3: 96421344
+      vegetable_deco_4: -271901643
+      vegetable_deco_5: 1073405791
+      vegetable_deco_6: -2093963809
+      vegetable_deco_7: 311901865
+      vegetable_deco_8: 1140717399
+      vegetable_deco_9: 702013380
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

@@ -84,7 +84,7 @@ TextureImporter:
       213: 4638012454813013446
     second: bomb_vest_running_red_26
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -144,15 +144,16 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 8192
+    maxTextureSize: 512
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
-    crunchedCompression: 0
+    crunchedCompression: 1
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
@@ -195,6 +196,30 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Windows Store Apps
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
     maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
@@ -786,33 +811,33 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      bomb_vest_running_red_18: -2110259750689948640
-      bomb_vest_running_red_6: -3879439827156483325
-      bomb_vest_running_red_12: 3857040283887484940
-      bomb_vest_running_red_21: 2389846530568502155
-      bomb_vest_running_red_19: -1346244411121449954
-      bomb_vest_running_red_11: -8306741293696230792
-      bomb_vest_running_red_10: 4762448559461514456
-      bomb_vest_running_red_15: 7444243613921199950
-      bomb_vest_running_red_5: -8341210101847404093
-      bomb_vest_running_red_25: -1064579313498352571
+      bomb_vest_running_red_0: -1089603612350210136
       bomb_vest_running_red_1: 2992346027802750832
-      bomb_vest_running_red_24: 4450917115392466881
-      bomb_vest_running_red_4: 1596968834800484158
-      bomb_vest_running_red_3: 3215863873116710753
+      bomb_vest_running_red_10: 4762448559461514456
+      bomb_vest_running_red_11: -8306741293696230792
+      bomb_vest_running_red_12: 3857040283887484940
+      bomb_vest_running_red_13: -148817326832463866
       bomb_vest_running_red_14: 979963912949213451
+      bomb_vest_running_red_15: 7444243613921199950
+      bomb_vest_running_red_16: -3273678870240210000
+      bomb_vest_running_red_17: -7532004895959199082
+      bomb_vest_running_red_18: -2110259750689948640
+      bomb_vest_running_red_19: -1346244411121449954
+      bomb_vest_running_red_2: -3615111383103509458
+      bomb_vest_running_red_20: 3690897366975435
+      bomb_vest_running_red_21: 2389846530568502155
       bomb_vest_running_red_22: 8776483633777883153
       bomb_vest_running_red_23: 2990132214903272384
+      bomb_vest_running_red_24: 4450917115392466881
+      bomb_vest_running_red_25: -1064579313498352571
       bomb_vest_running_red_26: 4638012454813013446
-      bomb_vest_running_red_2: -3615111383103509458
-      bomb_vest_running_red_17: -7532004895959199082
-      bomb_vest_running_red_13: -148817326832463866
-      bomb_vest_running_red_20: 3690897366975435
-      bomb_vest_running_red_9: -3791062605296260685
+      bomb_vest_running_red_3: 3215863873116710753
+      bomb_vest_running_red_4: 1596968834800484158
+      bomb_vest_running_red_5: -8341210101847404093
+      bomb_vest_running_red_6: -3879439827156483325
       bomb_vest_running_red_7: 9162456803949174576
       bomb_vest_running_red_8: -9114444711870297125
-      bomb_vest_running_red_0: -1089603612350210136
-      bomb_vest_running_red_16: -3273678870240210000
+      bomb_vest_running_red_9: -3791062605296260685
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

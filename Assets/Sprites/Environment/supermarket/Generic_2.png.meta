@@ -3,7 +3,7 @@ guid: 9a53346a2da36e0498b1e69e215634c3
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -63,15 +63,16 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 8192
+    maxTextureSize: 512
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
-    crunchedCompression: 0
+    crunchedCompression: 1
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
@@ -126,6 +127,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Server
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
     maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
@@ -381,17 +394,17 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      generic_diag_12: 29878790
       generic_diag_10: 1814117427
-      generic_diag_6: 1188833312
-      generic_diag_9: -2091926373
-      generic_diag_5: -1572561810
-      generic_diag_4: 610256020
-      generic_diag_8: 1419339685
-      generic_diag_13: 329376861
       generic_diag_11: 536650010
-      generic_diag_7: 1207170762
+      generic_diag_12: 29878790
+      generic_diag_13: 329376861
       generic_diag_14: 2037328121
+      generic_diag_4: 610256020
+      generic_diag_5: -1572561810
+      generic_diag_6: 1188833312
+      generic_diag_7: 1207170762
+      generic_diag_8: 1419339685
+      generic_diag_9: -2091926373
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

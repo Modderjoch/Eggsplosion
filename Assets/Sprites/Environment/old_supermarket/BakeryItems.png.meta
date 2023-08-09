@@ -30,7 +30,7 @@ TextureImporter:
       213: 2395999292358097140
     second: BakeryItems_8
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -90,15 +90,16 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 8192
+    maxTextureSize: 512
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
-    crunchedCompression: 0
+    crunchedCompression: 1
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
@@ -141,6 +142,30 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Windows Store Apps
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
     maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
@@ -355,14 +380,14 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       BakeryItems_0: 7605167933281853143
-      BakeryItems_5: -7424959898286336566
-      BakeryItems_4: -8935413588212052062
-      BakeryItems_2: -7814490427463186223
-      BakeryItems_6: 540905561583720167
       BakeryItems_1: -893475659793175422
-      BakeryItems_8: 2395999292358097140
-      BakeryItems_7: -3715435255410629230
+      BakeryItems_2: -7814490427463186223
       BakeryItems_3: 2969153980736694594
+      BakeryItems_4: -8935413588212052062
+      BakeryItems_5: -7424959898286336566
+      BakeryItems_6: 540905561583720167
+      BakeryItems_7: -3715435255410629230
+      BakeryItems_8: 2395999292358097140
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

@@ -24,6 +24,8 @@ public class SwitchButtonPrompt: MonoBehaviour
 
         inputImage = gameObject.GetComponent<Image>();
 
+        SteamInput.RunFrame();
+
         InputHandle_t inputHandle = SteamInput.GetControllerForGamepadIndex(menuHandler.lastGamepadIndex);
         ESteamInputType inputTypeSteam = SteamInput.GetInputTypeForHandle(inputHandle);
 
@@ -32,7 +34,7 @@ public class SwitchButtonPrompt: MonoBehaviour
         // Open the file in append mode
         using (StreamWriter writer = new StreamWriter(filePath, true))
         {
-            writer.WriteLine(inputTypeSteam.ToString());
+            writer.WriteLine(inputTypeSteam.ToString() + " connected on: " + Time.time + "controller is nr: " + menuHandler.lastGamepadIndex + "\n" + "this is the first controller");
         }
 
         switch (inputTypeSteam)
@@ -60,7 +62,7 @@ public class SwitchButtonPrompt: MonoBehaviour
                 inputImage.sprite = steamDeckInput;
                 break;
             case ESteamInputType.k_ESteamInputType_Unknown:
-                inputImage.sprite = keyboardInput;
+                inputImage.GetComponent<SpriteRenderer>().sprite = null;
                 break;
             default:
                 //Debug.Log("Default case");

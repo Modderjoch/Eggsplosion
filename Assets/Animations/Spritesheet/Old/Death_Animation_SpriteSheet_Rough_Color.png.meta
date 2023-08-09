@@ -51,7 +51,7 @@ TextureImporter:
       213: 6675942333286090189
     second: Death_Animation_SpriteSheet_Rough_Color_15
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -111,10 +111,11 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 8192
+    maxTextureSize: 512
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -174,6 +175,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: WebGL
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
@@ -534,22 +547,22 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Death_Animation_SpriteSheet_Rough_Color_7: -2008988834441758665
-      Death_Animation_SpriteSheet_Rough_Color_3: -3208242143258547976
-      Death_Animation_SpriteSheet_Rough_Color_8: -2612993154354865526
-      Death_Animation_SpriteSheet_Rough_Color_15: 6675942333286090189
-      Death_Animation_SpriteSheet_Rough_Color_14: -2338241341120824582
-      Death_Animation_SpriteSheet_Rough_Color_5: 1934686359192061470
-      Death_Animation_SpriteSheet_Rough_Color_1: -6366131626928080199
-      Death_Animation_SpriteSheet_Rough_Color_9: 1256606820202151203
-      Death_Animation_SpriteSheet_Rough_Color_4: 6432583041436635574
-      Death_Animation_SpriteSheet_Rough_Color_10: 431220252355814169
-      Death_Animation_SpriteSheet_Rough_Color_13: -3008686852559266973
-      Death_Animation_SpriteSheet_Rough_Color_12: -6595694696847082734
-      Death_Animation_SpriteSheet_Rough_Color_11: -1157748651194843007
       Death_Animation_SpriteSheet_Rough_Color_0: -6327887773305413876
-      Death_Animation_SpriteSheet_Rough_Color_6: 8197313333558868117
+      Death_Animation_SpriteSheet_Rough_Color_1: -6366131626928080199
+      Death_Animation_SpriteSheet_Rough_Color_10: 431220252355814169
+      Death_Animation_SpriteSheet_Rough_Color_11: -1157748651194843007
+      Death_Animation_SpriteSheet_Rough_Color_12: -6595694696847082734
+      Death_Animation_SpriteSheet_Rough_Color_13: -3008686852559266973
+      Death_Animation_SpriteSheet_Rough_Color_14: -2338241341120824582
+      Death_Animation_SpriteSheet_Rough_Color_15: 6675942333286090189
       Death_Animation_SpriteSheet_Rough_Color_2: 964082265812239382
+      Death_Animation_SpriteSheet_Rough_Color_3: -3208242143258547976
+      Death_Animation_SpriteSheet_Rough_Color_4: 6432583041436635574
+      Death_Animation_SpriteSheet_Rough_Color_5: 1934686359192061470
+      Death_Animation_SpriteSheet_Rough_Color_6: 8197313333558868117
+      Death_Animation_SpriteSheet_Rough_Color_7: -2008988834441758665
+      Death_Animation_SpriteSheet_Rough_Color_8: -2612993154354865526
+      Death_Animation_SpriteSheet_Rough_Color_9: 1256606820202151203
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
