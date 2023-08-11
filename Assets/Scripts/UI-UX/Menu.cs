@@ -5,14 +5,26 @@ using UnityEngine.SceneManagement;
 using UnityEngine.EventSystems;
 using UnityEngine.Audio;
 using UnityEngine.Events;
+using UnityEngine.UI;
 
 public class Menu : MonoBehaviour, ISelectHandler, IDeselectHandler, ICancelHandler
 {
     public string level;
+    public string mixer;
     public GameObject confirmationButton;
 
     [SerializeField]
     private AudioMixer audioMixer;
+
+    private void Start()
+    {
+        if(GetComponent<Slider>() != null)
+        {
+            SaveOptions.Instance.AddSlider(GetComponent<Slider>());
+            SaveOptions.Instance.SetVolumes();
+            SaveOptions.Instance.ClearSliders();
+        }
+    }
 
     public void ClickSound()
     {
@@ -58,6 +70,8 @@ public class Menu : MonoBehaviour, ISelectHandler, IDeselectHandler, ICancelHand
 
     public void SetVolume(float sliderValue)
     {
-        audioMixer.SetFloat("MasterVolume", Mathf.Log10(sliderValue) * 20);
+        audioMixer.SetFloat(mixer, Mathf.Log10(sliderValue) * 20);
+        PlayerPrefs.SetFloat(mixer, sliderValue);
+        PlayerPrefs.Save();
     }
 }
