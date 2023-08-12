@@ -47,15 +47,11 @@ public class SaveOptions : MonoBehaviour
     {
         foreach (Slider slider in volumeSliders)
         {
-            Debug.Log(slider.name + ": " + slider.value);
-
             float savedValue = PlayerPrefs.GetFloat(slider.name, 1f);
 
             //Debug.Log("set the value to: " + Mathf.Log10(savedValue) * 20 + " original value was: " + savedValue);
             audioMixer.SetFloat(slider.name, Mathf.Log10(savedValue) * 20);
             slider.value = savedValue;
-
-            Debug.Log(slider.name + " / " + PlayerPrefs.GetFloat(slider.name));
         }
     }
 
