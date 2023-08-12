@@ -33,7 +33,7 @@ TextureImporter:
       213: 3014820165137772427
     second: horizontal_dash_SH_Right_9
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -93,15 +93,16 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 8192
+    maxTextureSize: 512
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
     compressionQuality: 50
-    crunchedCompression: 0
+    crunchedCompression: 1
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
@@ -156,6 +157,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: WebGL
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
@@ -390,16 +403,16 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      horizontal_dash_SH_Right_1: -8353398609419389973
-      horizontal_dash_SH_Right_5: -6320395601564625814
-      horizontal_dash_SH_Right_8: -4489603881869125593
       horizontal_dash_SH_Right_0: -4787543606516151718
-      horizontal_dash_SH_Right_7: 1488108617405845934
+      horizontal_dash_SH_Right_1: -8353398609419389973
       horizontal_dash_SH_Right_2: 3577130208032245937
-      horizontal_dash_SH_Right_4: 5521932193950265372
       horizontal_dash_SH_Right_3: 3535797676764571632
-      horizontal_dash_SH_Right_9: 3014820165137772427
+      horizontal_dash_SH_Right_4: 5521932193950265372
+      horizontal_dash_SH_Right_5: -6320395601564625814
       horizontal_dash_SH_Right_6: 7109348818760604764
+      horizontal_dash_SH_Right_7: 1488108617405845934
+      horizontal_dash_SH_Right_8: -4489603881869125593
+      horizontal_dash_SH_Right_9: 3014820165137772427
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

@@ -48,7 +48,7 @@ TextureImporter:
       213: 6525740339192885332
     second: Throwing_animation_SH_blue_14
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -108,15 +108,16 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 8192
+    maxTextureSize: 512
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
-    crunchedCompression: 0
+    crunchedCompression: 1
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
@@ -159,6 +160,30 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Windows Store Apps
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
     maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
@@ -499,20 +524,20 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       Throwing_animation_SH_blue_0: 8538646505082479692
-      Throwing_animation_SH_blue_8: 1926412338727716928
-      Throwing_animation_SH_blue_7: 5413887633786202251
-      Throwing_animation_SH_blue_5: 5085240278825804080
-      Throwing_animation_SH_blue_3: 1113692400477611209
-      Throwing_animation_SH_blue_12: -1763857906527428628
       Throwing_animation_SH_blue_1: 3322694659733623086
-      Throwing_animation_SH_blue_6: 5516582660694044917
-      Throwing_animation_SH_blue_13: 6865434311104028052
-      Throwing_animation_SH_blue_2: -2035988378227341334
-      Throwing_animation_SH_blue_4: -955211344946652260
-      Throwing_animation_SH_blue_9: 3140173311022542920
       Throwing_animation_SH_blue_10: 8293755966891071080
       Throwing_animation_SH_blue_11: 4524883271499330422
+      Throwing_animation_SH_blue_12: -1763857906527428628
+      Throwing_animation_SH_blue_13: 6865434311104028052
       Throwing_animation_SH_blue_14: 6525740339192885332
+      Throwing_animation_SH_blue_2: -2035988378227341334
+      Throwing_animation_SH_blue_3: 1113692400477611209
+      Throwing_animation_SH_blue_4: -955211344946652260
+      Throwing_animation_SH_blue_5: 5085240278825804080
+      Throwing_animation_SH_blue_6: 5516582660694044917
+      Throwing_animation_SH_blue_7: 5413887633786202251
+      Throwing_animation_SH_blue_8: 1926412338727716928
+      Throwing_animation_SH_blue_9: 3140173311022542920
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

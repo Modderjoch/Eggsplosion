@@ -3,7 +3,7 @@ guid: b4066ce0301ba9241ae4d1b037ea622d
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -63,15 +63,16 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 8192
+    maxTextureSize: 512
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
-    crunchedCompression: 0
+    crunchedCompression: 1
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
@@ -126,6 +127,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Server
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
     maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
@@ -381,17 +394,17 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+      CoopBlue_0: 1638028155
+      CoopBlue_1: 155147927
+      CoopBlue_10: -844210719
+      CoopBlue_2: 15577473
+      CoopBlue_3: 674758669
       CoopBlue_4: 1721683283
-      CoopBlue_7: -845967599
       CoopBlue_5: 1340189896
       CoopBlue_6: -1549177743
-      CoopBlue_1: 155147927
-      CoopBlue_0: 1638028155
-      CoopBlue_2: 15577473
+      CoopBlue_7: -845967599
       CoopBlue_8: 1539128646
       CoopBlue_9: 1569680024
-      CoopBlue_10: -844210719
-      CoopBlue_3: 674758669
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

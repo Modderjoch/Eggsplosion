@@ -3,7 +3,7 @@ guid: a17de35a893f84040b83e23a13ee088e
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -63,15 +63,16 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 8192
+    maxTextureSize: 512
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
-    crunchedCompression: 0
+    crunchedCompression: 1
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
@@ -126,6 +127,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Server
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
     maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
@@ -570,26 +583,26 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      ukranian_flag_blue_7: 386867472
-      ukranian_flag_blue_16: -325317105
-      ukranian_flag_blue_1: 1094974298
-      ukranian_flag_blue_9: 344935484
       ukranian_flag_blue_0: 458422977
-      ukranian_flag_blue_18: -2038768881
-      ukranian_flag_blue_19: -1310948445
-      ukranian_flag_blue_13: -982202266
-      ukranian_flag_blue_15: -1953772150
-      ukranian_flag_blue_12: 1690766901
-      ukranian_flag_blue_3: -347497731
-      ukranian_flag_blue_5: -402883537
-      ukranian_flag_blue_17: -886574770
-      ukranian_flag_blue_14: 1153824334
-      ukranian_flag_blue_4: -798830544
-      ukranian_flag_blue_6: 599554067
-      ukranian_flag_blue_8: 1770541152
+      ukranian_flag_blue_1: 1094974298
       ukranian_flag_blue_10: -1450710740
       ukranian_flag_blue_11: -1213957639
+      ukranian_flag_blue_12: 1690766901
+      ukranian_flag_blue_13: -982202266
+      ukranian_flag_blue_14: 1153824334
+      ukranian_flag_blue_15: -1953772150
+      ukranian_flag_blue_16: -325317105
+      ukranian_flag_blue_17: -886574770
+      ukranian_flag_blue_18: -2038768881
+      ukranian_flag_blue_19: -1310948445
       ukranian_flag_blue_2: 205334763
+      ukranian_flag_blue_3: -347497731
+      ukranian_flag_blue_4: -798830544
+      ukranian_flag_blue_5: -402883537
+      ukranian_flag_blue_6: 599554067
+      ukranian_flag_blue_7: 386867472
+      ukranian_flag_blue_8: 1770541152
+      ukranian_flag_blue_9: 344935484
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

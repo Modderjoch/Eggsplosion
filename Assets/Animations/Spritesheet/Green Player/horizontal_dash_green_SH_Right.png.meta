@@ -33,7 +33,7 @@ TextureImporter:
       213: 6409750348981120892
     second: horizontal_dash_green_SH_Right_9
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -93,15 +93,16 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 8192
+    maxTextureSize: 512
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
-    crunchedCompression: 0
+    crunchedCompression: 1
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
@@ -144,6 +145,30 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Windows Store Apps
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
     maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
@@ -378,16 +403,16 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      horizontal_dash_green_SH_Right_5: -4019905946932642871
+      horizontal_dash_green_SH_Right_0: 1825303634376170127
       horizontal_dash_green_SH_Right_1: 3543013487528106096
       horizontal_dash_green_SH_Right_2: 4691737732928951120
-      horizontal_dash_green_SH_Right_0: 1825303634376170127
       horizontal_dash_green_SH_Right_3: -8582216494561808005
-      horizontal_dash_green_SH_Right_8: 290812827298917710
-      horizontal_dash_green_SH_Right_9: 6409750348981120892
       horizontal_dash_green_SH_Right_4: 2191300708448675779
+      horizontal_dash_green_SH_Right_5: -4019905946932642871
       horizontal_dash_green_SH_Right_6: 4246403845007738819
       horizontal_dash_green_SH_Right_7: -30547259746901284
+      horizontal_dash_green_SH_Right_8: 290812827298917710
+      horizontal_dash_green_SH_Right_9: 6409750348981120892
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
