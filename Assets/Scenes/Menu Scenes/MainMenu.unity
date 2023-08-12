@@ -1464,13 +1464,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-<<<<<<< HEAD
-=======
-    - target: {fileID: 7194240876123041081, guid: dc39067463b053244a028f23c14dff6b, type: 3}
-      propertyPath: audioMixer
-      value: 
-      objectReference: {fileID: 24100000, guid: 420ea33e405207341997084075498e5a, type: 2}
->>>>>>> MoreOptionsBetterAudio
     - target: {fileID: 7194240876123041082, guid: dc39067463b053244a028f23c14dff6b, type: 3}
       propertyPath: m_Name
       value: OptionsManager

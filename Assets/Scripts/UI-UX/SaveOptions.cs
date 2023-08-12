@@ -19,7 +19,6 @@ public class SaveOptions : MonoBehaviour
             Destroy(this.gameObject);
             return;
         }
-<<<<<<< HEAD
 
         instance = this;
         DontDestroyOnLoad(this.gameObject);
@@ -30,11 +29,6 @@ public class SaveOptions : MonoBehaviour
         audioMixer.SetFloat("MasterVolume", Mathf.Log10(PlayerPrefs.GetFloat("MasterVolume")) * 20);
         audioMixer.SetFloat("SFXVolume", Mathf.Log10(PlayerPrefs.GetFloat("SFXVolume")) * 20);
         audioMixer.SetFloat("MusicVolume", Mathf.Log10(PlayerPrefs.GetFloat("MusicVolume")) * 20);
-=======
-
-        instance = this;
-        DontDestroyOnLoad(this.gameObject);
->>>>>>> MoreOptionsBetterAudio
     }
 
     public void AddSlider(Slider slider)
