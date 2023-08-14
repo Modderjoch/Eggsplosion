@@ -6,6 +6,7 @@ using UnityEngine.EventSystems;
 using UnityEngine.Audio;
 using UnityEngine.Events;
 using UnityEngine.UI;
+using TMPro;
 
 public class Menu : MonoBehaviour, ISelectHandler, IDeselectHandler, ICancelHandler
 {

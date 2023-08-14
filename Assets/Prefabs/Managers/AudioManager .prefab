@@ -134,21 +134,21 @@ MonoBehaviour:
     volume: 0.3
     pitch: 1
     loop: 0
-    mixerChannel: {fileID: 6273719580722482625, guid: 420ea33e405207341997084075498e5a, type: 2}
+    mixerChannel: {fileID: 2463555088743977231, guid: 420ea33e405207341997084075498e5a, type: 2}
     source: {fileID: 0}
   - name: MenuClick
     clip: {fileID: 8300000, guid: 197742d6ace65104380844d5768e0ce2, type: 3}
     volume: 0.15
     pitch: 0.39
     loop: 0
-    mixerChannel: {fileID: 6273719580722482625, guid: 420ea33e405207341997084075498e5a, type: 2}
+    mixerChannel: {fileID: 2463555088743977231, guid: 420ea33e405207341997084075498e5a, type: 2}
     source: {fileID: 0}
   - name: ReadyClick
     clip: {fileID: 8300000, guid: 3464d0e148bd3a34284ace8d7d7703b2, type: 3}
     volume: 0.64
     pitch: 1
     loop: 0
-    mixerChannel: {fileID: 6273719580722482625, guid: 420ea33e405207341997084075498e5a, type: 2}
+    mixerChannel: {fileID: 2463555088743977231, guid: 420ea33e405207341997084075498e5a, type: 2}
     source: {fileID: 0}
   - name: MissleAnnouncement
     clip: {fileID: 8300000, guid: 7ee60ed54b871ab4ba925f594f2063cc, type: 3}

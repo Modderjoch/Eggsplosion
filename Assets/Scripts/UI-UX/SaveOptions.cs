@@ -29,6 +29,7 @@ public class SaveOptions : MonoBehaviour
         audioMixer.SetFloat("MasterVolume", Mathf.Log10(PlayerPrefs.GetFloat("MasterVolume")) * 20);
         audioMixer.SetFloat("SFXVolume", Mathf.Log10(PlayerPrefs.GetFloat("SFXVolume")) * 20);
         audioMixer.SetFloat("MusicVolume", Mathf.Log10(PlayerPrefs.GetFloat("MusicVolume")) * 20);
+        audioMixer.SetFloat("MenuVolume", Mathf.Log10(PlayerPrefs.GetFloat("MenuVolume")) * 20);
     }
 
     public void AddSlider(Slider slider)

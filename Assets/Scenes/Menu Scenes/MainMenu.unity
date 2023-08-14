@@ -723,6 +723,7 @@ MonoBehaviour:
   level: GameModeSelection
   mixer: 
   confirmationButton: {fileID: 0}
+  selectables: []
   audioMixer: {fileID: 0}
 --- !u!1 &512538417
 GameObject:
@@ -890,6 +891,7 @@ MonoBehaviour:
   level: LevelDesign1
   mixer: 
   confirmationButton: {fileID: 0}
+  selectables: []
   audioMixer: {fileID: 0}
 --- !u!114 &648576336
 MonoBehaviour:
@@ -2011,6 +2013,7 @@ MonoBehaviour:
   level: Options
   mixer: 
   confirmationButton: {fileID: 0}
+  selectables: []
   audioMixer: {fileID: 0}
 --- !u!114 &1893197185
 MonoBehaviour:
