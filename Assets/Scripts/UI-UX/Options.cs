@@ -8,10 +8,12 @@ public class Options : MonoBehaviour
 {
     Resolution detectedResolution;
     public Vector2[] resolutions;
+    public string[] screenModes;
     public bool setRes = true;
     private int resolutionIndex;
     private int screenModeIndex;
     public TextMeshProUGUI resolutionText;
+    public TextMeshProUGUI screenmodeText;
 
     private bool hasDetected = false;
 
@@ -27,6 +29,7 @@ public class Options : MonoBehaviour
 
         if (!hasDetected && !PlayerPrefs.HasKey("ResolutionIndex")) { SetDetectedResolution(); }
         if (resolutionText != null) { resolutionText.text = resolutions[resolutionIndex].x + "x" + resolutions[resolutionIndex].y; }
+        if (screenmodeText != null) { screenmodeText.text = screenModes[screenModeIndex]; }
     }
 
     private void SetResolution(int index, int modeIndex)
@@ -65,6 +68,8 @@ public class Options : MonoBehaviour
     public void SwitchScreenMode(int mode)
     {
         screenModeIndex = mode;
+        screenmodeText.text = screenModes[mode];
+
         PlayerPrefs.SetInt("ScreenmodeIndex", mode);
         SetResolution(resolutionIndex, mode);
     }
@@ -96,5 +101,31 @@ public class Options : MonoBehaviour
                 break;
             }
         }
+    }
+
+    public void NextMode()
+    {
+        screenModeIndex = (screenModeIndex + 1) % (screenModes.Length);
+        if (screenModeIndex == 1)
+        {
+            screenModeIndex++;
+        }
+
+        Debug.Log("Increased index: " + screenModeIndex);
+        SwitchScreenMode(screenModeIndex);
+    }
+
+
+    public void LastMode()
+    {
+        screenModeIndex = (screenModeIndex - 1 + screenModes.Length) % (screenModes.Length);
+        if (screenModeIndex == 1)
+        {
+            screenModeIndex--;
+        }
+
+        Debug.Log("Decreased index: " + screenModeIndex);
+
+        SwitchScreenMode(screenModeIndex);
     }
 }
