@@ -42,7 +42,10 @@ public class Options : MonoBehaviour
         Screen.SetResolution(width, height, (FullScreenMode)modeIndex);
 
         Debug.Log(Screen.currentResolution);
-        resolutionText.text = width + "x" + height;
+        if (resolutionText != null)
+        {
+            resolutionText.text = width + "x" + height;
+        }
 
         PlayerPrefs.Save();
     }

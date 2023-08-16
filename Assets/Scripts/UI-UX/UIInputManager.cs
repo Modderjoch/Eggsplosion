@@ -30,6 +30,7 @@ public class UIInputManager : MonoBehaviour
         uiActions.Leaderboard.performed += _ => menuHandler.Leaderboard();
         uiActions.Eggsplanation.performed += _ => menuHandler.Eggsplanation();
         uiActions.Cancel.performed += _ => menuHandler.Cancel();
+        uiActions.Options.performed += _ => menuHandler.Options();
         uiActions.AddRound.performed += _ => menuHandler.AddRound();
         uiActions.SubtractRound.performed += _ => menuHandler.SubtractRound();
     }
