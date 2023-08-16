@@ -151,6 +151,9 @@ public class PlayerConfiguration
     public Sprite playerSprite { get; set; }
 
     public int spriteId { get; set; }
+
+    //New for scoring
+    public int killAmount { get; set; }
     public AnimatorOverrideController animatorOverrideController { get; set; }
 
 }

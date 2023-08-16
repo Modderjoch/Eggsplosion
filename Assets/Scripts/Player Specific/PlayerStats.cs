@@ -36,7 +36,7 @@ public class PlayerStats : MonoBehaviour
     Camera cam;
 
     LevelManagerScript level;
-    PlayerConfiguration playerConfig;
+    public PlayerConfiguration playerConfig; //Player Config that will be assigned to this individual playerstats instance (player)
 
     public Vector3 scale;
     public Vector3 spawnPos;
@@ -62,6 +62,9 @@ public class PlayerStats : MonoBehaviour
 
     public bool activateTimer = false;
 
+    //Who is the last player that hit me? (for killscore)
+    public PlayerConfiguration LastPlayerThatHitMe;
+
     private void Awake()
     {
         level = FindObjectOfType<LevelManagerScript>();
@@ -75,11 +78,12 @@ public class PlayerStats : MonoBehaviour
         healthBar.SetMaxHealth(MaxHP);
     }
 
-    public void TakeDamage(int damage)
+    public void TakeDamage(int damage, PlayerConfiguration playerThatHitMe)
     {        
         HP = HP - damage; 
         currentHealth -= damage; 
         healthBar.SetHealth(HP);
+        LastPlayerThatHitMe = playerThatHitMe;
         StartCoroutine(FlashRed());
     }
 
@@ -176,11 +180,16 @@ public class PlayerStats : MonoBehaviour
 
     public void Die()
     {
+
         // Instantiate(myPrefab, new Vector3(player.transform.position.x, player.transform.position.y, -1), Quaternion.identity);
         Invoke("KillPopUp", 5);
         AudioSource.PlayClipAtPoint(EggSploded, transform.position);
         anim.SetBool("Death", true);
         playerConfig.isAlive = false;
+        if (LastPlayerThatHitMe != null)
+        {
+            LastPlayerThatHitMe.killAmount = LastPlayerThatHitMe.killAmount + 1;
+        }
         if (isCasual)
         {
             Respawn();
@@ -189,7 +198,8 @@ public class PlayerStats : MonoBehaviour
         {
             cam.GetComponent<MultiplePlayerCamera>().targets.Remove(this.transform);
             Destroy(player);
-        }
+        }    
+        
     }
 
     public void Respawn()
