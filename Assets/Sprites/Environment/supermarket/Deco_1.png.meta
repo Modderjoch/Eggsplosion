@@ -3,7 +3,7 @@ guid: 0abd94958efcaaf4ea74b5590fe0e2c6
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -63,15 +63,16 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 8192
+    maxTextureSize: 512
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
-    crunchedCompression: 0
+    crunchedCompression: 1
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
@@ -126,6 +127,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Server
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
     maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
@@ -486,22 +499,22 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      bakery_deco_9: -1681437634
-      bakery_deco_5: -1991807420
-      bakery_deco_11: 709118691
-      bakery_deco_13: 738682339
-      bakery_deco_17: 1611526810
-      bakery_deco_16: -1585262934
       bakery_deco_10: -538398472
-      bakery_deco_4_1: 1751748929
+      bakery_deco_11: 709118691
+      bakery_deco_12: -797381140
+      bakery_deco_13: 738682339
       bakery_deco_14: -260920373
-      bakery_deco_8: 231203439
+      bakery_deco_15: -4939404
+      bakery_deco_16: -1585262934
+      bakery_deco_17: 1611526810
       bakery_deco_3: 1723842358
       bakery_deco_4_0: -722424921
+      bakery_deco_4_1: 1751748929
+      bakery_deco_5: -1991807420
       bakery_deco_6: 1495536966
-      bakery_deco_15: -4939404
-      bakery_deco_12: -797381140
       bakery_deco_7: 967314091
+      bakery_deco_8: 231203439
+      bakery_deco_9: -1681437634
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

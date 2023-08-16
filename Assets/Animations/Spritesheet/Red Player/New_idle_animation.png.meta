@@ -30,7 +30,7 @@ TextureImporter:
       213: -1837896527510458311
     second: New_idle_animation_8
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -90,15 +90,16 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 8192
+    maxTextureSize: 512
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
     compressionQuality: 50
-    crunchedCompression: 0
+    crunchedCompression: 1
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
@@ -153,6 +154,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: WebGL
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
@@ -366,15 +379,15 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      New_idle_animation_3: -212438257774954571
-      New_idle_animation_1: 4014932222295616980
-      New_idle_animation_6: 989557376146128689
-      New_idle_animation_5: 6468725610186226932
-      New_idle_animation_8: -1837896527510458311
-      New_idle_animation_4: 558444866177623637
       New_idle_animation_0: 6185610576998222747
+      New_idle_animation_1: 4014932222295616980
       New_idle_animation_2: 1984942269940589695
+      New_idle_animation_3: -212438257774954571
+      New_idle_animation_4: 558444866177623637
+      New_idle_animation_5: 6468725610186226932
+      New_idle_animation_6: 989557376146128689
       New_idle_animation_7: 220897512101918338
+      New_idle_animation_8: -1837896527510458311
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

@@ -84,7 +84,7 @@ TextureImporter:
       213: 1532319025517167409
     second: Reload_animation_1_26
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -144,10 +144,11 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 8192
+    maxTextureSize: 512
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -207,6 +208,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: WebGL
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
@@ -798,33 +811,33 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Reload_animation_1_3: 2986906565916758615
-      Reload_animation_1_19: 1684235335993129911
-      Reload_animation_1_24: -2539488137511955470
-      Reload_animation_1_22: -8591467911954638444
-      Reload_animation_1_20: -3298617884213237697
-      Reload_animation_1_23: 1398205255186003818
-      Reload_animation_1_26: 1532319025517167409
       Reload_animation_1_0: 7321894610672543515
-      Reload_animation_1_7: 1474622229062800112
+      Reload_animation_1_1: 5279786977039233826
       Reload_animation_1_10: -6129633347853479214
       Reload_animation_1_11: 8534446972119764900
-      Reload_animation_1_17: 8644381728812549426
-      Reload_animation_1_2: 194824226593881716
       Reload_animation_1_12: 5463953248642248282
-      Reload_animation_1_1: 5279786977039233826
-      Reload_animation_1_18: 6959174258887844412
-      Reload_animation_1_15: -372211419850850369
-      Reload_animation_1_9: 4046813243947033643
-      Reload_animation_1_5: -7848222175019138321
-      Reload_animation_1_16: 3897589521802418659
-      Reload_animation_1_21: 4378723280499032609
-      Reload_animation_1_25: 4566971483314898335
-      Reload_animation_1_6: -8781427349438726262
-      Reload_animation_1_8: -5177011069365636701
-      Reload_animation_1_14: 2928878731398982485
-      Reload_animation_1_4: 646713553110017753
       Reload_animation_1_13: 7000343242535637441
+      Reload_animation_1_14: 2928878731398982485
+      Reload_animation_1_15: -372211419850850369
+      Reload_animation_1_16: 3897589521802418659
+      Reload_animation_1_17: 8644381728812549426
+      Reload_animation_1_18: 6959174258887844412
+      Reload_animation_1_19: 1684235335993129911
+      Reload_animation_1_2: 194824226593881716
+      Reload_animation_1_20: -3298617884213237697
+      Reload_animation_1_21: 4378723280499032609
+      Reload_animation_1_22: -8591467911954638444
+      Reload_animation_1_23: 1398205255186003818
+      Reload_animation_1_24: -2539488137511955470
+      Reload_animation_1_25: 4566971483314898335
+      Reload_animation_1_26: 1532319025517167409
+      Reload_animation_1_3: 2986906565916758615
+      Reload_animation_1_4: 646713553110017753
+      Reload_animation_1_5: -7848222175019138321
+      Reload_animation_1_6: -8781427349438726262
+      Reload_animation_1_7: 1474622229062800112
+      Reload_animation_1_8: -5177011069365636701
+      Reload_animation_1_9: 4046813243947033643
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
