@@ -58,13 +58,10 @@ public class RoundOverManager : MonoBehaviour
     public string LoadRandomLevel()
     {
         int random;
-        random = Random.Range(0, 1);
+        random = Random.Range(0, 2); 
         return sceneName[random];
     }
-    private void Update()
-    {
-        //Debug.Log(LoadRandomLevel());
-    }
+
     public void UpdateScoreBoard(int score, int boardInstance, int playerIndex, bool wasAlive, string playerName, Sprite playerIcon)
     {
 
