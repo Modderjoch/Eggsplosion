@@ -30,7 +30,7 @@ TextureImporter:
       213: 5605621866391753702
     second: New_idle_animation_purple_right_8
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -90,15 +90,16 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 8192
+    maxTextureSize: 512
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
-    crunchedCompression: 0
+    crunchedCompression: 1
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
@@ -141,6 +142,30 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Windows Store Apps
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
     maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
@@ -354,15 +379,15 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      New_idle_animation_purple_right_5: 7285185257249906488
-      New_idle_animation_purple_right_6: -4832261770713730805
       New_idle_animation_purple_right_0: -3192919973101902490
       New_idle_animation_purple_right_1: -474784192514969690
-      New_idle_animation_purple_right_8: 5605621866391753702
       New_idle_animation_purple_right_2: 2691031616558812143
-      New_idle_animation_purple_right_4: -1114977264909341270
-      New_idle_animation_purple_right_7: -7028215126720050184
       New_idle_animation_purple_right_3: -4097788389456498949
+      New_idle_animation_purple_right_4: -1114977264909341270
+      New_idle_animation_purple_right_5: 7285185257249906488
+      New_idle_animation_purple_right_6: -4832261770713730805
+      New_idle_animation_purple_right_7: -7028215126720050184
+      New_idle_animation_purple_right_8: 5605621866391753702
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

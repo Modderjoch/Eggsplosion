@@ -27,7 +27,7 @@ TextureImporter:
       213: 3084220004968384629
     second: VegetableMain_7
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -87,15 +87,16 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 8192
+    maxTextureSize: 512
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
-    crunchedCompression: 0
+    crunchedCompression: 1
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
@@ -138,6 +139,30 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Windows Store Apps
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
     maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
@@ -330,12 +355,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      VegetableMain_3: -4738671344160562129
-      VegetableMain_5: 5765446819949058005
-      VegetableMain_1: -5805258394690945789
-      VegetableMain_4: -4012784385946895457
       VegetableMain_0: -479273546430010166
+      VegetableMain_1: -5805258394690945789
       VegetableMain_2: 4373290199690642280
+      VegetableMain_3: -4738671344160562129
+      VegetableMain_4: -4012784385946895457
+      VegetableMain_5: 5765446819949058005
       VegetableMain_6: -8718491173775757545
       VegetableMain_7: 3084220004968384629
   spritePackingTag: 
