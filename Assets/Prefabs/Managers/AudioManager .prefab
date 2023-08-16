@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 519723244002497316}
   - component: {fileID: 519723244002497317}
-  - component: {fileID: 2105627778786715192}
   m_Layer: 0
   m_Name: 'AudioManager '
   m_TagString: GameAudio
@@ -51,228 +50,145 @@ MonoBehaviour:
     volume: 1
     pitch: 1
     loop: 0
-    mixerChannel: {fileID: 0}
+    mixerChannel: {fileID: 6273719580722482625, guid: 420ea33e405207341997084075498e5a, type: 2}
     source: {fileID: 0}
   - name: Eggsplotion
     clip: {fileID: 8300000, guid: e2c0d53f576903c42a5384828cba3221, type: 3}
     volume: 1
     pitch: 0.8
     loop: 0
-    mixerChannel: {fileID: 0}
+    mixerChannel: {fileID: 6273719580722482625, guid: 420ea33e405207341997084075498e5a, type: 2}
     source: {fileID: 0}
   - name: Speed
     clip: {fileID: 8300000, guid: 8239bd0de5797cd42bc703b29b6de1ef, type: 3}
     volume: 1
     pitch: 1
     loop: 0
-    mixerChannel: {fileID: 0}
+    mixerChannel: {fileID: 6273719580722482625, guid: 420ea33e405207341997084075498e5a, type: 2}
     source: {fileID: 0}
   - name: Bounce
     clip: {fileID: 8300000, guid: 4c67442435d64c040bd86e21755248b5, type: 3}
     volume: 1
     pitch: 1
     loop: 0
-    mixerChannel: {fileID: 0}
+    mixerChannel: {fileID: 6273719580722482625, guid: 420ea33e405207341997084075498e5a, type: 2}
     source: {fileID: 0}
   - name: Vest
     clip: {fileID: 8300000, guid: ab5225d47335b5241a07c3d217a8b7b8, type: 3}
     volume: 1.4
     pitch: 1.1
     loop: 0
-    mixerChannel: {fileID: 0}
+    mixerChannel: {fileID: 6273719580722482625, guid: 420ea33e405207341997084075498e5a, type: 2}
     source: {fileID: 0}
   - name: Dash
     clip: {fileID: 8300000, guid: ec4f8a240ca17f446934da1041df47a6, type: 3}
     volume: 1
     pitch: 1
     loop: 0
-    mixerChannel: {fileID: 0}
+    mixerChannel: {fileID: 6273719580722482625, guid: 420ea33e405207341997084075498e5a, type: 2}
     source: {fileID: 0}
   - name: Throw
     clip: {fileID: 8300000, guid: b6e053c928329d64db31fdea3aa6672e, type: 3}
     volume: 0.5
     pitch: 1
     loop: 0
-    mixerChannel: {fileID: 0}
+    mixerChannel: {fileID: 6273719580722482625, guid: 420ea33e405207341997084075498e5a, type: 2}
     source: {fileID: 0}
   - name: Hurt
     clip: {fileID: 8300000, guid: b79bb75621d564d4a927af805feebb96, type: 3}
     volume: 1
     pitch: 1
     loop: 0
-    mixerChannel: {fileID: 0}
+    mixerChannel: {fileID: 6273719580722482625, guid: 420ea33e405207341997084075498e5a, type: 2}
     source: {fileID: 0}
   - name: CrackEgg
     clip: {fileID: 8300000, guid: 6c73e3fa254a449099ce18b71b3e7577, type: 3}
     volume: 0.6
     pitch: 1
     loop: 0
-    mixerChannel: {fileID: 0}
+    mixerChannel: {fileID: 6273719580722482625, guid: 420ea33e405207341997084075498e5a, type: 2}
     source: {fileID: 0}
   - name: VestBoom
     clip: {fileID: 8300000, guid: 4c1d3854b2e0cd847858ae7c479eef5d, type: 3}
     volume: 1
     pitch: 0.9
     loop: 0
-    mixerChannel: {fileID: 0}
+    mixerChannel: {fileID: 6273719580722482625, guid: 420ea33e405207341997084075498e5a, type: 2}
     source: {fileID: 0}
   - name: Egghit
     clip: {fileID: 8300000, guid: b79f0f7a6712407488e3c6c7f1ddf9b5, type: 3}
     volume: 1
     pitch: 0.9
     loop: 0
-    mixerChannel: {fileID: 0}
+    mixerChannel: {fileID: 6273719580722482625, guid: 420ea33e405207341997084075498e5a, type: 2}
     source: {fileID: 0}
   - name: PickUp
     clip: {fileID: 8300000, guid: f99f2e2bb31ab4a4f83ca835a8f17d1b, type: 3}
     volume: 1
     pitch: 0.9
     loop: 0
-    mixerChannel: {fileID: 0}
+    mixerChannel: {fileID: 6273719580722482625, guid: 420ea33e405207341997084075498e5a, type: 2}
     source: {fileID: 0}
   - name: MenuHover
     clip: {fileID: 8300000, guid: f7ae69809be492642bc64e6ac4e3b432, type: 3}
     volume: 0.3
     pitch: 1
     loop: 0
-    mixerChannel: {fileID: 0}
+    mixerChannel: {fileID: 2463555088743977231, guid: 420ea33e405207341997084075498e5a, type: 2}
     source: {fileID: 0}
   - name: MenuClick
     clip: {fileID: 8300000, guid: 197742d6ace65104380844d5768e0ce2, type: 3}
-    volume: 0.09
+    volume: 0.15
     pitch: 0.39
     loop: 0
-    mixerChannel: {fileID: 0}
+    mixerChannel: {fileID: 2463555088743977231, guid: 420ea33e405207341997084075498e5a, type: 2}
     source: {fileID: 0}
   - name: ReadyClick
     clip: {fileID: 8300000, guid: 3464d0e148bd3a34284ace8d7d7703b2, type: 3}
     volume: 0.64
     pitch: 1
     loop: 0
-    mixerChannel: {fileID: 0}
+    mixerChannel: {fileID: 2463555088743977231, guid: 420ea33e405207341997084075498e5a, type: 2}
     source: {fileID: 0}
   - name: MissleAnnouncement
     clip: {fileID: 8300000, guid: 7ee60ed54b871ab4ba925f594f2063cc, type: 3}
     volume: 1
     pitch: 1
     loop: 0
-    mixerChannel: {fileID: 0}
+    mixerChannel: {fileID: 6273719580722482625, guid: 420ea33e405207341997084075498e5a, type: 2}
     source: {fileID: 0}
   - name: MissleLaunch
     clip: {fileID: 8300000, guid: 2fbc4b924ca17374fba87f88d4778ea7, type: 3}
     volume: 1
     pitch: 1
     loop: 0
-    mixerChannel: {fileID: 0}
+    mixerChannel: {fileID: 6273719580722482625, guid: 420ea33e405207341997084075498e5a, type: 2}
     source: {fileID: 0}
   - name: MissleAlarm
     clip: {fileID: 8300000, guid: b6e9b49086b4e0c4ca736c6871680d30, type: 3}
     volume: 1
     pitch: 1
     loop: 0
-    mixerChannel: {fileID: 0}
+    mixerChannel: {fileID: 6273719580722482625, guid: 420ea33e405207341997084075498e5a, type: 2}
     source: {fileID: 0}
   - name: MissleExplode
     clip: {fileID: 8300000, guid: e2c0d53f576903c42a5384828cba3221, type: 3}
     volume: 0.665
     pitch: 0.8
     loop: 0
-    mixerChannel: {fileID: 0}
+    mixerChannel: {fileID: 6273719580722482625, guid: 420ea33e405207341997084075498e5a, type: 2}
     source: {fileID: 0}
-  mixerChannel: {fileID: 0}
---- !u!82 &2105627778786715192
-AudioSource:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 519723244002497318}
-  m_Enabled: 1
-  serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 7831957365028263592, guid: 420ea33e405207341997084075498e5a, type: 2}
-  m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 1
-  m_Volume: 1
-  m_Pitch: 1
-  Loop: 0
-  Mute: 0
-  Spatialize: 0
-  SpatializePostEffects: 0
-  Priority: 128
-  DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
-  Pan2D: 0
-  rolloffMode: 0
-  BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 0
-  rolloffCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  panLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spreadCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  reverbZoneMixCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
+  - name: MenuMusic
+    clip: {fileID: 8300000, guid: 4fe21afbfeb586d438e3628601ee8b27, type: 3}
+    volume: 0.2
+    pitch: 0.8
+    loop: 1
+    mixerChannel: {fileID: -1385206077965335897, guid: 420ea33e405207341997084075498e5a, type: 2}
+    source: {fileID: 0}
+  - name: GameMusic
+    clip: {fileID: 8300000, guid: 4ec348e8cb77da4478383e23479ece83, type: 3}
+    volume: 0.2
+    pitch: 0.8
+    loop: 1
+    mixerChannel: {fileID: -1385206077965335897, guid: 420ea33e405207341997084075498e5a, type: 2}
+    source: {fileID: 0}
