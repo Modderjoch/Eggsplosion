@@ -20,3 +20,93 @@ k_ESteamInputType_Unknown connected on: 15.1955controller is nr: 0
 this is the first controller
 k_ESteamInputType_Unknown connected on: 15.1955controller is nr: 0
 this is the first controller
+k_ESteamInputType_Unknown connected on: 4.93725controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 7.544923controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 10.1266controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 10.1266controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 10.1266controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 10.1266controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 2.898348controller is nr: 0
+this is the first controller
+k_ESteamInputType_PS4Controller connected on: 19.91462controller is nr: 0
+this is the first controller
+k_ESteamInputType_PS4Controller connected on: 28.31868controller is nr: 0
+this is the first controller
+k_ESteamInputType_PS4Controller connected on: 28.31868controller is nr: 0
+this is the first controller
+k_ESteamInputType_PS4Controller connected on: 28.31868controller is nr: 0
+this is the first controller
+k_ESteamInputType_PS4Controller connected on: 28.31868controller is nr: 0
+this is the first controller
+k_ESteamInputType_PS4Controller connected on: 41.06449controller is nr: 0
+this is the first controller
+k_ESteamInputType_PS4Controller connected on: 41.06449controller is nr: 0
+this is the first controller
+k_ESteamInputType_PS4Controller connected on: 72.54781controller is nr: 0
+this is the first controller
+k_ESteamInputType_PS4Controller connected on: 72.54781controller is nr: 0
+this is the first controller
+k_ESteamInputType_PS4Controller connected on: 80.11008controller is nr: 0
+this is the first controller
+k_ESteamInputType_PS4Controller connected on: 80.11008controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 1.472481controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 3.465933controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 3.465933controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 3.465933controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 3.465933controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 33.64082controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 33.64082controller is nr: 0
+this is the first controller
+k_ESteamInputType_PS4Controller connected on: 6.798426controller is nr: 0
+this is the first controller
+k_ESteamInputType_PS4Controller connected on: 2.158067controller is nr: 0
+this is the first controller
+k_ESteamInputType_PS4Controller connected on: 3.860179controller is nr: 0
+this is the first controller
+k_ESteamInputType_PS4Controller connected on: 3.860179controller is nr: 0
+this is the first controller
+k_ESteamInputType_PS4Controller connected on: 3.860179controller is nr: 0
+this is the first controller
+k_ESteamInputType_PS4Controller connected on: 3.860179controller is nr: 0
+this is the first controller
+k_ESteamInputType_PS4Controller connected on: 3.748163controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 1.516843controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 3.368386controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 3.368386controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 3.368386controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 3.368386controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 115.1561controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 115.1561controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 156.0168controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 156.0168controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 218.2777controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 218.2777controller is nr: 0
+this is the first controller
+k_ESteamInputType_PS4Controller connected on: 355.5765controller is nr: 0
+this is the first controller
+k_ESteamInputType_PS4Controller connected on: 355.5765controller is nr: 0
+this is the first controller
