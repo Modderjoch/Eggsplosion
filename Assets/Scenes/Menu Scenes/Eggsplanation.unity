@@ -350,6 +350,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4270907970432357287, guid: ca74dbf2ffff9a54cb9165c073100bc6, type: 3}
+      propertyPath: m_PointAction
+      value: 
+      objectReference: {fileID: 6686511491157075879, guid: b68f26f24f3cf7946b0e550666c3ced6, type: 3}
     - target: {fileID: 4270907970575376247, guid: ca74dbf2ffff9a54cb9165c073100bc6, type: 3}
       propertyPath: m_fontSize
       value: 334.6
