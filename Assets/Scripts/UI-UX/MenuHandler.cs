@@ -6,6 +6,7 @@ using System.Linq;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.UI;
+using UnityEngine.EventSystems;
 
 public class MenuHandler : MonoBehaviour
 {
@@ -13,6 +14,9 @@ public class MenuHandler : MonoBehaviour
     [SerializeField] private GameObject leaderButton;
     [SerializeField] private GameObject leaderOpen;
     [SerializeField] private GameObject leaderClose;
+
+    [SerializeField] private GameObject inGameCanvas;
+    [SerializeField] private GameObject inGameContinue;
 
     [SerializeField] private Button eggsplanationButton;
     [SerializeField] private GameObject backButton;
@@ -27,6 +31,7 @@ public class MenuHandler : MonoBehaviour
     [HideInInspector] public int lastGamepadIndex;
 
     private bool keyboardUsed = false;
+    private bool isPaused = false;
 
     public void Leaderboard()
     {
@@ -55,26 +60,47 @@ public class MenuHandler : MonoBehaviour
 
     public void Eggsplanation()
     {
-        DetectInputDevice();
-
         if (eggsplanationButton != null)
-        eggsplanationButton.onClick.Invoke();
+            eggsplanationButton.onClick.Invoke();
         ClickSound();
+        DetectInputDevice();
     }
 
     public void Cancel()
     {
-        DetectInputDevice();
-
         backButton = GameObject.FindGameObjectWithTag("BackButton");
 
-        if(backButton == null)
+        if (backButton == null)
         {
             backButton = GameObject.Find("BackButton");
         }
 
         Debug.Log("Cancel");
+        DetectInputDevice();
         backButton.GetComponent<Button>().onClick.Invoke();
+    }
+
+    public void Options()
+    {
+        if (!isPaused)
+        {
+            EventSystem eventSystem = EventSystem.current;
+
+            inGameCanvas.SetActive(true);
+            eventSystem.SetSelectedGameObject(inGameContinue);
+            Time.timeScale = 0f;
+            Debug.Log("Game Paused");
+
+            isPaused = true;
+        }
+        else
+        {
+            inGameCanvas.SetActive(false);
+            Time.timeScale = 1.0f;
+            Debug.Log("Game unpaused");
+
+            isPaused = false;
+        }
     }
 
     public void EnableTabs(string name)
@@ -162,7 +188,7 @@ public class MenuHandler : MonoBehaviour
         var gamepads = Gamepad.all.ToArray();
 
         // Iterate over all connected gamepads
-        for(int i = 0; i < gamepads.Length; i++)
+        for (int i = 0; i < gamepads.Length; i++)
         {
             var gamepad = gamepads[i];
 
@@ -196,7 +222,7 @@ public class MenuHandler : MonoBehaviour
         // Open the file in append mode
         using (StreamWriter writer = new StreamWriter(Application.dataPath + "/Saves/" + filePath, true))
         {
-            writer.WriteLine(inputTypeSteam.ToString() + " connected on: " +Time.time + "controller is nr: " + gamepadIndex);
+            writer.WriteLine(inputTypeSteam.ToString() + " connected on: " + Time.time + "controller is nr: " + gamepadIndex);
         }
 
         for (int i = 0; i < buttonPrompts.Count; i++)
@@ -241,7 +267,7 @@ public class MenuHandler : MonoBehaviour
                         image.sprite = switchPrompt.xboxInput;
                         break;
                 }
-            }            
+            }
         }
     }
 }

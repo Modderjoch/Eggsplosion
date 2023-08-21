@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 using UnityEngine.EventSystems;
 using UnityEngine.Audio;
 using UnityEngine.Events;
+using UnityEditor;
 
 public class Menu : MonoBehaviour, ISelectHandler, IDeselectHandler, ICancelHandler
 {
@@ -54,6 +55,8 @@ public class Menu : MonoBehaviour, ISelectHandler, IDeselectHandler, ICancelHand
         Destroy(configManager);
         Debug.Log("Quit");
         Application.Quit();
+        EditorApplication.isPlaying = false;
+
     }
 
     public void SetVolume(float sliderValue)

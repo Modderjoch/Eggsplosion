@@ -36,6 +36,7 @@ public class PlayerStats : MonoBehaviour
     Camera cam;
 
     LevelManagerScript level;
+
     public PlayerConfiguration playerConfig; //Player Config that will be assigned to this individual playerstats instance (player)
 
     public Vector3 scale;
