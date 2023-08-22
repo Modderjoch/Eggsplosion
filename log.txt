@@ -250,3 +250,193 @@ k_ESteamInputType_PS4Controller connected on: 6.700787controller is nr: 0
 this is the first controller
 k_ESteamInputType_PS4Controller connected on: 6.700787controller is nr: 0
 this is the first controller
+k_ESteamInputType_Unknown connected on: 0controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 0controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 0controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 0controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 0controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 0controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 0controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 0controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 0controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 0controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 0controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 0controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 0controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 0controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 0controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 0controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 0controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 0controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 0controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 0controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 0controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 0controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 0controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 0controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 0controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 0controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 0controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 0controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 0controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 0controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 0controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 0controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 0controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 0controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 0controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 0controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 0controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 0controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 0controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 0controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 0controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 0controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 0controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 0controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 0controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 0controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 0controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 0controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 0controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 0controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 0controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 0controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 0controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 0controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 0controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 0controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 0controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 0controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 0controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 0controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 0controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 0controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 0controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 0controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 0controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 0controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 0controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 0controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 0controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 0controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 0controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 0controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 0controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 0controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 0controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 0controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 0controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 0controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 0controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 0controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 0controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 0controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 0controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 0controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 0controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 0controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 0controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 0controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 0controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 0controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 0controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 0controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 0controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 0controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 0controller is nr: 0
+this is the first controller

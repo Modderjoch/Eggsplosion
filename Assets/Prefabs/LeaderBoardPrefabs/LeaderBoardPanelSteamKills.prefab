@@ -222,6 +222,7 @@ GameObject:
   - component: {fileID: 6983698970873213698}
   - component: {fileID: 6983698970873213727}
   - component: {fileID: 6983698970873213724}
+  - component: {fileID: 3546305281319964999}
   m_Layer: 5
   m_Name: LeaderBoardPanelSteamKills
   m_TagString: Untagged
@@ -293,6 +294,20 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &3546305281319964999
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6983698970873213699}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de49b21483d081045a56fef2be94ad49, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scoreText: {fileID: 6370721196164819431, guid: 5dc6fbe2d0c36a446bec99b06db4b345, type: 3}
+  Panel: {fileID: 6983698970873213699}
 --- !u!1 &7748821449376874498
 GameObject:
   m_ObjectHideFlags: 0

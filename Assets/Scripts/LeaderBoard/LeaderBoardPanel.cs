@@ -10,6 +10,10 @@ public class LeaderBoardPanel : MonoBehaviour
     public Image icon;
     public TMP_Text playerNameText;
     public int spriteId;
+    //
+    public RawImage steamIcon;
+    public bool isSteam = false;
+    public bool isKillBoard = false;
     public LeaderBoardPanel(int _playerIndex, int _playerScore, bool _wasAlive, string _playerName, int _spriteId)
     {
         playerIndex = _playerIndex;
@@ -24,9 +28,28 @@ public class LeaderBoardPanel : MonoBehaviour
     public int playerScore { get; set; }
     public bool wasAlive { get; set; }
     public Sprite playerIcon { get; set; }
+
+
+    //
+
     void Start()
     {
-        icon.sprite = iconsToChooseFrom[spriteId].sprite;
-        playerNameText.text = playerName + " won "  + playerScore + " rounds!";
+        if (!isSteam)
+        {
+            icon.sprite = iconsToChooseFrom[spriteId].sprite;
+            playerNameText.text = playerName + " won " + playerScore + " rounds!";
+        }
+        if (isSteam && !isKillBoard) 
+        {
+            Debug.Log("is steam entry and round");
+            steamIcon.gameObject.SetActive(true);
+            playerNameText.text = playerName + " won " + playerScore + " rounds!";
+        }
+        else if (isSteam && isKillBoard)
+        {
+            Debug.Log("is steam entry and kill");
+            steamIcon.gameObject.SetActive(true);
+            playerNameText.text = playerName + " Killed This Many Chickens! " + playerScore + " ! ";
+        }
     }
 }
