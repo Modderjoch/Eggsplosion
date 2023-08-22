@@ -95,7 +95,10 @@ public class MenuHandler : MonoBehaviour
         }
         else
         {
+            EventSystem eventSystem = EventSystem.current;
+
             inGameCanvas.SetActive(false);
+            eventSystem.SetSelectedGameObject(null);
             Time.timeScale = 1.0f;
             Debug.Log("Game unpaused");
 

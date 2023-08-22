@@ -63,6 +63,7 @@ MonoBehaviour:
   leaderOpen: {fileID: 0}
   leaderClose: {fileID: 0}
   inGameCanvas: {fileID: 0}
+  inGameContinue: {fileID: 0}
   eggsplanationButton: {fileID: 0}
   backButton: {fileID: 0}
   controlsCanvas: {fileID: 0}
