@@ -3,7 +3,7 @@ guid: 44a9d8057c673e044a57ec2d35f590d1
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -63,15 +63,16 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 8192
+    maxTextureSize: 512
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
-    crunchedCompression: 0
+    crunchedCompression: 1
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
@@ -126,6 +127,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Server
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
     maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
@@ -528,25 +541,25 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+      Bakery_15: -795046633
       bakery_deco_0: 1450812396
       bakery_deco_1: 103691211
-      bakery_shelf_ver_2: 1600952073
-      bakery_shelf_hor_mir_2: -122356113
-      bakery_shelf_ver_3: -462221413
-      bakery_shelf_hor_mir_3: 1610755970
+      bakery_deco_2: 1318956569
       bakery_shelf_hor_0: 425581593
       bakery_shelf_hor_1: -937829215
       bakery_shelf_hor_2: 832445565
       bakery_shelf_hor_3: 1722243229
-      bakery_table_0: 70383037
-      Bakery_15: -795046633
-      bakery_table_1: 1450812396
       bakery_shelf_hor_mir_0: 796832568
-      bakery_deco_2: 1318956569
       bakery_shelf_hor_mir_1: 70383037
-      bakery_table_2: 103691211
-      bakery_shelf_ver_1: 796832568
+      bakery_shelf_hor_mir_2: -122356113
+      bakery_shelf_hor_mir_3: 1610755970
       bakery_shelf_ver_0: 1407131855
+      bakery_shelf_ver_1: 796832568
+      bakery_shelf_ver_2: 1600952073
+      bakery_shelf_ver_3: -462221413
+      bakery_table_0: 70383037
+      bakery_table_1: 1450812396
+      bakery_table_2: 103691211
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

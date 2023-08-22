@@ -84,7 +84,7 @@ TextureImporter:
       213: -1690132243322928392
     second: green_running_animation_right_26
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -144,15 +144,16 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 8192
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
-    crunchedCompression: 0
+    crunchedCompression: 1
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
@@ -195,6 +196,30 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Windows Store Apps
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
     maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
@@ -786,33 +811,33 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      green_running_animation_right_24: 757271472895902731
-      green_running_animation_right_22: -3541029036610714435
-      green_running_animation_right_21: -6939825865021137316
-      green_running_animation_right_7: 5760863008113970727
-      green_running_animation_right_16: -2256936822903610979
-      green_running_animation_right_15: 357104642391873189
+      green_running_animation_right_0: -2072773699662462693
       green_running_animation_right_1: 3816783748082313898
+      green_running_animation_right_10: -4276011739476170688
+      green_running_animation_right_11: -6807848355281872828
+      green_running_animation_right_12: 2374651389935427193
       green_running_animation_right_13: 1860759177527254170
+      green_running_animation_right_14: 3524127821044076078
+      green_running_animation_right_15: 357104642391873189
+      green_running_animation_right_16: -2256936822903610979
       green_running_animation_right_17: 5762366771918372978
       green_running_animation_right_18: -8200705564032260012
-      green_running_animation_right_9: 8634414200695297016
-      green_running_animation_right_11: -6807848355281872828
-      green_running_animation_right_0: -2072773699662462693
-      green_running_animation_right_2: -79110046287923997
-      green_running_animation_right_14: 3524127821044076078
-      green_running_animation_right_20: 4332798714865554832
-      green_running_animation_right_12: 2374651389935427193
       green_running_animation_right_19: -6053395569059613834
+      green_running_animation_right_2: -79110046287923997
+      green_running_animation_right_20: 4332798714865554832
+      green_running_animation_right_21: -6939825865021137316
+      green_running_animation_right_22: -3541029036610714435
+      green_running_animation_right_23: -827553772567104322
+      green_running_animation_right_24: 757271472895902731
+      green_running_animation_right_25: -6167589866516032950
       green_running_animation_right_26: -1690132243322928392
       green_running_animation_right_3: -6242416039180124252
-      green_running_animation_right_5: -4655789967093406551
-      green_running_animation_right_8: -1339373867116425105
-      green_running_animation_right_25: -6167589866516032950
       green_running_animation_right_4: 2576253904477242576
+      green_running_animation_right_5: -4655789967093406551
       green_running_animation_right_6: -6352369801718092729
-      green_running_animation_right_10: -4276011739476170688
-      green_running_animation_right_23: -827553772567104322
+      green_running_animation_right_7: 5760863008113970727
+      green_running_animation_right_8: -1339373867116425105
+      green_running_animation_right_9: 8634414200695297016
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

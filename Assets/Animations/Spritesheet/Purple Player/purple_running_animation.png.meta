@@ -84,7 +84,7 @@ TextureImporter:
       213: -1799114609587572459
     second: purple_running_animation_26
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -144,15 +144,16 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 8192
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
-    crunchedCompression: 0
+    crunchedCompression: 1
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
@@ -195,6 +196,30 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Windows Store Apps
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
     maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
@@ -786,32 +811,32 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+      purple_running_animation_0: 690706763398157856
+      purple_running_animation_1: 6154265196673486757
       purple_running_animation_10: -2044698902978431919
-      purple_running_animation_21: 7059313318719888680
-      purple_running_animation_2: 6082189172322142104
+      purple_running_animation_11: -1570317296253373070
       purple_running_animation_12: 5220122644954900198
-      purple_running_animation_15: -138847491418462838
-      purple_running_animation_18: -6127666620084454471
-      purple_running_animation_14: 1640180992828848820
       purple_running_animation_13: -7733191567073746198
-      purple_running_animation_22: 8791385926668420682
-      purple_running_animation_26: -1799114609587572459
-      purple_running_animation_7: -9158619799249396153
-      purple_running_animation_5: -4949299617354277070
-      purple_running_animation_4: 8524291808499639005
-      purple_running_animation_3: 2972801918206370500
+      purple_running_animation_14: 1640180992828848820
+      purple_running_animation_15: -138847491418462838
+      purple_running_animation_16: -3401792933047938207
       purple_running_animation_17: 6440813331896820315
+      purple_running_animation_18: -6127666620084454471
+      purple_running_animation_19: 5544732607159260505
+      purple_running_animation_2: 6082189172322142104
+      purple_running_animation_20: -6003504340779373926
+      purple_running_animation_21: 7059313318719888680
+      purple_running_animation_22: 8791385926668420682
+      purple_running_animation_23: 7187468674028591242
       purple_running_animation_24: 3350282719143249611
       purple_running_animation_25: 7074449421663380596
-      purple_running_animation_23: 7187468674028591242
-      purple_running_animation_8: -8884156185306897236
-      purple_running_animation_20: -6003504340779373926
+      purple_running_animation_26: -1799114609587572459
+      purple_running_animation_3: 2972801918206370500
+      purple_running_animation_4: 8524291808499639005
+      purple_running_animation_5: -4949299617354277070
       purple_running_animation_6: 5011502367062019597
-      purple_running_animation_11: -1570317296253373070
-      purple_running_animation_16: -3401792933047938207
-      purple_running_animation_1: 6154265196673486757
-      purple_running_animation_19: 5544732607159260505
-      purple_running_animation_0: 690706763398157856
+      purple_running_animation_7: -9158619799249396153
+      purple_running_animation_8: -8884156185306897236
       purple_running_animation_9: -1428285275940403539
   spritePackingTag: 
   pSDRemoveMatte: 0

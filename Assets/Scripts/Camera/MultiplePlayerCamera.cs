@@ -11,11 +11,6 @@ public class MultiplePlayerCamera : MonoBehaviour
 {
     public List<Transform> targets;
 
-    [SerializeField]
-    private float pixelsPerUnit = 32;
-    [SerializeField] // Uncomment if you want to watch scaling in the editor
-    private float pixelsPerUnitScale = 1;
-
     private int screenHeight;
 
     private float cameraSize;

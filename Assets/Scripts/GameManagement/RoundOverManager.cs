@@ -11,7 +11,7 @@ using System.Xml.Linq;
 public class RoundOverManager : MonoBehaviour
 {
     public bool isCasual = false;
-    PlayerConfiguration[] playerConfigs;
+    public PlayerConfiguration[] playerConfigs;
     public GameObject panel;
     public GameObject prefab;
     public GameObject confirmationButton;
@@ -29,7 +29,7 @@ public class RoundOverManager : MonoBehaviour
         for (int i = 0; i < playerConfigs.Length; i++)
         {
             if (playerConfigs[i].isAlive)
-            {
+            {           
                 AddScoreBoard();
                 UpdateScoreBoard(playerConfigs[i].playerScore, i, playerConfigs[i].playerIndex, true, playerConfigs[i].playerName, playerConfigs[i].playerSprite);
                 Debug.Log("Round Over");
@@ -58,13 +58,10 @@ public class RoundOverManager : MonoBehaviour
     public string LoadRandomLevel()
     {
         int random;
-        random = Random.Range(0, 1);
+        random = Random.Range(0, 2); 
         return sceneName[random];
     }
-    private void Update()
-    {
-        //Debug.Log(LoadRandomLevel());
-    }
+
     public void UpdateScoreBoard(int score, int boardInstance, int playerIndex, bool wasAlive, string playerName, Sprite playerIcon)
     {
 

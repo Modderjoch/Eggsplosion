@@ -90,6 +90,18 @@ public class PlayerConfigurationManager : MonoBehaviour
         if (playerConfigs.Count >= 1  && playerConfigs.All(p => p.isReady == true))
         {
             InputManager.DisableJoining();
+
+            AudioManager.Instance.Stop("MenuMusic");
+
+            if (AudioManager.Instance.IsSoundPlaying("GameMusic"))
+            {
+                return;
+            }
+            else
+            {
+                AudioManager.Instance.Play("GameMusic");
+            }
+
             SceneManager.LoadScene(LoadRandomLevel());
         }
     }

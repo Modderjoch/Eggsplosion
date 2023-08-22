@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7194240876123041080}
   - component: {fileID: 7194240876123041081}
+  - component: {fileID: 6093758151464220138}
   m_Layer: 0
   m_Name: OptionsManager
   m_TagString: Untagged
@@ -44,13 +45,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9005f7f4a56b224e94f950a6aa89eeb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dropDownMenuAudio: {fileID: 0}
-  dropDownMenuPostProcessing: {fileID: 0}
-  audioMixerGroups:
-  - {fileID: 24300002, guid: 420ea33e405207341997084075498e5a, type: 2}
-  - {fileID: 24300002, guid: 420ea33e405207341997084075498e5a, type: 2}
-  - {fileID: 24300002, guid: 420ea33e405207341997084075498e5a, type: 2}
-  postProcessProfiles:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  volumeSliders: []
+  audioMixer: {fileID: 24100000, guid: 420ea33e405207341997084075498e5a, type: 2}
+--- !u!114 &6093758151464220138
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7194240876123041082}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b01826d7674402e409f4434e789e5189, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  resolutions:
+  - {x: 1024, y: 768}
+  - {x: 1200, y: 720}
+  - {x: 1200, y: 800}
+  - {x: 1600, y: 1200}
+  - {x: 1920, y: 1080}
+  - {x: 1920, y: 1200}
+  - {x: 2560, y: 1600}
+  - {x: 2560, y: 1440}
+  setRes: 1
+  resolutionText: {fileID: 0}

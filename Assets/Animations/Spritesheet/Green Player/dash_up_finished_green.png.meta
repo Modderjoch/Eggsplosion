@@ -63,7 +63,7 @@ TextureImporter:
       213: -5200872309950289431
     second: dash_up_finished_green_19
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -123,15 +123,16 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 8192
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
-    crunchedCompression: 0
+    crunchedCompression: 1
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
@@ -174,6 +175,30 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Windows Store Apps
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
     maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
@@ -618,26 +643,26 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      dash_up_finished_green_9: -3898286922609010731
+      dash_up_finished_green_0: 2312545534186174399
+      dash_up_finished_green_1: 1800007938678239417
+      dash_up_finished_green_10: 9049310784905354917
+      dash_up_finished_green_11: 5041141994337769489
+      dash_up_finished_green_12: -2179900887565179140
+      dash_up_finished_green_13: 5070519837715211769
+      dash_up_finished_green_14: -4519088674482119107
       dash_up_finished_green_15: -5757085720122010640
       dash_up_finished_green_16: -1320779145836848113
-      dash_up_finished_green_2: -3672094454067603805
-      dash_up_finished_green_10: 9049310784905354917
-      dash_up_finished_green_3: -4099865658948252775
       dash_up_finished_green_17: 1214153628957272431
-      dash_up_finished_green_11: 5041141994337769489
-      dash_up_finished_green_13: 5070519837715211769
-      dash_up_finished_green_1: 1800007938678239417
-      dash_up_finished_green_6: -4020035206180876507
-      dash_up_finished_green_8: -3378380725672999677
-      dash_up_finished_green_0: 2312545534186174399
       dash_up_finished_green_18: 5394129464270851156
-      dash_up_finished_green_7: -6238009788837143716
-      dash_up_finished_green_14: -4519088674482119107
-      dash_up_finished_green_12: -2179900887565179140
-      dash_up_finished_green_5: 8827335356300935433
       dash_up_finished_green_19: -5200872309950289431
+      dash_up_finished_green_2: -3672094454067603805
+      dash_up_finished_green_3: -4099865658948252775
       dash_up_finished_green_4: 8708192953320769702
+      dash_up_finished_green_5: 8827335356300935433
+      dash_up_finished_green_6: -4020035206180876507
+      dash_up_finished_green_7: -6238009788837143716
+      dash_up_finished_green_8: -3378380725672999677
+      dash_up_finished_green_9: -3898286922609010731
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

@@ -1,180 +1,134 @@
+using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using System.IO;
 
 public class Options : MonoBehaviour
 {
-    private float currentRes = 0;
-    private bool fullscreen = true;
-    private bool windowed = false;
-    private bool borderless = false;
+    Resolution detectedResolution;
+    public Vector2[] resolutions;
+    public string[] screenModes;
+    public bool setRes = true;
+    private int resolutionIndex;
+    private int screenModeIndex;
+    public TextMeshProUGUI resolutionText;
+    public TextMeshProUGUI screenmodeText;
 
-    public void SetRes640x480()
+    private bool hasDetected = false;
+
+    private void Start()
     {
-        Debug.Log("SetRes 640x480");
-        if (fullscreen)
+        if (setRes)
         {
-            Screen.SetResolution(640, 480, true);
-            currentRes = 2;
+            resolutionIndex = PlayerPrefs.GetInt("ResolutionIndex", 2);
+            screenModeIndex = PlayerPrefs.GetInt("ScreenmodeIndex", 2);
+            SetResolution(resolutionIndex, screenModeIndex);
+            setRes = false;
         }
 
-        if (windowed)
-        {
-            Screen.SetResolution(640, 480, false);
-            currentRes = 2;
-        }
-
-        if (borderless)
-        {
-            Screen.SetResolution(640, 480, FullScreenMode.ExclusiveFullScreen);
-            currentRes = 2;
-        }
+        if (!hasDetected && !PlayerPrefs.HasKey("ResolutionIndex")) { SetDetectedResolution(); }
+        if (resolutionText != null) { resolutionText.text = resolutions[resolutionIndex].x + "x" + resolutions[resolutionIndex].y; }
+        if (screenmodeText != null) { screenmodeText.text = screenModes[screenModeIndex]; }
     }
 
-    public void SetRes1366x768()
+    private void SetResolution(int index, int modeIndex)
     {
-        Debug.Log("SetRes 1366x768");
-        if (fullscreen)
+        int width, height;
+
+        width = Mathf.RoundToInt(resolutions[index].x);
+        height = Mathf.RoundToInt(resolutions[index].y);
+
+        Screen.SetResolution(width, height, (FullScreenMode)modeIndex);
+
+        Debug.Log(Screen.currentResolution);
+        if (resolutionText != null)
         {
-            Screen.SetResolution(1366, 768, true);
-            currentRes = 1;
+            resolutionText.text = width + "x" + height;
         }
 
-        if (windowed)
-        {
-            Screen.SetResolution(1366, 768, false);
-            currentRes = 1;
-        }
-
-        if (borderless)
-        {
-            Screen.SetResolution(1366, 768, FullScreenMode.ExclusiveFullScreen);
-            currentRes = 1;
-        }
+        PlayerPrefs.Save();
     }
 
-    public void SetRes1920x1080()
+    public void IncreaseResolution()
     {
+        resolutionIndex = (resolutionIndex + 1) % (resolutions.Length);
+        Debug.Log("Increased index: " + resolutionIndex);
 
-        Debug.Log("SetRes 1920x1080");
-        if (fullscreen)
-        {
-            Screen.SetResolution(1920, 1080, true);
-            currentRes = 0;
-        }
-
-        if (windowed)
-        {
-            Screen.SetResolution(1920, 1080, false);
-            currentRes = 0;
-        }
-
-        if (borderless)
-        {
-            Screen.SetResolution(1920, 1080, FullScreenMode.ExclusiveFullScreen);
-            currentRes = 0;
-        }
+        PlayerPrefs.SetInt("ResolutionIndex", resolutionIndex);
+        SetResolution(resolutionIndex, screenModeIndex);
     }
 
-    public void Windowed()
+    public void DecreaseResolution()
     {
-        if (currentRes == 0)
+        resolutionIndex = (resolutionIndex - 1 + (resolutions.Length)) % (resolutions.Length);
+        Debug.Log("Decreased index: " + resolutionIndex);
+
+        PlayerPrefs.SetInt("ResolutionIndex", resolutionIndex);
+        SetResolution(resolutionIndex, screenModeIndex);
+    }
+
+    public void SwitchScreenMode(int mode)
+    {
+        screenModeIndex = mode;
+        screenmodeText.text = screenModes[mode];
+
+        PlayerPrefs.SetInt("ScreenmodeIndex", mode);
+        SetResolution(resolutionIndex, mode);
+    }
+
+    private void SetDetectedResolution()
+    {
+        detectedResolution = Screen.currentResolution;
+        Debug.Log("Current resolution is: " + detectedResolution);
+
+        Screen.SetResolution(detectedResolution.width, detectedResolution.height, (FullScreenMode)screenModeIndex);
+
+        Vector2 detectedRes = new Vector2(detectedResolution.width, detectedResolution.height);
+        CheckResolution(detectedRes);
+
+        hasDetected = true;
+    }
+
+    private void CheckResolution(Vector2 detectedResolution)
+    {
+        for (int i = 0; i < resolutions.Length; i++)
         {
-            Screen.SetResolution(1920, 1080, false);
-            windowed = true;
-            fullscreen = false;
-            borderless = false;
-            Debug.Log("SetRes 1920x1080, windowed");
-        }
-        else
-        {
-            if (currentRes == 1)
+            Vector2 resolution = resolutions[i];
+            if (detectedResolution == resolution)
             {
-                Screen.SetResolution(1366, 768, false);
-                windowed = true;
-                fullscreen = false;
-                borderless = false;
-                Debug.Log("SetRes 1366x768, windowed");
-            }
-            else
-            {
-                if (currentRes == 2)
-                {
-                    Screen.SetResolution(640, 480, false);
-                    windowed = true;
-                    fullscreen = false;
-                    borderless = false;
-                    Debug.Log("SetRes 640x480, windowed");
-                }
+                Debug.Log("Detected resolution matches preset: " + resolution);
+                Debug.Log("Index of matched preset: " + i);
+                PlayerPrefs.SetInt("ResolutionIndex", i);
+                // Do something specific for this resolution
+                break;
             }
         }
     }
 
-    public void Borderless()
+    public void NextMode()
     {
-        if (currentRes == 0)
+        screenModeIndex = (screenModeIndex + 1) % (screenModes.Length);
+        if (screenModeIndex == 1)
         {
-            Screen.SetResolution(1920, 1080, FullScreenMode.ExclusiveFullScreen);
-            borderless = true;
-            fullscreen = false;
-            windowed = false;
-            Debug.Log("SetRes 1920x1080, borderless");
+            screenModeIndex++;
         }
-        else
-        {
-            if (currentRes == 1)
-            {
-                Screen.SetResolution(1366, 768, FullScreenMode.ExclusiveFullScreen);
-                borderless = true;
-                fullscreen = false;
-                windowed = false;
-                Debug.Log("SetRes 1366x768, borderless");
-            }
-            else
-            {
-                if (currentRes == 2)
-                {
-                    Screen.SetResolution(640, 480, FullScreenMode.ExclusiveFullScreen);
-                    borderless = true;
-                    fullscreen = false;
-                    windowed = false;
-                    Debug.Log("SetRes 640x480, borderless");
-                }
-            }
-        }
+
+        Debug.Log("Increased index: " + screenModeIndex);
+        SwitchScreenMode(screenModeIndex);
     }
 
-    public void Fullscreen()
+
+    public void LastMode()
     {
-        if (currentRes == 0)
+        screenModeIndex = (screenModeIndex - 1 + screenModes.Length) % (screenModes.Length);
+        if (screenModeIndex == 1)
         {
-            Screen.SetResolution(1920, 1080, true);
-            fullscreen = true;
-            borderless = false;
-            windowed = false;
-            Debug.Log("SetRes 1920x1080, fullscreen");
+            screenModeIndex--;
         }
-        else
-        {
-            if (currentRes == 1)
-            {
-                Screen.SetResolution(1366, 768, true);
-                fullscreen = true;
-                borderless = false;
-                windowed = false;
-                Debug.Log("SetRes 1366x768, fullscreen");
-            }
-            else
-            {
-                if (currentRes == 2)
-                {
-                    Screen.SetResolution(640, 480, true);
-                    fullscreen = true;
-                    borderless = false;
-                    windowed = false;
-                    Debug.Log("SetRes 640x480, fullscreen");
-                }
-            }
-        }
+
+        Debug.Log("Decreased index: " + screenModeIndex);
+
+        SwitchScreenMode(screenModeIndex);
     }
 }

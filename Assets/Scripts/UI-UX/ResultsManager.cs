@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class ResultsManager : MonoBehaviour
 {
-    PlayerConfiguration[] playerConfigs;
+    public PlayerConfiguration[] playerConfigs;
     public GameObject canvas;
     public GameObject prefab;
     List<HighScoreEntry> highScores;
@@ -66,6 +66,17 @@ public class ResultsManager : MonoBehaviour
     {
         GameObject configManager = GameObject.FindGameObjectWithTag("GameController");
         Destroy(configManager);
+        AudioManager.Instance.Stop("GameMusic");
+
+        if (AudioManager.Instance.IsSoundPlaying("MenuMusic"))
+        {
+            return;
+        }
+        else
+        {
+            AudioManager.Instance.Play("MenuMusic");
+        }
+
         SceneManager.LoadScene("MainMenu");
     }
 }
