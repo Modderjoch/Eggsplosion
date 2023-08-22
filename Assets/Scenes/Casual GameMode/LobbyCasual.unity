@@ -1396,6 +1396,10 @@ PrefabInstance:
       value: CasualSetup
       objectReference: {fileID: 0}
     - target: {fileID: 832986002316090046, guid: 2e1c0c05460761449a1bbcaa67a01958, type: 3}
+      propertyPath: sceneName.Array.data[1]
+      value: Supermarket_FFACasual
+      objectReference: {fileID: 0}
+    - target: {fileID: 832986002316090046, guid: 2e1c0c05460761449a1bbcaa67a01958, type: 3}
       propertyPath: sceneName.Array.data[2]
       value: LevelDesign1
       objectReference: {fileID: 0}

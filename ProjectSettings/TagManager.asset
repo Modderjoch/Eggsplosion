@@ -56,6 +56,9 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Grass
+    uniqueID: 2387639697
+    locked: 0
   - name: Background
     uniqueID: 1494769739
     locked: 0
