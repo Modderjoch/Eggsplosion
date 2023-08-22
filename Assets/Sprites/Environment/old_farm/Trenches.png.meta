@@ -3,7 +3,7 @@ guid: 3ee2a2be80137cf4bbe788a0591b7cee
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -63,6 +63,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -402,18 +403,18 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+      Trenches_0: 322919577
+      Trenches_1: -903126982
+      Trenches_10: -517857941
+      Trenches_11: 1819074785
+      Trenches_2: 1046235691
+      Trenches_3: 92454138
       Trenches_4: 1626374732
       Trenches_5: -253321848
-      Trenches_7: -1992856151
       Trenches_6: 43654421
+      Trenches_7: -1992856151
       Trenches_8: 1565401598
-      Trenches_11: 1819074785
-      Trenches_1: -903126982
       Trenches_9: -2012227330
-      Trenches_0: 322919577
-      Trenches_10: -517857941
-      Trenches_3: 92454138
-      Trenches_2: 1046235691
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
