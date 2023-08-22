@@ -84,7 +84,7 @@ public class XMLManager : MonoBehaviour
 
     public List<HighScoreEntry> LoadScores()
     {
-        if (File.Exists(Application.dataPath + "/Saves/highscores.xml"))
+        if (File.Exists(Application.dataPath + "/Saves/leaderboard.xml"))
         {
             XmlSerializer serializer = new XmlSerializer(typeof(Leaderboard));
             FileStream stream = new FileStream(Application.dataPath + "/Saves/leaderboard.xml", FileMode.Open);
@@ -94,7 +94,7 @@ public class XMLManager : MonoBehaviour
         return leaderboard.list;
     }
 
-    public void clearSaveFile()
+    public void ClearSaveFile()
     {
         HighScoreEntry entry = new HighScoreEntry();
         entry.playerName = "empty";

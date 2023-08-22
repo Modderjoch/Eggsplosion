@@ -3,7 +3,7 @@ guid: f2b2fe30828f4c44d9f4fefdcd2a0b6b
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -63,15 +63,16 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 8192
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
-    crunchedCompression: 0
+    crunchedCompression: 1
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
@@ -126,6 +127,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Server
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
     maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
@@ -717,33 +730,33 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      bomb_vest_running_green_right_8: 839911358
+      bomb_vest_running_green_right_0: 1985931902
       bomb_vest_running_green_right_1: -18244118
       bomb_vest_running_green_right_10: -392814621
-      bomb_vest_running_green_right_16: -1708830053
-      bomb_vest_running_green_right_15: 1001886120
+      bomb_vest_running_green_right_11: 1620402301
+      bomb_vest_running_green_right_12: -1281959845
+      bomb_vest_running_green_right_13: 787160994
       bomb_vest_running_green_right_14: 84037438
-      bomb_vest_running_green_right_23: -506366832
+      bomb_vest_running_green_right_15: 1001886120
+      bomb_vest_running_green_right_16: -1708830053
+      bomb_vest_running_green_right_17: 377865657
+      bomb_vest_running_green_right_18: -883119006
       bomb_vest_running_green_right_19: -371151373
       bomb_vest_running_green_right_2: 2128115605
-      bomb_vest_running_green_right_18: -883119006
-      bomb_vest_running_green_right_3: 971563926
-      bomb_vest_running_green_right_9: -979386818
-      bomb_vest_running_green_right_4: 1957388451
-      bomb_vest_running_green_right_6: -1687219789
       bomb_vest_running_green_right_20: -1350593138
-      bomb_vest_running_green_right_5: 1863769029
-      bomb_vest_running_green_right_11: 1620402301
-      bomb_vest_running_green_right_17: 377865657
-      bomb_vest_running_green_right_22: -1249674568
-      bomb_vest_running_green_right_0: 1985931902
-      bomb_vest_running_green_right_13: 787160994
-      bomb_vest_running_green_right_25: 1207024087
-      bomb_vest_running_green_right_7: -599353562
-      bomb_vest_running_green_right_24: -843696267
-      bomb_vest_running_green_right_26: -1293300738
       bomb_vest_running_green_right_21: -641665090
-      bomb_vest_running_green_right_12: -1281959845
+      bomb_vest_running_green_right_22: -1249674568
+      bomb_vest_running_green_right_23: -506366832
+      bomb_vest_running_green_right_24: -843696267
+      bomb_vest_running_green_right_25: 1207024087
+      bomb_vest_running_green_right_26: -1293300738
+      bomb_vest_running_green_right_3: 971563926
+      bomb_vest_running_green_right_4: 1957388451
+      bomb_vest_running_green_right_5: 1863769029
+      bomb_vest_running_green_right_6: -1687219789
+      bomb_vest_running_green_right_7: -599353562
+      bomb_vest_running_green_right_8: 839911358
+      bomb_vest_running_green_right_9: -979386818
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

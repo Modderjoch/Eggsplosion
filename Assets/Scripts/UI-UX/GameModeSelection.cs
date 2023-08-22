@@ -83,7 +83,7 @@ public class GameModeSelection : MonoBehaviour, ISelectHandler, IDeselectHandler
 
     public void OnCancel(BaseEventData eventData)
     {
-        eventData.selectedObject = backButton;
+        Debug.Log("Cancel");
     }
 
     public void OnDeselect(BaseEventData eventData)
@@ -93,7 +93,7 @@ public class GameModeSelection : MonoBehaviour, ISelectHandler, IDeselectHandler
 
     public void LoadLevelOne()
     {
-        SceneManager.LoadScene(level);
-        FindObjectOfType<AudioManager>().Play("MenuClick");
+        AudioManager.Instance.Play("MenuClick");
+        SceneManager.LoadScene(level);        
     }
 }

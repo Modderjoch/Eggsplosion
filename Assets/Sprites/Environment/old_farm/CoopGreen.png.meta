@@ -3,7 +3,7 @@ guid: 4210320b48141ed48ba5cd479aa4dca9
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -63,6 +63,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -71,7 +72,7 @@ TextureImporter:
     textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
-    crunchedCompression: 0
+    crunchedCompression: 1
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
@@ -126,6 +127,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Server
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
     maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
@@ -381,17 +394,17 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      CoopGreen_1: 694709922
-      CoopGreen_5: 224615121
-      CoopGreen_10: -1351643124
-      CoopGreen_9: 1070961281
       CoopGreen_0: -1780385358
-      CoopGreen_4: 130061624
-      CoopGreen_8: 2099892686
+      CoopGreen_1: 694709922
+      CoopGreen_10: -1351643124
       CoopGreen_2: -1972642846
-      CoopGreen_7: -76596088
-      CoopGreen_6: 2023661487
       CoopGreen_3: 1200538250
+      CoopGreen_4: 130061624
+      CoopGreen_5: 224615121
+      CoopGreen_6: 2023661487
+      CoopGreen_7: -76596088
+      CoopGreen_8: 2099892686
+      CoopGreen_9: 1070961281
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

@@ -3,7 +3,7 @@ guid: 1bd650dac3dee674ca672b236da0437c
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -63,15 +63,16 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 8192
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
-    crunchedCompression: 0
+    crunchedCompression: 1
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
@@ -126,6 +127,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Server
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
     maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
@@ -717,33 +730,33 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      bomb_vest_running_blue_18: -1420967846
-      bomb_vest_running_blue_11: 1761883736
-      bomb_vest_running_blue_19: -615138252
-      bomb_vest_running_blue_4: 2119257717
-      bomb_vest_running_blue_26: -1883117948
-      bomb_vest_running_blue_12: -1950018147
-      bomb_vest_running_blue_16: 1553140286
-      bomb_vest_running_blue_2: -249702392
-      bomb_vest_running_blue_13: -1342103614
-      bomb_vest_running_blue_15: 535571103
-      bomb_vest_running_blue_21: -856171658
-      bomb_vest_running_blue_22: 494756187
-      bomb_vest_running_blue_10: -1890629488
-      bomb_vest_running_blue_8: -564814196
-      bomb_vest_running_blue_23: 963224381
-      bomb_vest_running_blue_24: -98147204
-      bomb_vest_running_blue_6: -1243540493
-      bomb_vest_running_blue_7: -1662178403
-      bomb_vest_running_blue_20: -590033874
-      bomb_vest_running_blue_17: -189818382
-      bomb_vest_running_blue_3: 184346669
-      bomb_vest_running_blue_5: -993164173
-      bomb_vest_running_blue_25: -1170550530
       bomb_vest_running_blue_0: -1581146981
       bomb_vest_running_blue_1: -1859960274
-      bomb_vest_running_blue_9: -102847416
+      bomb_vest_running_blue_10: -1890629488
+      bomb_vest_running_blue_11: 1761883736
+      bomb_vest_running_blue_12: -1950018147
+      bomb_vest_running_blue_13: -1342103614
       bomb_vest_running_blue_14: 190986728
+      bomb_vest_running_blue_15: 535571103
+      bomb_vest_running_blue_16: 1553140286
+      bomb_vest_running_blue_17: -189818382
+      bomb_vest_running_blue_18: -1420967846
+      bomb_vest_running_blue_19: -615138252
+      bomb_vest_running_blue_2: -249702392
+      bomb_vest_running_blue_20: -590033874
+      bomb_vest_running_blue_21: -856171658
+      bomb_vest_running_blue_22: 494756187
+      bomb_vest_running_blue_23: 963224381
+      bomb_vest_running_blue_24: -98147204
+      bomb_vest_running_blue_25: -1170550530
+      bomb_vest_running_blue_26: -1883117948
+      bomb_vest_running_blue_3: 184346669
+      bomb_vest_running_blue_4: 2119257717
+      bomb_vest_running_blue_5: -993164173
+      bomb_vest_running_blue_6: -1243540493
+      bomb_vest_running_blue_7: -1662178403
+      bomb_vest_running_blue_8: -564814196
+      bomb_vest_running_blue_9: -102847416
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

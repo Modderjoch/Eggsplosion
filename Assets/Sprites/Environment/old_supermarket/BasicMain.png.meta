@@ -36,7 +36,7 @@ TextureImporter:
       213: -7392777135818535358
     second: BasicMain_10
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -96,15 +96,16 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 512
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 2
     compressionQuality: 50
-    crunchedCompression: 0
+    crunchedCompression: 1
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
@@ -151,6 +152,30 @@ TextureImporter:
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -402,17 +427,17 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      BasicMain_8: 8911772239248095931
-      BasicMain_10: -7392777135818535358
       BasicMain_0: 86437912507993895
-      BasicMain_6: -4510591696898414811
       BasicMain_1: -3103691020860556384
-      BasicMain_9: 806055740898633719
-      BasicMain_3: 1496628643134065807
-      BasicMain_5: 202445522238742855
-      BasicMain_7: 7287184237636589781
+      BasicMain_10: -7392777135818535358
       BasicMain_2: -6126488282047257992
+      BasicMain_3: 1496628643134065807
       BasicMain_4: -7957037190367088993
+      BasicMain_5: 202445522238742855
+      BasicMain_6: -4510591696898414811
+      BasicMain_7: 7287184237636589781
+      BasicMain_8: 8911772239248095931
+      BasicMain_9: 806055740898633719
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

@@ -33,7 +33,7 @@ TextureImporter:
       213: -770085999610211449
     second: dash_animation_concept_SH_white_9
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -93,10 +93,11 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 8192
+    maxTextureSize: 512
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -156,6 +157,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: WebGL
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
@@ -390,16 +403,16 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+      dash_animation_concept_SH_white_0: -791577312614777200
       dash_animation_concept_SH_white_1: -3478195448073810794
-      dash_animation_concept_SH_white_6: -6659588341243541268
-      dash_animation_concept_SH_white_5: 7438857882099414617
-      dash_animation_concept_SH_white_9: -770085999610211449
       dash_animation_concept_SH_white_2: -3132299467911725447
-      dash_animation_concept_SH_white_8: -4033671372483716203
       dash_animation_concept_SH_white_3: 6502094094826158554
       dash_animation_concept_SH_white_4: -7686653515480805343
-      dash_animation_concept_SH_white_0: -791577312614777200
+      dash_animation_concept_SH_white_5: 7438857882099414617
+      dash_animation_concept_SH_white_6: -6659588341243541268
       dash_animation_concept_SH_white_7: 2798949129739018268
+      dash_animation_concept_SH_white_8: -4033671372483716203
+      dash_animation_concept_SH_white_9: -770085999610211449
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

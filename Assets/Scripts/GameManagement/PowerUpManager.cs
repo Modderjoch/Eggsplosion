@@ -20,7 +20,7 @@ public class PowerUpManager : MonoBehaviour
     private int lastSpawnPoint;
 
     private float timer;
-    private float amount;
+
     private void Awake()
     {
         //powerUps = new List<GameObject>();
@@ -50,7 +50,6 @@ public class PowerUpManager : MonoBehaviour
         {
             timers[i] = individualTimer;
         }
-        amount = 1;
     }
     public void WaitForSpawn()
     {

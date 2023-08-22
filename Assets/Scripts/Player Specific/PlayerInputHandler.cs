@@ -96,7 +96,7 @@ public class PlayerInputHandler : MonoBehaviour
     public void OnAim(CallbackContext context)
     {
         if (aimer != null)
-            aimer.SetInputVector(context.ReadValue<Vector2>());
+        aimer.Aim(context);
         if (context.canceled)
         {
             aimer.SetAimingBool(true);

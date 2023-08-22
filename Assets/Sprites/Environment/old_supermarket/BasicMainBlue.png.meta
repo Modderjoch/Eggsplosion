@@ -36,7 +36,7 @@ TextureImporter:
       213: 2607145665280504422
     second: BasicMainBlue_10
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -96,15 +96,16 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 8192
+    maxTextureSize: 512
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
-    crunchedCompression: 0
+    crunchedCompression: 1
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
@@ -147,6 +148,30 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Windows Store Apps
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
     maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
@@ -403,16 +428,16 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       BasicMainBlue_0: 1023021989977592120
-      BasicMainBlue_3: -8629098100651956765
-      BasicMainBlue_5: -5066484216019758130
-      BasicMainBlue_9: -7886777525639225463
       BasicMainBlue_1: 8293697317607734036
-      BasicMainBlue_8: -1256501712197397014
+      BasicMainBlue_10: 2607145665280504422
+      BasicMainBlue_2: 7146696549740238451
+      BasicMainBlue_3: -8629098100651956765
       BasicMainBlue_4: 5251557985806254793
+      BasicMainBlue_5: -5066484216019758130
       BasicMainBlue_6: 2149034012524654179
       BasicMainBlue_7: 3866200258034585521
-      BasicMainBlue_2: 7146696549740238451
-      BasicMainBlue_10: 2607145665280504422
+      BasicMainBlue_8: -1256501712197397014
+      BasicMainBlue_9: -7886777525639225463
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

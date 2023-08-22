@@ -33,7 +33,7 @@ TextureImporter:
       213: -5746778515540445201
     second: horizontal_dash_blue_SH_Left_9
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -93,15 +93,16 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 8192
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
-    crunchedCompression: 0
+    crunchedCompression: 1
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
@@ -144,6 +145,30 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Windows Store Apps
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
     maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
@@ -378,16 +403,16 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      horizontal_dash_blue_SH_Left_3: -5003323252869790271
-      horizontal_dash_blue_SH_Left_9: -5746778515540445201
-      horizontal_dash_blue_SH_Left_6: -474428969485058062
-      horizontal_dash_blue_SH_Left_5: -8581239347155006043
-      horizontal_dash_blue_SH_Left_8: 9066431543587804909
-      horizontal_dash_blue_SH_Left_4: -8125867271338411622
       horizontal_dash_blue_SH_Left_0: -4088498517570299722
-      horizontal_dash_blue_SH_Left_2: 4118361843916940252
-      horizontal_dash_blue_SH_Left_7: -3924542322589748615
       horizontal_dash_blue_SH_Left_1: -5421713678142662713
+      horizontal_dash_blue_SH_Left_2: 4118361843916940252
+      horizontal_dash_blue_SH_Left_3: -5003323252869790271
+      horizontal_dash_blue_SH_Left_4: -8125867271338411622
+      horizontal_dash_blue_SH_Left_5: -8581239347155006043
+      horizontal_dash_blue_SH_Left_6: -474428969485058062
+      horizontal_dash_blue_SH_Left_7: -3924542322589748615
+      horizontal_dash_blue_SH_Left_8: 9066431543587804909
+      horizontal_dash_blue_SH_Left_9: -5746778515540445201
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
