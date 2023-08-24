@@ -13,17 +13,18 @@ public class LeaderBoardManagerSteam : MonoBehaviour
     private List<HighScoreEntry> highScores = new List<HighScoreEntry>();
     private List<HighScoreEntry> bestScores = new List<HighScoreEntry>();
 
-    private List<GameObject> textObjects = new List<GameObject>();
+    public List<GameObject> textObjects = new List<GameObject>();
 
     private int numberOfBoards;
 
-    public RawImage img;
 
     // 
     private SteamLeaderboard_t s_currentLeaderboard;
     private bool s_initialized = false;
     private CallResult<LeaderboardFindResult_t> m_findResult = new CallResult<LeaderboardFindResult_t>();
     private CallResult<LeaderboardScoresDownloaded_t> m_downloadResult = new CallResult<LeaderboardScoresDownloaded_t>();
+
+    private static List<CallResult<LeaderboardFindResult_t>> m_findResult_list = new List<CallResult<LeaderboardFindResult_t>>();
 
     private Callback<AvatarImageLoaded_t> m_avatarImageLoaded;
 
@@ -32,17 +33,15 @@ public class LeaderBoardManagerSteam : MonoBehaviour
     private ulong steamdId;
 
     private int entries = 5;
+
+    public bool isGlobal;
+    public bool isKillBoard;
+    public string leaderBoardNameSet = "";
+
     private void Awake()
     {
-    //    SteamAPICall_t hSteamAPICall = SteamUserStats.FindLeaderboard("All Time Kills");
-    //    m_findResult.Set(hSteamAPICall, OnLeaderboardFindResult);
-        
+        //FindLeaderBoard(leaderBoardNameSet);
     }
-
-    //public override void OnStartClient()
-    //{
-    //    m_avatarImageLoaded = Callback<AvatarImageLoaded_t>.Create(OnAvatarImageLoaded);
-    //}
     private void OnLeaderboardFindResult(LeaderboardFindResult_t pCallback, bool failure)
     {
         Debug.Log($"Steam Leaderboard Find: Did it fail? {failure}, Found: {pCallback.m_bLeaderboardFound}, leaderboardID: {pCallback.m_hSteamLeaderboard.m_SteamLeaderboard}");
@@ -51,6 +50,7 @@ public class LeaderBoardManagerSteam : MonoBehaviour
     }
     public void GetLeaderBoardData(ELeaderboardDataRequest _type = ELeaderboardDataRequest.k_ELeaderboardDataRequestGlobal, int entries = 5)
     {
+        Debug.Log("getting data!");
         SteamAPICall_t hSteamAPICall;
         switch (_type)
         {
@@ -95,8 +95,11 @@ public class LeaderBoardManagerSteam : MonoBehaviour
           
             Debug.Log($"User: {lD.playerName} - Score: {lD.score} - Rank: {lD.rank}");
             LeaderboardDataset.Add( lD );
-        }
 
+            SortSteamScores();
+            InitiateLeaderBoard();
+        }
+        
     }
 
     private void OnAvatarImageLoaded(AvatarImageLoaded_t callback)
@@ -131,67 +134,90 @@ public class LeaderBoardManagerSteam : MonoBehaviour
     }
     private void Start()
     {
-        //GetLeaderBoardData(ELeaderboardDataRequest.k_ELeaderboardDataRequestGlobal, entries);
-        //SortSteamScores();
-        //InitiateLeaderboard();
+        if (!isGlobal)
+        {
+            StartBoardFriends(leaderBoardNameSet);
+            Invoke("MakeBoard", 1f);
+        }
+        else if (isGlobal)
+        {
+            StartBoard(leaderBoardNameSet);
+            Invoke("MakeBoard", 1f);
+        }
     }
-    public void StartBoard()
+
+    public void SetLeaderBoardName(string nameToSet)
+    {
+        leaderBoardNameSet = nameToSet;
+    }
+
+    public void StartBoard(string leaderboardName)
     {
 
-        SteamAPICall_t hSteamAPICall = SteamUserStats.FindLeaderboard("All Time Kills");
-        m_findResult.Set(hSteamAPICall, OnLeaderboardFindResult);
+        FindLeaderBoard(leaderboardName);
 
-        GetLeaderBoardData(ELeaderboardDataRequest.k_ELeaderboardDataRequestGlobal, entries);
         GetLeaderBoardData(ELeaderboardDataRequest.k_ELeaderboardDataRequestGlobal, entries);
     }
 
+    public void StartBoardFriends(string leaderboardName)
+    {
+
+        FindLeaderBoard(leaderboardName);
+
+        GetLeaderBoardData(ELeaderboardDataRequest.k_ELeaderboardDataRequestFriends, entries);
+    }
+
+    public void FindLeaderBoard(string leaderboardName)
+    {
+        SteamAPICall_t hsteamAPICall = SteamUserStats.FindLeaderboard(leaderboardName);
+        CallResult<LeaderboardFindResult_t> findResult = new CallResult<LeaderboardFindResult_t>();
+        findResult.Set(hsteamAPICall, OnLeaderboardFindResult);
+
+        m_findResult_list.Add(findResult);
+    }
     public void MakeBoard()
     {
-        SortSteamScores();
-        InitiateLeaderBoardKills();
+        //SortSteamScores();
+        InitiateLeaderBoard();
     }
 
     public void SortSteamScores()
     {
-        
-        bestScores = LeaderboardDataset.OrderByDescending(s => s.rank).Take(entries).ToList();
+        Debug.Log("sorting Scores");
+        bestScores = LeaderboardDataset.OrderByDescending(s => s.score).Take(entries).ToList();
         Debug.Log(bestScores.Count);
     }
 
-    public void InitiateLeaderBoardKills()
+    public void InitiateLeaderBoard()
     {
+        Debug.Log(bestScores.Count);
         for (int i = 0; i < bestScores.Count; i++)
         {
             Debug.Log("CheckingScores");
+            
             AddScoreBoard();
-            UpdateScoreBoard(bestScores[i].score, i, bestScores[i].playerName, bestScores[i].steamIconTexture, true);
+            UpdateScoreBoard(bestScores[i].score, i, bestScores[i].playerName, bestScores[i].steamIconTexture);
         }
     }
 
-    public void InitiateLeaderBoardRounds()
-    {
-        for (int i = 0; i < bestScores.Count; i++)
-        {
-            Debug.Log("CheckingScores");
-            AddScoreBoard();
-            UpdateScoreBoard(bestScores[i].score, i, bestScores[i].playerName, bestScores[i].steamIconTexture, false);
-        }
-    }
 
     public void AddScoreBoard()
     {
-        Debug.Log("Added");
-        var board = Instantiate(scoreText, new Vector3(Panel.transform.position.x, Panel.transform.position.y - (7 * (Screen.height/100) * numberOfBoards), Panel.transform.position.z), Panel.transform.rotation, Panel.transform);
-        textObjects.Add(board);
-        numberOfBoards++;
+        if (numberOfBoards <= 4)
+        {
+            Debug.Log("Added");
+            var board = Instantiate(scoreText, new Vector3(Panel.transform.position.x, Panel.transform.position.y - (7 * (Screen.height / 100) * numberOfBoards), Panel.transform.position.z), Panel.transform.rotation, Panel.transform);
+            textObjects.Add(board);
+            numberOfBoards++;
+        }
     }
-    public void UpdateScoreBoard(int score, int boardInstance, string playerName, Texture2D Img, bool isKillboard)
+    public void UpdateScoreBoard(int score, int boardInstance, string playerName, Texture2D Img)
     {
         Debug.Log("Updated");
         textObjects[boardInstance].GetComponent<LeaderBoardPanel>().playerName = playerName;
         textObjects[boardInstance].GetComponent<LeaderBoardPanel>().playerScore = score;  
         textObjects[boardInstance].GetComponent<LeaderBoardPanel>().isSteam = true;
-        textObjects[boardInstance].GetComponent<LeaderBoardPanel>().isKillBoard = isKillboard;
+        textObjects[boardInstance].GetComponent<LeaderBoardPanel>().isKillBoard = isKillBoard;
         textObjects[boardInstance].GetComponent<LeaderBoardPanel>().steamIcon.texture = Img;
 
     }
@@ -221,6 +247,6 @@ public class LeaderBoardManagerSteam : MonoBehaviour
 
         ClearLeaderBoard();
         XMLManager.instance.ClearSaveFile();
-        InitiateLeaderBoardKills();
+        InitiateLeaderBoard();
     }
 }
