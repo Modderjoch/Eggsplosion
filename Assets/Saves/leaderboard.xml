@@ -21,5 +21,10 @@
       <playerName>Modderjoch</playerName>
       <playerIcon>0</playerIcon>
     </HighScoreEntry>
+    <HighScoreEntry>
+      <score>10</score>
+      <playerName />
+      <playerIcon>0</playerIcon>
+    </HighScoreEntry>
   </list>
 </Leaderboard>
