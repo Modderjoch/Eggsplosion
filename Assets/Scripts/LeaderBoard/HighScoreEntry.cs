@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Xml.Serialization;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -10,5 +11,7 @@ public class HighScoreEntry
     public string playerName;
     public int playerIcon;
     public int rank;
+
+    [XmlIgnore]
     public Texture2D steamIconTexture;
 }

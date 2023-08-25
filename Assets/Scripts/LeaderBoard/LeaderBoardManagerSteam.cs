@@ -10,6 +10,7 @@ public class LeaderBoardManagerSteam : MonoBehaviour
 {
     public GameObject scoreText;
     public GameObject Panel;
+    public GameObject localPanel;
     private List<HighScoreEntry> highScores = new List<HighScoreEntry>();
     private List<HighScoreEntry> bestScores = new List<HighScoreEntry>();
 
@@ -153,10 +154,14 @@ public class LeaderBoardManagerSteam : MonoBehaviour
 
     public void StartBoard(string leaderboardName)
     {
-
         FindLeaderBoard(leaderboardName);
 
         GetLeaderBoardData(ELeaderboardDataRequest.k_ELeaderboardDataRequestGlobal, entries);
+    }
+
+    public void ClearLeaderboard()
+    {
+        while (Panel.transform.childCount > 0) { DestroyImmediate(Panel.transform.GetChild(0).gameObject); }
     }
 
     public void StartBoardFriends(string leaderboardName)
@@ -198,6 +203,17 @@ public class LeaderBoardManagerSteam : MonoBehaviour
             AddScoreBoard();
             UpdateScoreBoard(bestScores[i].score, i, bestScores[i].playerName, bestScores[i].steamIconTexture);
         }
+    }
+
+    public void ClearExisting()
+    {
+        while (Panel.transform.childCount > 0) { DestroyImmediate(Panel.transform.GetChild(0).gameObject); }
+        while (localPanel.transform.childCount > 0) { DestroyImmediate(localPanel.transform.GetChild(0).gameObject); }
+        m_downloadResult = new CallResult<LeaderboardScoresDownloaded_t>();
+        m_findResult_list.Clear();
+        textObjects.Clear();
+        bestScores.Clear();
+        numberOfBoards = 0;
     }
 
 

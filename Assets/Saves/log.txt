@@ -18290,3 +18290,5 @@ k_ESteamInputType_Unknown connected on: 28.60506controller is nr: 0
 k_ESteamInputType_Unknown connected on: 28.61375controller is nr: 0
 k_ESteamInputType_Unknown connected on: 28.61375controller is nr: 0
 k_ESteamInputType_Unknown connected on: 28.62146controller is nr: 0
+k_ESteamInputType_Unknown connected on: 14,73198controller is nr: 0
+k_ESteamInputType_Unknown connected on: 17,51938controller is nr: 0

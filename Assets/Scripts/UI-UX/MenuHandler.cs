@@ -7,6 +7,7 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
+using UnityEngine.SceneManagement;
 
 public class MenuHandler : MonoBehaviour
 {
@@ -14,6 +15,8 @@ public class MenuHandler : MonoBehaviour
     [SerializeField] private GameObject leaderButton;
     [SerializeField] private GameObject leaderOpen;
     [SerializeField] private GameObject leaderClose;
+    [SerializeField] private GameObject leaderNext;
+    [SerializeField] private GameObject leaderPrevious;
 
     [SerializeField] private GameObject inGameCanvas;
     [SerializeField] private GameObject inGameContinue;
@@ -143,28 +146,56 @@ public class MenuHandler : MonoBehaviour
     {
         DetectInputDevice();
 
-        if (GameObject.Find("AddRound") != null)
+        if(SceneManager.GetActiveScene().name == "MainMenu")
         {
-            GameObject.Find("AddRound").GetComponent<Button>().onClick.Invoke();
+            if (leaderNext != null)
+            {
+                leaderNext.GetComponent<Button>().onClick.Invoke();
+            }
+            else
+            {
+                Debug.Log("No next leaderboard button found");
+            }
         }
         else
         {
-            Debug.Log("No add round button found");
-        }
+            if (GameObject.Find("AddRound") != null)
+            {
+                GameObject.Find("AddRound").GetComponent<Button>().onClick.Invoke();
+            }
+            else
+            {
+                Debug.Log("No add round button found");
+            }
+        }        
     }
 
     public void SubtractRound()
     {
         DetectInputDevice();
 
-        if (GameObject.Find("SubtractRound") != null)
+        if (SceneManager.GetActiveScene().name == "MainMenu")
         {
-            GameObject.Find("SubtractRound").GetComponent<Button>().onClick.Invoke();
+            if (leaderPrevious != null)
+            {
+                leaderPrevious.GetComponent<Button>().onClick.Invoke();
+            }
+            else
+            {
+                Debug.Log("No next leaderboard button found");
+            }
         }
         else
         {
-            Debug.Log("No subtract round button found");
-        }
+            if (GameObject.Find("SubtractRound") != null)
+            {
+                GameObject.Find("SubtractRound").GetComponent<Button>().onClick.Invoke();
+            }
+            else
+            {
+                Debug.Log("No subtract round button found");
+            }
+        }        
     }
 
     public void ClickSound()
