@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028352, g: 0.22571376, b: 0.30692244, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -454,6 +454,7 @@ MonoBehaviour:
   sceneName:
   - Supermarket_FFA
   - Farm Level
+  - Truck_FFA
 --- !u!4 &526134818
 Transform:
   m_ObjectHideFlags: 0
@@ -805,7 +806,7 @@ MonoBehaviour:
   m_MoveRepeatRate: 0.1
   m_XRTrackingOrigin: {fileID: 0}
   m_ActionsAsset: {fileID: -944628639613478452, guid: b68f26f24f3cf7946b0e550666c3ced6, type: 3}
-  m_PointAction: {fileID: -1654692200621890270, guid: b68f26f24f3cf7946b0e550666c3ced6, type: 3}
+  m_PointAction: {fileID: 6686511491157075879, guid: b68f26f24f3cf7946b0e550666c3ced6, type: 3}
   m_MoveAction: {fileID: -8784545083839296357, guid: b68f26f24f3cf7946b0e550666c3ced6, type: 3}
   m_SubmitAction: {fileID: 392368643174621059, guid: b68f26f24f3cf7946b0e550666c3ced6, type: 3}
   m_CancelAction: {fileID: 7727032971491509709, guid: b68f26f24f3cf7946b0e550666c3ced6, type: 3}

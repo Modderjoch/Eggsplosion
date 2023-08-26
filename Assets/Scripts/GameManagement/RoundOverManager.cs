@@ -58,7 +58,7 @@ public class RoundOverManager : MonoBehaviour
     public string LoadRandomLevel()
     {
         int random;
-        random = Random.Range(0, 2); 
+        random = Random.Range(0, sceneName.Length); 
         return sceneName[random];
     }
 
