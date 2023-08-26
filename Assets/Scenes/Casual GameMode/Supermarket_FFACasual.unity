@@ -55087,6 +55087,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 164085160038512984, guid: dda51b58fb7e62240b0deac5f163e080, type: 3}
+      propertyPath: casualLevelTime
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 164085160038512984, guid: dda51b58fb7e62240b0deac5f163e080, type: 3}
       propertyPath: casualTimerText
       value: 
       objectReference: {fileID: 1991017617}

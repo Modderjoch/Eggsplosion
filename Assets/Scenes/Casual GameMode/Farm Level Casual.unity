@@ -131185,8 +131185,8 @@ MonoBehaviour:
   scored: 0
   isCompetitive: 0
   isCasual: 1
-  casualLevelTime: 300
-  levelName: RoundOver
+  casualLevelTime: 180
+  levelName: RoundOverCasual
 --- !u!114 &1911836867
 MonoBehaviour:
   m_ObjectHideFlags: 0
