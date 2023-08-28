@@ -8,6 +8,13 @@ using System;
 
 public class PlayerStats : MonoBehaviour
 {
+    //Animator
+    [SerializeField]
+    private Animator animator;
+    //HealthState Animator
+    [SerializeField]
+    private AnimatorOverrideController animatorOverrideController;
+
     [SerializeField]
     private int HP = 100;
     [SerializeField]
@@ -105,6 +112,10 @@ public class PlayerStats : MonoBehaviour
 
     void FixedUpdate()
     {
+        if(HP < 90)
+        {
+            animator.runtimeAnimatorController = animatorOverrideController;
+        }
         if (HP <= 0)
         {
             Instantiate(KillEffects[UnityEngine.Random.Range(0,6)], new Vector3(player.transform.position.x, player.transform.position.y, -1), Quaternion.identity);

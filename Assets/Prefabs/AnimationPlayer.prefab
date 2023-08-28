@@ -150,6 +150,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd2983638d7a61c479822c174bc0a88a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  animator: {fileID: 3195372699508575020}
+  animatorOverrideController: {fileID: 22100000, guid: 0cb4437ffd2b5934eb8c2260a4f5ca08, type: 2}
   HP: 100
   MaxHP: 100
   currentHealth: 0
