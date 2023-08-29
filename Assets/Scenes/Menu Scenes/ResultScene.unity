@@ -494,6 +494,37 @@ PrefabInstance:
       objectReference: {fileID: 526134817}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6155392fa1bc1a54bae7e6bf03f24ef2, type: 3}
+--- !u!114 &1077116897 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8710876538232448307, guid: 6155392fa1bc1a54bae7e6bf03f24ef2, type: 3}
+  m_PrefabInstance: {fileID: 1077116896}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1077116898}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14af5656d0a1af548a5b178810c1ec2b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &1077116898 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2133181221368370066, guid: 6155392fa1bc1a54bae7e6bf03f24ef2, type: 3}
+  m_PrefabInstance: {fileID: 1077116896}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1077116899
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1077116898}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f2cc6dc9a40bd649859e1f209897ea1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isRoundOver: 0
+  RoundOverManager: {fileID: 0}
+  ResultsManager: {fileID: 526134817}
 --- !u!1 &1478995482
 GameObject:
   m_ObjectHideFlags: 0
@@ -733,6 +764,18 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 1077116897}
+        m_TargetAssemblyTypeName: SteamLeaderBoard, Assembly-CSharp
+        m_MethodName: UpdateSteamPlayerScore
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 526134817}
         m_TargetAssemblyTypeName: ResultsManager, Assembly-CSharp
         m_MethodName: MainMenu

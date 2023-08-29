@@ -26,6 +26,8 @@ public class Bullet : MonoBehaviour
 
     //public string shotFrom { get; set; }
 
+    public PlayerConfiguration WhoShotMe;
+
     private void Awake()
     {
         rb.GetComponent<Rigidbody2D>();
@@ -39,7 +41,7 @@ public class Bullet : MonoBehaviour
     // 2 Methods for preventing code repition
     public void PlayerTakeDmg(Collision2D playerCollider)
     {
-        playerCollider.gameObject.GetComponent<PlayerStats>().TakeDamage(damage);
+        playerCollider.gameObject.GetComponent<PlayerStats>().TakeDamage(damage,WhoShotMe);
         Debug.Log("shot other player");
         FindObjectOfType<AudioManager>().Play("Hurt");
     }

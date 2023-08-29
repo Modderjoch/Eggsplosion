@@ -13,6 +13,7 @@ public class VestBomb : MonoBehaviour
     public bool isTeams = false;
     public bool isBlue;
 
+    public PlayerConfiguration WhoShotMe;
     private void Awake()
     {
          ExplodeBig();
@@ -29,18 +30,18 @@ public class VestBomb : MonoBehaviour
             {
                 if (shooting.vestDeployed)
                 {
-                    obj2.gameObject.GetComponent<PlayerStats>().TakeDamage(damagePlayer);
+                    obj2.gameObject.GetComponent<PlayerStats>().TakeDamage(damagePlayer, WhoShotMe);
                 }
                 else
                 {
-                    obj2.gameObject.GetComponent<PlayerStats>().TakeDamage(damageEnemy);
+                    obj2.gameObject.GetComponent<PlayerStats>().TakeDamage(damageEnemy, WhoShotMe);
                 }
             }
             else if (isTeams)
             {
                 if (shooting.vestDeployed)
                 {
-                    obj2.gameObject.GetComponent<PlayerStats>().TakeDamage(damagePlayer);
+                    obj2.gameObject.GetComponent<PlayerStats>().TakeDamage(damagePlayer, WhoShotMe);
                 }
                 else
                 {
@@ -54,7 +55,7 @@ public class VestBomb : MonoBehaviour
                     }
                     else
                     {
-                        obj2.gameObject.GetComponent<PlayerStats>().TakeDamage(damageEnemy);
+                        obj2.gameObject.GetComponent<PlayerStats>().TakeDamage(damageEnemy, WhoShotMe);
                     }
                 }
             }

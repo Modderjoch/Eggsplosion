@@ -51,7 +51,7 @@ public class HomingMissle : MonoBehaviour
 
         foreach (CircleCollider2D obj2 in player)
         {
-            obj2.gameObject.GetComponent<PlayerStats>().TakeDamage(damage);
+            obj2.gameObject.GetComponent<PlayerStats>().TakeDamage(damage,null);
         }
         GameObject effect = Instantiate(HomingEggsplosion, transform.position, transform.rotation);
         Destroy(effect, 1f);
