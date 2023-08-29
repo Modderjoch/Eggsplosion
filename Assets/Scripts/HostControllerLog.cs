@@ -19,7 +19,7 @@ public class HostControllerLog : MonoBehaviour
         {
             hostDevice = Gamepad.current;
             hostGamepadID = hostDevice.deviceId;
-            if (hostDevice.deviceId != null)
+            if (hostDevice.deviceId != 0)
             {   
                 Debug.Log(hostGamepadID);
             }

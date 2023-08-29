@@ -21,6 +21,9 @@ public class MenuHandler : MonoBehaviour
     [SerializeField] private GameObject inGameCanvas;
     [SerializeField] private GameObject inGameContinue;
 
+    [SerializeField] private GameObject inGameCanvas;
+    [SerializeField] private GameObject inGameContinue;
+
     [SerializeField] private Button eggsplanationButton;
     [SerializeField] private GameObject backButton;
 
@@ -98,7 +101,10 @@ public class MenuHandler : MonoBehaviour
         }
         else
         {
+            EventSystem eventSystem = EventSystem.current;
+
             inGameCanvas.SetActive(false);
+            eventSystem.SetSelectedGameObject(null);
             Time.timeScale = 1.0f;
             Debug.Log("Game unpaused");
 
@@ -167,7 +173,7 @@ public class MenuHandler : MonoBehaviour
             {
                 Debug.Log("No add round button found");
             }
-        }        
+        }
     }
 
     public void SubtractRound()
@@ -195,7 +201,7 @@ public class MenuHandler : MonoBehaviour
             {
                 Debug.Log("No subtract round button found");
             }
-        }        
+        }
     }
 
     public void ClickSound()

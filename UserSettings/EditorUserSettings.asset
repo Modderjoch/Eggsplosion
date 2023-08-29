@@ -6,31 +6,31 @@ EditorUserSettings:
   serializedVersion: 4
   m_ConfigSettings:
     RecentlyUsedSceneGuid-0:
-      value: 000555505d505e0f5c585a2748260a44414f4a7c2a7d206178711831b0e2356f
+      value: 55030d5e55060b0c0f5e5977447b0c4446151d2f797e7e33282c4466e4e3366c
       flags: 0
     RecentlyUsedSceneGuid-1:
-      value: 520556530350515809085a2746755944104e1d7c7f297f357a2f1865e0e4323d
+      value: 5550055107565b0b59085e7614220b44134f19282e7e72327a2d4b63e6b43560
       flags: 0
     RecentlyUsedSceneGuid-2:
-      value: 54030c0554015c5e59560d7b122507444e151c7d747d7233282f4a32bbb3666a
+      value: 05530102530d0c08550c5a7a12220c44144f487e75787769752a4537bbe1616a
       flags: 0
     RecentlyUsedSceneGuid-3:
-      value: 5254050756515e0e5859542348270c44474e4d2e7c2b71697b704462bbb2326e
+      value: 5755510301045c0f580d0a7247200a44174e192b787025637a7a1c65bbb5663b
       flags: 0
     RecentlyUsedSceneGuid-4:
-      value: 0508555452560a58555e5f2116745d4414151a787b7a7469747f4d63b7b9356f
-      flags: 0
-    RecentlyUsedSceneGuid-5:
-      value: 5552555e07510c0a0e0d097540770b484115482b7d7e23667d281b63e6e2653e
-      flags: 0
-    RecentlyUsedSceneGuid-6:
       value: 5a50525401535f590f5b597b127506441015197a7a7c7e60757e4d6ae7e46c3c
       flags: 0
+    RecentlyUsedSceneGuid-5:
+      value: 5b50015052545a5e0c5f0d7249740d44144e4b2c287e76337f7e4966e4b3626d
+      flags: 0
+    RecentlyUsedSceneGuid-6:
+      value: 500606050604510c0f5b54204772064446151a792d7876697d7a4866bab36d69
+      flags: 0
     RecentlyUsedSceneGuid-7:
-      value: 050950055751580a545b5a704370594441161e282e707166747d4530b3e56661
+      value: 530005515206500e5c570826167b0d44174f4a7c2a7d7f662f2f4a61bbe3356a
       flags: 0
     RecentlyUsedSceneGuid-8:
-      value: 5203505004070d595c5b5a76417a5b44434e4f7a78797e322f2f1960e7b76c68
+      value: 5557000404065c080c0a5e7a45215c441715402e2e2e75667b2a1e36b6b1666a
       flags: 0
     RecentlyUsedSceneGuid-9:
       value: 065355515d075b5d585b5f7344220d44464e1b7b7e7b75352c794f67e0e56d6e
@@ -43,8 +43,8 @@ EditorUserSettings:
   m_VCDebugCmd: 0
   m_VCDebugOut: 0
   m_SemanticMergeMode: 2
-  m_DesiredImportWorkerCount: 3
-  m_StandbyImportWorkerCount: 2
+  m_DesiredImportWorkerCount: 1
+  m_StandbyImportWorkerCount: 1
   m_IdleImportWorkerShutdownDelay: 60000
   m_VCShowFailedCheckout: 1
   m_VCOverwriteFailedCheckoutAssets: 1

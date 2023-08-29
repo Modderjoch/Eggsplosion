@@ -6,5 +6,15 @@
       <playerName>Oebe</playerName>
       <playerIcon>3</playerIcon>
     </HighScoreEntry>
+    <HighScoreEntry>
+      <score>2</score>
+      <playerName>Modderjoch</playerName>
+      <playerIcon>0</playerIcon>
+    </HighScoreEntry>
+    <HighScoreEntry>
+      <score>20</score>
+      <playerName />
+      <playerIcon>0</playerIcon>
+    </HighScoreEntry>
   </list>
 </Leaderboard>

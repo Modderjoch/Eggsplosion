@@ -90,6 +90,18 @@ public class PlayerConfigurationManager : MonoBehaviour
         if (playerConfigs.Count >= 1  && playerConfigs.All(p => p.isReady == true))
         {
             InputManager.DisableJoining();
+
+            AudioManager.Instance.Stop("MenuMusic");
+
+            if (AudioManager.Instance.IsSoundPlaying("GameMusic"))
+            {
+                return;
+            }
+            else
+            {
+                AudioManager.Instance.Play("GameMusic");
+            }
+
             SceneManager.LoadScene(LoadRandomLevel());
         }
     }
@@ -97,7 +109,7 @@ public class PlayerConfigurationManager : MonoBehaviour
     public string LoadRandomLevel()
     {
         int random;
-        random = Random.Range(0, 1);
+        random = Random.Range(0, sceneName.Length);
         if (sceneName.Length == 1)
         {
             return sceneName[0];
