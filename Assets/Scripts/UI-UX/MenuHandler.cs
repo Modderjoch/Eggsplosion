@@ -21,9 +21,6 @@ public class MenuHandler : MonoBehaviour
     [SerializeField] private GameObject inGameCanvas;
     [SerializeField] private GameObject inGameContinue;
 
-    [SerializeField] private GameObject inGameCanvas;
-    [SerializeField] private GameObject inGameContinue;
-
     [SerializeField] private Button eggsplanationButton;
     [SerializeField] private GameObject backButton;
 
