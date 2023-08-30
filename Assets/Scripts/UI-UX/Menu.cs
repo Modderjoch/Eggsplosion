@@ -74,7 +74,7 @@ public class Menu : MonoBehaviour, ISelectHandler, IDeselectHandler, ICancelHand
         Destroy(configManager);
         Debug.Log("Quit");
         Application.Quit();
-        EditorApplication.isPlaying = false;
+        //EditorApplication.isPlaying = false;
 
     }
 
