@@ -62,7 +62,7 @@ public class SwitchButtonPrompt: MonoBehaviour
                 inputImage.sprite = steamDeckInput;
                 break;
             case ESteamInputType.k_ESteamInputType_Unknown:
-                inputImage.GetComponent<SpriteRenderer>().sprite = null;
+                //inputImage.GetComponent<SpriteRenderer>().sprite = null;
                 break;
             default:
                 //Debug.Log("Default case");

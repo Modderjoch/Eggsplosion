@@ -683,7 +683,7 @@ public partial class @UI_Controls: IInputActionCollection2, IDisposable
                 {
                     ""name"": """",
                     ""id"": ""6a2d7115-a224-4025-afbd-da58c6a9485a"",
-                    ""path"": ""<Gamepad>/rightShoulder"",
+                    ""path"": ""<Gamepad>/buttonWest"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
