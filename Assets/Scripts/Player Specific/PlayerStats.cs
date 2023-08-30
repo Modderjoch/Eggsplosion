@@ -8,13 +8,19 @@ using System;
 
 public class PlayerStats : MonoBehaviour
 {
+    //Damage Thresholds
+    [SerializeField]
+    private int slightDamageThreshold;
+    [SerializeField]
+    private int heavyDamageThreshold;
     //Animator
     [SerializeField]
     private Animator animator;
     //HealthState Animator
     [SerializeField]
     private AnimatorOverrideController animatorOverrideController;
-
+    [SerializeField]
+    private SpriteAnimationManager animationManager;
     [SerializeField]
     private int HP = 100;
     [SerializeField]
@@ -28,6 +34,7 @@ public class PlayerStats : MonoBehaviour
     public TextMeshPro playerNameText;
     public int score { get; set; }
     public int ID;
+    private int colourID;
     public string controlscheme;
    
     public GameObject player;
@@ -80,6 +87,7 @@ public class PlayerStats : MonoBehaviour
     {
         currentHealth = MaxHP;
         healthBar.SetMaxHealth(MaxHP);
+        colourID = PlayerSpriteColour();
     }
 
     public void TakeDamage(int damage)
@@ -88,6 +96,31 @@ public class PlayerStats : MonoBehaviour
         currentHealth -= damage; 
         healthBar.SetHealth(HP);
         StartCoroutine(FlashRed());
+    }
+
+    public int PlayerSpriteColour()
+    {
+        int id;
+        switch (playerConfig.playerColour)
+        {
+                case 0://Blue
+                    id = 0;
+                break;
+                case 1://Red
+                    id = 1;
+                break;
+                case 2://Purple
+                    id = 2;
+                break;
+                case 3://Green
+                    id = 3;
+                break;
+                default:
+                    id = 0; 
+                break;
+        }
+
+        return id;
     }
 
     public void GetHealth(int health)
@@ -112,9 +145,17 @@ public class PlayerStats : MonoBehaviour
 
     void FixedUpdate()
     {
-        if(HP < 90)
+        if(HP > slightDamageThreshold)
         {
-            animator.runtimeAnimatorController = animatorOverrideController;
+            animator.runtimeAnimatorController = animationManager.animatorOverrideControllerNoDamage[colourID];
+        }
+        else if(HP < slightDamageThreshold && HP > heavyDamageThreshold)
+        {
+            animator.runtimeAnimatorController = animationManager.animatorOverrideControllerSlightlyDmg[colourID];
+        }
+        else if (HP < heavyDamageThreshold)
+        {
+            animator.runtimeAnimatorController = animationManager.animatorOverrideControllersHeavyDmg[colourID];
         }
         if (HP <= 0)
         {
