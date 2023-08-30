@@ -101,7 +101,7 @@ public class PlayerConfigurationManager : MonoBehaviour
             {
                 AudioManager.Instance.Play("GameMusic");
             }
-
+            AchievementManager.instance.UnlockAchi(0);
             SceneManager.LoadScene(LoadRandomLevel());
         }
     }
