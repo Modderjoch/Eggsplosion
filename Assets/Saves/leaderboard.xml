@@ -2,19 +2,10 @@
 <Leaderboard xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <list>
     <HighScoreEntry>
-      <score>10</score>
-      <playerName>Oebe</playerName>
-      <playerIcon>3</playerIcon>
-    </HighScoreEntry>
-    <HighScoreEntry>
-      <score>2</score>
-      <playerName>Modderjoch</playerName>
-      <playerIcon>0</playerIcon>
-    </HighScoreEntry>
-    <HighScoreEntry>
-      <score>20</score>
+      <score>5</score>
       <playerName />
       <playerIcon>0</playerIcon>
+      <rank>0</rank>
     </HighScoreEntry>
   </list>
 </Leaderboard>

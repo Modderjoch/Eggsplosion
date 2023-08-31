@@ -47,4 +47,10 @@ MonoBehaviour:
   achiIDs:
   - steamID: 00_playgame
     androidID: 
+  - steamID: 00_shootbullet
+    androidID: 
+  - steamID: 00_shootyourselfwithbounce
+    androidID: 
+  - steamID: 00_Total100Rounds
+    androidID: 
   platform: 0

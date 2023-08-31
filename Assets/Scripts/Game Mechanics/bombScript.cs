@@ -43,6 +43,7 @@ public class bombScript : MonoBehaviour
             if (!isTeams)
             {
                 collision.gameObject.GetComponent<PlayerStats>().TakeDamage(100, WhoShotMe);
+                collision.gameObject.GetComponent<PlayerStats>().lastBulletTypeThatHitMe= "bomb";
                 explode();
                 Destroy(gameObject);
                 FindObjectOfType<AudioManager>().Play("Eggsplotion");

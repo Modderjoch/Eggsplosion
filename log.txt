@@ -298,3 +298,221 @@ k_ESteamInputType_Unknown connected on: 29.42922controller is nr: 0
 this is the first controller
 k_ESteamInputType_Unknown connected on: 29.42922controller is nr: 0
 this is the first controller
+k_ESteamInputType_Unknown connected on: 0controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 0controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 0controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 0controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 0controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 0controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 0controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 0controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 0.2627561controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 5.311465controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 5.311465controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 5.311465controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 5.311465controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 14.2109controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 14.2109controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 0controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 0controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 0controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 0controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 0.4021923controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 3.065795controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 3.065795controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 3.065795controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 3.065795controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 13.0236controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 13.0236controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 0controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 0controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 1.729354controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 3.195976controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 3.195976controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 3.195976controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 3.195976controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 11.52678controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 11.52678controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 31.33302controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 31.33302controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 0controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 0controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 1.405816controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 2.298285controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 2.298285controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 2.298285controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 2.298285controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 9.479522controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 9.479522controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 21.16655controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 21.16655controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 26.93479controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 26.93479controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 46.37398controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 46.37398controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 0controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 0controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 0controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 0controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 0.3132742controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 2.085179controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 2.085179controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 2.085179controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 2.085179controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 9.771054controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 9.771054controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 31.56223controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 31.56223controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 0controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 0controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 2.072782controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 3.58796controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 3.58796controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 3.58796controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 3.58796controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 11.43602controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 11.43602controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 0controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 0controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 1.156375controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 2.52101controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 2.52101controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 2.52101controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 2.52101controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 9.838618controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 9.838618controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 17.93056controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 17.93056controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 26.73627controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 26.73627controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 0controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 0controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 0controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 0controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 58.91204controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 60.38023controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 60.38023controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 60.38023controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 60.38023controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 69.62442controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 69.62442controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 76.63686controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 76.63686controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 82.63325controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 82.63325controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 88.74614controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 88.74614controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 94.59866controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 94.59866controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 94.59866controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 96.8541controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 96.8541controller is nr: 0
+this is the first controller
