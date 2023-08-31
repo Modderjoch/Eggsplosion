@@ -27,14 +27,18 @@ public class LevelManagerScript : MonoBehaviour
     public bool isCompetitive = false;
     [SerializeField]
     public bool isCasual = false;
-    [SerializeField]
-    private float casualLevelTime = 1200f;
+    private float casualLevelTime = 0;
     private float originalTime;
 
     public string levelName;
     bool foundPlayers = false;
     private void Awake()
     {
+        if (isCasual) 
+        { 
+            casualLevelTime = PlayerConfigurationManager.Instance.maxDurationAmount;
+            casualTimerText.text = PlayerConfigurationManager.Instance.maxDurationAmount.ToString();
+        }
         playerConfigs = PlayerConfigurationManager.Instance.GetPlayerConfigs().ToArray();
         CheckForRedAndBluePlayerAmount();
 
@@ -84,7 +88,7 @@ public class LevelManagerScript : MonoBehaviour
         {
             casualTimerText.text = string.Format("{0}", casualLevelTime.ToString("F0"));
             timerImage.fillAmount = casualLevelTime / originalTime;
-            Debug.Log(originalTime / casualLevelTime);
+            //Debug.Log(originalTime / casualLevelTime);
         }
         CheckForRedAndBluePlayerAmount();
         if (!foundPlayers)
