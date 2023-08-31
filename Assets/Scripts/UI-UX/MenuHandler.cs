@@ -33,6 +33,9 @@ public class MenuHandler : MonoBehaviour
     [HideInInspector] public Gamepad lastGamepad;
     [HideInInspector] public int lastGamepadIndex;
 
+    [SerializeField] private GameObject[] leaderboardButtons;
+    private int lastSelectedBoard = 0;
+
     private bool keyboardUsed = false;
     private bool isPaused = false;
 
@@ -48,6 +51,9 @@ public class MenuHandler : MonoBehaviour
                 leaderOpen.SetActive(true);
                 leaderButton.SetActive(true);
                 leaderClose.SetActive(false);
+
+                EventSystem.current.SetSelectedGameObject(leaderboardButtons[lastSelectedBoard].gameObject);
+                leaderboardButtons[lastSelectedBoard].GetComponent<Button>().onClick.Invoke();
             }
             else
             {
@@ -198,6 +204,56 @@ public class MenuHandler : MonoBehaviour
             {
                 Debug.Log("No subtract round button found");
             }
+        }
+    }
+
+    public void NextBoard()
+    {
+        DetectInputDevice();
+
+        if (leaderboard.activeSelf)
+        {
+            if(lastSelectedBoard == leaderboardButtons.Length - 1)
+            {
+                lastSelectedBoard = 0;
+                EventSystem.current.SetSelectedGameObject(leaderboardButtons[lastSelectedBoard].gameObject);
+                leaderboardButtons[lastSelectedBoard].GetComponent<Button>().onClick.Invoke();
+            }
+            else
+            {
+                lastSelectedBoard++;
+                EventSystem.current.SetSelectedGameObject(leaderboardButtons[lastSelectedBoard].gameObject);
+                leaderboardButtons[lastSelectedBoard].GetComponent<Button>().onClick.Invoke();
+            }
+        }
+        else
+        {
+            Debug.Log("Leaderboard is not active");
+        }
+    }
+
+    public void PreviousBoard()
+    {
+        DetectInputDevice();
+
+        if (leaderboard.activeSelf)
+        {
+            if (lastSelectedBoard == 0)
+            {
+                lastSelectedBoard = leaderboardButtons.Length-1;
+                EventSystem.current.SetSelectedGameObject(leaderboardButtons[lastSelectedBoard].gameObject);
+                leaderboardButtons[lastSelectedBoard].GetComponent<Button>().onClick.Invoke();
+            }
+            else
+            {
+                lastSelectedBoard--;
+                EventSystem.current.SetSelectedGameObject(leaderboardButtons[lastSelectedBoard].gameObject);
+                leaderboardButtons[lastSelectedBoard].GetComponent<Button>().onClick.Invoke();
+            }
+        }
+        else
+        {
+            Debug.Log("Leaderboard is not active");
         }
     }
 

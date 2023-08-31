@@ -336,6 +336,24 @@ public partial class @UI_Controls: IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""NextBoard"",
+                    ""type"": ""Button"",
+                    ""id"": ""ae9df23b-7393-4c85-8a14-3155a60810bc"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""PreviousBoard"",
+                    ""type"": ""Button"",
+                    ""id"": ""9098d9a1-9a20-4d1e-9701-f60b36b06d6b"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
                 }
             ],
             ""bindings"": [
@@ -822,6 +840,50 @@ public partial class @UI_Controls: IInputActionCollection2, IDisposable
                     ""action"": ""Point"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""9199a566-7b70-43b8-8f4b-4db3151e5282"",
+                    ""path"": ""<Gamepad>/dpad/down"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""NextBoard"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""1831f413-41e6-4ffe-80b6-82da3616a780"",
+                    ""path"": ""<Keyboard>/pageDown"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""NextBoard"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""d5624421-fe95-49ff-854e-52659f1ed796"",
+                    ""path"": ""<Gamepad>/dpad/up"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""PreviousBoard"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""c2fa2f2e-fce9-4e45-a19f-2bb2647c33c4"",
+                    ""path"": ""<Keyboard>/pageUp"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""PreviousBoard"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -907,6 +969,8 @@ public partial class @UI_Controls: IInputActionCollection2, IDisposable
         m_UI_Eggsplanation = m_UI.FindAction("Eggsplanation", throwIfNotFound: true);
         m_UI_AddRound = m_UI.FindAction("AddRound", throwIfNotFound: true);
         m_UI_SubtractRound = m_UI.FindAction("SubtractRound", throwIfNotFound: true);
+        m_UI_NextBoard = m_UI.FindAction("NextBoard", throwIfNotFound: true);
+        m_UI_PreviousBoard = m_UI.FindAction("PreviousBoard", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -1048,6 +1112,8 @@ public partial class @UI_Controls: IInputActionCollection2, IDisposable
     private readonly InputAction m_UI_Eggsplanation;
     private readonly InputAction m_UI_AddRound;
     private readonly InputAction m_UI_SubtractRound;
+    private readonly InputAction m_UI_NextBoard;
+    private readonly InputAction m_UI_PreviousBoard;
     public struct UIActions
     {
         private @UI_Controls m_Wrapper;
@@ -1062,6 +1128,8 @@ public partial class @UI_Controls: IInputActionCollection2, IDisposable
         public InputAction @Eggsplanation => m_Wrapper.m_UI_Eggsplanation;
         public InputAction @AddRound => m_Wrapper.m_UI_AddRound;
         public InputAction @SubtractRound => m_Wrapper.m_UI_SubtractRound;
+        public InputAction @NextBoard => m_Wrapper.m_UI_NextBoard;
+        public InputAction @PreviousBoard => m_Wrapper.m_UI_PreviousBoard;
         public InputActionMap Get() { return m_Wrapper.m_UI; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -1101,6 +1169,12 @@ public partial class @UI_Controls: IInputActionCollection2, IDisposable
             @SubtractRound.started += instance.OnSubtractRound;
             @SubtractRound.performed += instance.OnSubtractRound;
             @SubtractRound.canceled += instance.OnSubtractRound;
+            @NextBoard.started += instance.OnNextBoard;
+            @NextBoard.performed += instance.OnNextBoard;
+            @NextBoard.canceled += instance.OnNextBoard;
+            @PreviousBoard.started += instance.OnPreviousBoard;
+            @PreviousBoard.performed += instance.OnPreviousBoard;
+            @PreviousBoard.canceled += instance.OnPreviousBoard;
         }
 
         private void UnregisterCallbacks(IUIActions instance)
@@ -1135,6 +1209,12 @@ public partial class @UI_Controls: IInputActionCollection2, IDisposable
             @SubtractRound.started -= instance.OnSubtractRound;
             @SubtractRound.performed -= instance.OnSubtractRound;
             @SubtractRound.canceled -= instance.OnSubtractRound;
+            @NextBoard.started -= instance.OnNextBoard;
+            @NextBoard.performed -= instance.OnNextBoard;
+            @NextBoard.canceled -= instance.OnNextBoard;
+            @PreviousBoard.started -= instance.OnPreviousBoard;
+            @PreviousBoard.performed -= instance.OnPreviousBoard;
+            @PreviousBoard.canceled -= instance.OnPreviousBoard;
         }
 
         public void RemoveCallbacks(IUIActions instance)
@@ -1216,5 +1296,7 @@ public partial class @UI_Controls: IInputActionCollection2, IDisposable
         void OnEggsplanation(InputAction.CallbackContext context);
         void OnAddRound(InputAction.CallbackContext context);
         void OnSubtractRound(InputAction.CallbackContext context);
+        void OnNextBoard(InputAction.CallbackContext context);
+        void OnPreviousBoard(InputAction.CallbackContext context);
     }
 }
