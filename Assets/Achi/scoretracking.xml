@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
 <AchievementsData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <accumilatedScore>5</accumilatedScore>
-  <accumilatedKills>0</accumilatedKills>
+  <accumilatedScore>10</accumilatedScore>
+  <accumilatedKills>5</accumilatedKills>
 </AchievementsData>

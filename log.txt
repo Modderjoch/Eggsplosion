@@ -82,3 +82,67 @@ k_ESteamInputType_Unknown connected on: 2.519836controller is nr: 0
 this is the first controller
 k_ESteamInputType_Unknown connected on: 7.309369controller is nr: 0
 this is the first controller
+k_ESteamInputType_Unknown connected on: 0controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 0controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 0controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 0controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 3.210277controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 8.912108controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 8.912108controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 8.912108controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 8.912108controller is nr: 0
+this is the first controller
+k_ESteamInputType_PS4Controller connected on: 0controller is nr: 0
+this is the first controller
+k_ESteamInputType_PS4Controller connected on: 0controller is nr: 0
+this is the first controller
+k_ESteamInputType_PS4Controller connected on: 0.1999799controller is nr: 0
+this is the first controller
+k_ESteamInputType_XBox360Controller connected on: 2.799669controller is nr: 1
+this is the first controller
+k_ESteamInputType_XBox360Controller connected on: 2.799669controller is nr: 1
+this is the first controller
+k_ESteamInputType_XBox360Controller connected on: 3.302273controller is nr: 1
+this is the first controller
+k_ESteamInputType_XBox360Controller connected on: 4.408748controller is nr: 1
+this is the first controller
+k_ESteamInputType_XBox360Controller connected on: 4.408748controller is nr: 1
+this is the first controller
+k_ESteamInputType_XBox360Controller connected on: 4.408748controller is nr: 1
+this is the first controller
+k_ESteamInputType_XBox360Controller connected on: 4.408748controller is nr: 1
+this is the first controller
+k_ESteamInputType_XBox360Controller connected on: 27.57997controller is nr: 1
+this is the first controller
+k_ESteamInputType_XBox360Controller connected on: 27.57997controller is nr: 1
+this is the first controller
+k_ESteamInputType_XBox360Controller connected on: 41.71459controller is nr: 1
+this is the first controller
+k_ESteamInputType_XBox360Controller connected on: 41.71459controller is nr: 1
+this is the first controller
+k_ESteamInputType_XBox360Controller connected on: 53.97769controller is nr: 1
+this is the first controller
+k_ESteamInputType_XBox360Controller connected on: 53.97769controller is nr: 1
+this is the first controller
+k_ESteamInputType_XBox360Controller connected on: 66.05595controller is nr: 1
+this is the first controller
+k_ESteamInputType_XBox360Controller connected on: 66.05595controller is nr: 1
+this is the first controller
+k_ESteamInputType_XBox360Controller connected on: 78.54008controller is nr: 1
+this is the first controller
+k_ESteamInputType_XBox360Controller connected on: 78.54008controller is nr: 1
+this is the first controller
+k_ESteamInputType_XBox360Controller connected on: 78.54008controller is nr: 1
+this is the first controller
+k_ESteamInputType_XBox360Controller connected on: 80.81872controller is nr: 1
+this is the first controller
+k_ESteamInputType_XBox360Controller connected on: 80.81872controller is nr: 1
+this is the first controller
