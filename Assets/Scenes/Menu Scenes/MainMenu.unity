@@ -1595,33 +1595,33 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 519723244002497317, guid: 14982d246f839f94ebe4e9a17040faa3, type: 3}
-      propertyPath: mixerChannel
-      value: 
-      objectReference: {fileID: 6273719580722482625, guid: 420ea33e405207341997084075498e5a, type: 2}
+      propertyPath: sounds.Array.size
+      value: 21
+      objectReference: {fileID: 0}
     - target: {fileID: 519723244002497317, guid: 14982d246f839f94ebe4e9a17040faa3, type: 3}
-      propertyPath: sounds.Array.data[19].clip
+      propertyPath: sounds.Array.data[21].clip
       value: 
-      objectReference: {fileID: 8300000, guid: 4fe21afbfeb586d438e3628601ee8b27, type: 3}
+      objectReference: {fileID: 8300000, guid: 588fd5187a5998f47abf382e9c459bb4, type: 3}
     - target: {fileID: 519723244002497317, guid: 14982d246f839f94ebe4e9a17040faa3, type: 3}
-      propertyPath: sounds.Array.data[19].loop
+      propertyPath: sounds.Array.data[21].loop
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 519723244002497317, guid: 14982d246f839f94ebe4e9a17040faa3, type: 3}
-      propertyPath: sounds.Array.data[19].name
-      value: Song
+      propertyPath: sounds.Array.data[21].name
+      value: GameMusic
       objectReference: {fileID: 0}
     - target: {fileID: 519723244002497317, guid: 14982d246f839f94ebe4e9a17040faa3, type: 3}
-      propertyPath: sounds.Array.data[19].pitch
+      propertyPath: sounds.Array.data[21].pitch
       value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 519723244002497317, guid: 14982d246f839f94ebe4e9a17040faa3, type: 3}
-      propertyPath: sounds.Array.data[19].volume
-      value: 1
+      propertyPath: sounds.Array.data[21].volume
+      value: 0.125
       objectReference: {fileID: 0}
     - target: {fileID: 519723244002497317, guid: 14982d246f839f94ebe4e9a17040faa3, type: 3}
-      propertyPath: sounds.Array.data[19].mixerChannel
+      propertyPath: sounds.Array.data[21].mixerChannel
       value: 
-      objectReference: {fileID: 6273719580722482625, guid: 420ea33e405207341997084075498e5a, type: 2}
+      objectReference: {fileID: -1385206077965335897, guid: 420ea33e405207341997084075498e5a, type: 2}
     - target: {fileID: 519723244002497318, guid: 14982d246f839f94ebe4e9a17040faa3, type: 3}
       propertyPath: m_Name
       value: 'AudioManager '

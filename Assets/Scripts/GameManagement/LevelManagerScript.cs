@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using TMPro;
 
@@ -12,6 +13,7 @@ public class LevelManagerScript : MonoBehaviour
     public bool teams = false;
     public PlayerConfiguration[] playerConfigs;
     public TextMeshProUGUI casualTimerText;
+    public Image timerImage;
 
     private int amountOfPlayers;
     public float timer = 10f;
@@ -27,6 +29,7 @@ public class LevelManagerScript : MonoBehaviour
     public bool isCasual = false;
     [SerializeField]
     private float casualLevelTime = 1200f;
+    private float originalTime;
 
     public string levelName;
     bool foundPlayers = false;
@@ -34,6 +37,8 @@ public class LevelManagerScript : MonoBehaviour
     {
         playerConfigs = PlayerConfigurationManager.Instance.GetPlayerConfigs().ToArray();
         CheckForRedAndBluePlayerAmount();
+
+        if (isCasual) { originalTime = casualLevelTime; }
     }
     public int GetAmountOfPlayers()
     {
@@ -77,8 +82,9 @@ public class LevelManagerScript : MonoBehaviour
     {
         if (casualTimerText!= null)
         {
-            casualTimerText.text = casualLevelTime.ToString();
-
+            casualTimerText.text = string.Format("{0}", casualLevelTime.ToString("F0"));
+            timerImage.fillAmount = casualLevelTime / originalTime;
+            Debug.Log(originalTime / casualLevelTime);
         }
         CheckForRedAndBluePlayerAmount();
         if (!foundPlayers)
