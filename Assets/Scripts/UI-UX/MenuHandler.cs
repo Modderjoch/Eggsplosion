@@ -23,6 +23,7 @@ public class MenuHandler : MonoBehaviour
 
     [SerializeField] private Button eggsplanationButton;
     [SerializeField] private GameObject backButton;
+    [SerializeField] private GameObject playButton;
 
     [SerializeField] private GameObject controlsCanvas;
     [SerializeField] private GameObject storyCanvas;
@@ -52,8 +53,7 @@ public class MenuHandler : MonoBehaviour
                 leaderButton.SetActive(true);
                 leaderClose.SetActive(false);
 
-                EventSystem.current.SetSelectedGameObject(leaderboardButtons[lastSelectedBoard].gameObject);
-                leaderboardButtons[lastSelectedBoard].GetComponent<Button>().onClick.Invoke();
+                EventSystem.current.SetSelectedGameObject(playButton);
             }
             else
             {
@@ -61,6 +61,9 @@ public class MenuHandler : MonoBehaviour
                 leaderOpen.SetActive(false);
                 leaderButton.SetActive(false);
                 leaderClose.SetActive(true);
+
+                EventSystem.current.SetSelectedGameObject(leaderboardButtons[lastSelectedBoard].gameObject);
+                leaderboardButtons[lastSelectedBoard].GetComponent<Button>().onClick.Invoke();
             }
         }
 
