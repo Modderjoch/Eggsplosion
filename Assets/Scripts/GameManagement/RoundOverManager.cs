@@ -20,7 +20,7 @@ public class RoundOverManager : MonoBehaviour
     public string[] sceneName;
 
     bool panelIsActive = false;
-
+    List<HighScoreEntry> highScores;
     private int numberOfPlayers = 0;
     private List<GameObject> scores = new List<GameObject>();
     void Awake()
@@ -29,7 +29,7 @@ public class RoundOverManager : MonoBehaviour
         for (int i = 0; i < playerConfigs.Length; i++)
         {
             if (playerConfigs[i].isAlive)
-            {           
+            {  
                 AddScoreBoard();
                 UpdateScoreBoard(playerConfigs[i].playerScore, i, playerConfigs[i].playerIndex, true, playerConfigs[i].playerName, playerConfigs[i].playerSprite);
                 Debug.Log("Round Over");
@@ -49,6 +49,12 @@ public class RoundOverManager : MonoBehaviour
             }
             numberOfPlayers++;
         }
+ 
+
+    }
+    void Save()
+    {
+        XMLManager.instance.SaveScores(highScores);
     }
     public void AddScoreBoard()
     {      

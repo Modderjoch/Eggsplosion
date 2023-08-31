@@ -67,6 +67,7 @@ public class PlayerStats : MonoBehaviour
     public PlayerConfiguration LastPlayerThatHitMe;
 
     public string lastBulletTypeThatHitMe;
+
     private void Awake()
     {
         level = FindObjectOfType<LevelManagerScript>();
@@ -191,6 +192,10 @@ public class PlayerStats : MonoBehaviour
         if (LastPlayerThatHitMe != null && LastPlayerThatHitMe != playerConfig)
         {
             LastPlayerThatHitMe.killAmount = LastPlayerThatHitMe.killAmount + 1;
+            if (lastBulletTypeThatHitMe == "bomb")
+            {
+             // give other player a special bomb point to count towards achi has to be 3 to get it in a single scene (round)
+            }
         }
         else if(LastPlayerThatHitMe != null && LastPlayerThatHitMe == playerConfig)
         {
