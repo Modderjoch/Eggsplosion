@@ -888,7 +888,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   level: GameModeSelection
+  mixer: 
   confirmationButton: {fileID: 0}
+  selectables: []
   audioMixer: {fileID: 0}
 --- !u!1001 &509479925
 PrefabInstance:
@@ -1171,7 +1173,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   level: LevelDesign1
+  mixer: 
   confirmationButton: {fileID: 0}
+  selectables: []
   audioMixer: {fileID: 0}
 --- !u!114 &648576336
 MonoBehaviour:
@@ -1730,7 +1734,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 246ab82114795b349a05e4bc4c694a29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioSource: {fileID: 886101228}
 --- !u!1 &1058965489 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6983698970873213699, guid: 4325e99346af96248adc983e06470f71, type: 3}
@@ -2739,7 +2742,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   level: Options
+  mixer: 
   confirmationButton: {fileID: 0}
+  selectables: []
   audioMixer: {fileID: 0}
 --- !u!114 &1893197185
 MonoBehaviour:
@@ -3078,7 +3083,7 @@ MonoBehaviour:
   m_MoveRepeatRate: 0.1
   m_XRTrackingOrigin: {fileID: 0}
   m_ActionsAsset: {fileID: -944628639613478452, guid: b68f26f24f3cf7946b0e550666c3ced6, type: 3}
-  m_PointAction: {fileID: -1654692200621890270, guid: b68f26f24f3cf7946b0e550666c3ced6, type: 3}
+  m_PointAction: {fileID: 1054132383583890850, guid: b68f26f24f3cf7946b0e550666c3ced6, type: 3}
   m_MoveAction: {fileID: -1680190386980627800, guid: b68f26f24f3cf7946b0e550666c3ced6, type: 3}
   m_SubmitAction: {fileID: 392368643174621059, guid: b68f26f24f3cf7946b0e550666c3ced6, type: 3}
   m_CancelAction: {fileID: 7727032971491509709, guid: b68f26f24f3cf7946b0e550666c3ced6, type: 3}
@@ -4444,7 +4449,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9195714708724042127, guid: 0392448e25faf8b49bb6a9ef51b0b77a, type: 3}
       propertyPath: m_RootOrder
-      value: 11
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 9195714708724042127, guid: 0392448e25faf8b49bb6a9ef51b0b77a, type: 3}
       propertyPath: m_LocalPosition.x
