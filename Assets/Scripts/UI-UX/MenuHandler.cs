@@ -51,6 +51,9 @@ public class MenuHandler : MonoBehaviour
                 leaderOpen.SetActive(true);
                 leaderButton.SetActive(true);
                 leaderClose.SetActive(false);
+
+                EventSystem.current.SetSelectedGameObject(leaderboardButtons[lastSelectedBoard].gameObject);
+                leaderboardButtons[lastSelectedBoard].GetComponent<Button>().onClick.Invoke();
             }
             else
             {
