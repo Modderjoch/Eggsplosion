@@ -108,6 +108,11 @@ public class PlayerConfigurationManager : MonoBehaviour
         }
     }
 
+    public void SetPlayerColour(int i, int colour)
+    {
+        playerConfigs[i].playerColour = colour;
+    }
+
     public string LoadRandomLevel()
     {
         int random;
@@ -163,7 +168,7 @@ public class PlayerConfiguration
     public bool isBlue { get; set; }
     public bool isAlive{ get; set; }
     public Sprite playerSprite { get; set; }
-
+    public int playerColour { get; set; }
     public int spriteId { get; set; }
 
     //New for scoring

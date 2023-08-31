@@ -109,6 +109,11 @@ public class PlayerSetupMenuController : MonoBehaviour
     {
         PlayerConfigurationManager.Instance.SetAnimator(playerIndex, animatorOverrideController);
     }
+
+    public void SetPlayerColour(int colour, int id)
+    {
+        PlayerConfigurationManager.Instance.SetPlayerColour(id, colour);
+    }
     public void NextCharacter()
     {
         colorButtons[selectedButton].gameObject.SetActive(false);
@@ -141,6 +146,7 @@ public class PlayerSetupMenuController : MonoBehaviour
         }
         SetSprite(sprites[GetCurrentEnabledSprite()]);
         SetAnimator(overRides[GetCurrentEnabledSprite()]);
+        SetPlayerColour(GetCurrentEnabledSprite(), playerIndex);
         SetSpriteId(GetCurrentEnabledSprite());
         Debug.Log(GetCurrentEnabledSprite());
         if (!inputEnabled) { return; }
