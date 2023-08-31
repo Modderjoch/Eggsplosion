@@ -37,19 +37,19 @@ public class LeaderBoardPanel : MonoBehaviour
         if (!isSteam)
         {
             icon.sprite = iconsToChooseFrom[spriteId].sprite;
-            playerNameText.text = playerName + " Won " + playerScore + " rounds!";
+            playerNameText.text = playerName + " won " + playerScore + " rounds!";
         }
         if (isSteam && !isKillBoard) 
         {
             Debug.Log("is steam entry and round");
             steamIcon.gameObject.SetActive(true);
-            playerNameText.text = playerName + " Won " + playerScore + " rounds!";
+            playerNameText.text = playerName + " won " + playerScore + " rounds!";
         }
         else if (isSteam && isKillBoard)
         {
             Debug.Log("is steam entry and kill");
             steamIcon.gameObject.SetActive(true);
-            playerNameText.text = playerName + " Killed " + playerScore + " chickens! ";
+            playerNameText.text = playerName + " killed " + playerScore + " chickens! ";
         }
     }
 }

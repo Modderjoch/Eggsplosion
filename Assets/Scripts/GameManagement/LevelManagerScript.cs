@@ -84,7 +84,6 @@ public class LevelManagerScript : MonoBehaviour
         {
             casualTimerText.text = string.Format("{0}", casualLevelTime.ToString("F0"));
             timerImage.fillAmount = casualLevelTime / originalTime;
-            Debug.Log(originalTime / casualLevelTime);
         }
         CheckForRedAndBluePlayerAmount();
         if (!foundPlayers)
