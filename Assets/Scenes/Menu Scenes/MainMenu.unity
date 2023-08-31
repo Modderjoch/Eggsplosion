@@ -4521,22 +4521,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 9195714708724042124, guid: 0392448e25faf8b49bb6a9ef51b0b77a, type: 3}
-      propertyPath: achiIDs.Array.size
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 9195714708724042124, guid: 0392448e25faf8b49bb6a9ef51b0b77a, type: 3}
-      propertyPath: achiIDs.Array.data[1].steamID
-      value: 00_shootbullet
-      objectReference: {fileID: 0}
-    - target: {fileID: 9195714708724042124, guid: 0392448e25faf8b49bb6a9ef51b0b77a, type: 3}
-      propertyPath: achiIDs.Array.data[2].steamID
-      value: 00_shootyourselfwithbounce
-      objectReference: {fileID: 0}
-    - target: {fileID: 9195714708724042124, guid: 0392448e25faf8b49bb6a9ef51b0b77a, type: 3}
-      propertyPath: achiIDs.Array.data[3].steamID
-      value: 00_Total100Rounds
-      objectReference: {fileID: 0}
     - target: {fileID: 9195714708724042126, guid: 0392448e25faf8b49bb6a9ef51b0b77a, type: 3}
       propertyPath: m_Name
       value: AchievementManager
