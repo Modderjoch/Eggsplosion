@@ -101,6 +101,7 @@ public class PlayerConfigurationManager : MonoBehaviour
             {
                 AudioManager.Instance.Play("GameMusic");
             }
+            //Unlock achievement for playing for the first time
             AchievementManager.instance.UnlockAchi(0);
             SceneManager.LoadScene(LoadRandomLevel());
         }

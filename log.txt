@@ -298,3 +298,7 @@ k_ESteamInputType_Unknown connected on: 29.42922controller is nr: 0
 this is the first controller
 k_ESteamInputType_Unknown connected on: 29.42922controller is nr: 0
 this is the first controller
+k_ESteamInputType_Unknown connected on: 0controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 0controller is nr: 0
+this is the first controller

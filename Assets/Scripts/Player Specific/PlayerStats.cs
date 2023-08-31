@@ -66,6 +66,7 @@ public class PlayerStats : MonoBehaviour
     //Who is the last player that hit me? (for killscore)
     public PlayerConfiguration LastPlayerThatHitMe;
 
+    public string lastBulletTypeThatHitMe;
     private void Awake()
     {
         level = FindObjectOfType<LevelManagerScript>();
@@ -187,9 +188,17 @@ public class PlayerStats : MonoBehaviour
         AudioSource.PlayClipAtPoint(EggSploded, transform.position);
         anim.SetBool("Death", true);
         playerConfig.isAlive = false;
-        if (LastPlayerThatHitMe != null)
+        if (LastPlayerThatHitMe != null && LastPlayerThatHitMe != playerConfig)
         {
             LastPlayerThatHitMe.killAmount = LastPlayerThatHitMe.killAmount + 1;
+        }
+        else if(LastPlayerThatHitMe != null && LastPlayerThatHitMe == playerConfig)
+        {
+            //Achievement for killing yourself with bounce egg
+            if (lastBulletTypeThatHitMe == "bounce")
+            {
+                AchievementManager.instance.UnlockAchi(2);
+            }
         }
         if (isCasual)
         {
