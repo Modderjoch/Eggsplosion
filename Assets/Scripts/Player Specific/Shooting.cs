@@ -26,7 +26,7 @@ public class Shooting : MonoBehaviour
     public float freezeDuration;
     public bool isTeams;
     public bool allowShoot;
-    private PlayerStats playerStats;
+    public PlayerStats playerStats;
 
     //public string shooter { get; set; }
     private void Awake()
@@ -115,37 +115,45 @@ public class Shooting : MonoBehaviour
     
     void SpawnBullet()
     {
+        //PlayerStats playerStats = GetComponent<PlayerStats>();
         GameObject bullet = Instantiate(bulletPrefab, FirePoint.position, FirePoint.rotation);
         bullet.GetComponent<Bullet>().isBlue = gameObject.GetComponent<PlayerStats>().isBlue;
         bullet.GetComponent<Bullet>().isTeams = isTeams;
+        bullet.GetComponent<Bullet>().WhoShotMe = playerStats.playerConfig;
         Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
         rb.AddForce(FirePoint.up * bulletForce, ForceMode2D.Impulse);   
     }
 
     void SpawnBomb()
     {
+        //PlayerStats playerStats = GetComponent<PlayerStats>();
         GameObject Bomb = Instantiate(Bombprefab, FirePoint.position, FirePoint.rotation);
+        Bomb.GetComponent<bombScript>().WhoShotMe = playerStats.playerConfig;
         Bomb.GetComponent<bombScript>().isBlue = gameObject.GetComponent<PlayerStats>().isBlue;
-        Bomb.GetComponent<bombScript>().isTeams = isTeams;
+        Bomb.GetComponent<bombScript>().isTeams = isTeams;    
         Rigidbody2D rb = Bomb.GetComponent<Rigidbody2D>();
         rb.AddForce(FirePoint.up * bulletForce, ForceMode2D.Impulse);
-        PlayerStats playerStats = GetComponent<PlayerStats>();
-        
+       
+
     }
     public void SpawnVest()
     {
-    vestDeployed = true;
-    GameObject vest = Instantiate(vestPrefab, this.transform.position, this.transform.rotation);
-    vest.GetComponent<VestBomb>().isBlue = gameObject.GetComponent<PlayerStats>().isBlue;
-    vest.GetComponent<VestBomb>().isTeams = isTeams;
+        //PlayerStats playerStats = GetComponent<PlayerStats>();
+        vestDeployed = true;
+        GameObject vest = Instantiate(vestPrefab, this.transform.position, this.transform.rotation);
+        vest.GetComponent<VestBomb>().isBlue = gameObject.GetComponent<PlayerStats>().isBlue;
+        vest.GetComponent<VestBomb>().isTeams = isTeams;
+        vest.GetComponent<VestBomb>().WhoShotMe = playerStats.playerConfig;
     }
 
     public void SpawnSmallVest()
     {
+        //PlayerStats playerStats = GetComponent<PlayerStats>();
         vestDeployed = true;
         GameObject smallVest = Instantiate(smallVestPrefab, this.transform.position, this.transform.rotation);
         smallVest.GetComponent<SmallVestBomb>().isBlue = gameObject.GetComponent<PlayerStats>().isBlue;
         smallVest.GetComponent<SmallVestBomb>().isTeams = isTeams;
+        smallVest.GetComponent<SmallVestBomb>().WhoShotMe = playerStats.playerConfig;
     }
 
     public void SpawnFreeze()
@@ -153,18 +161,21 @@ public class Shooting : MonoBehaviour
         GameObject freeze = Instantiate(freezePrefab, FirePoint.position, FirePoint.rotation);
         Rigidbody2D rb = freeze.GetComponent<Rigidbody2D>();
         rb.AddForce(FirePoint.up * bulletForce, ForceMode2D.Impulse);
-        PlayerStats playerStats = GetComponent<PlayerStats>();
+        
      
     }
 
     void SpawnBounce()
     {
+        // playerStats = GetComponent<PlayerStats>();
         GameObject bounce = Instantiate(bouncePrefab, FirePoint.position, FirePoint.rotation);
+        bounce.GetComponent<BouncingBullet>().WhoShotMe = GetComponent<PlayerStats>().playerConfig;
         bounce.GetComponent<BouncingBullet>().isBlue = gameObject.GetComponent<PlayerStats>().isBlue;
         bounce.GetComponent<BouncingBullet>().isTeams = isTeams;
         Rigidbody2D rb = bounce.GetComponent<Rigidbody2D>();
         rb.AddForce(FirePoint.up * bulletForce, ForceMode2D.Impulse);
-        PlayerStats playerStats = GetComponent<PlayerStats>();  
+        
+
     }
 
     IEnumerator Frozen()

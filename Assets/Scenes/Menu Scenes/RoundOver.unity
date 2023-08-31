@@ -535,6 +535,37 @@ PrefabInstance:
       objectReference: {fileID: 526134817}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6155392fa1bc1a54bae7e6bf03f24ef2, type: 3}
+--- !u!114 &628355080 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8710876538232448307, guid: 6155392fa1bc1a54bae7e6bf03f24ef2, type: 3}
+  m_PrefabInstance: {fileID: 628355079}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 628355081}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14af5656d0a1af548a5b178810c1ec2b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &628355081 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2133181221368370066, guid: 6155392fa1bc1a54bae7e6bf03f24ef2, type: 3}
+  m_PrefabInstance: {fileID: 628355079}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &628355082
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 628355081}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f2cc6dc9a40bd649859e1f209897ea1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isRoundOver: 1
+  RoundOverManager: {fileID: 526134817}
+  ResultsManager: {fileID: 0}
 --- !u!1 &876026770
 GameObject:
   m_ObjectHideFlags: 0
@@ -1183,6 +1214,30 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 628355082}
+        m_TargetAssemblyTypeName: SteamKillLeaderboard, Assembly-CSharp
+        m_MethodName: UpdateSteamPlayerScore
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 628355080}
+        m_TargetAssemblyTypeName: SteamLeaderBoard, Assembly-CSharp
+        m_MethodName: UpdateSteamPlayerScore
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 526134817}
         m_TargetAssemblyTypeName: RoundOverManager, Assembly-CSharp
         m_MethodName: NextLevel
@@ -1317,6 +1372,18 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 628355080}
+        m_TargetAssemblyTypeName: SteamLeaderBoard, Assembly-CSharp
+        m_MethodName: UpdateSteamPlayerScore
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
       - m_Target: {fileID: 876026770}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive

@@ -26,6 +26,8 @@ public class Bullet : MonoBehaviour
 
     //public string shotFrom { get; set; }
 
+    public PlayerConfiguration WhoShotMe;
+
     private void Awake()
     {
         rb.GetComponent<Rigidbody2D>();
@@ -35,11 +37,11 @@ public class Bullet : MonoBehaviour
     {
         lastVel = rb.velocity;
     }
-
+  
     // 2 Methods for preventing code repition
     public void PlayerTakeDmg(Collision2D playerCollider)
     {
-        playerCollider.gameObject.GetComponent<PlayerStats>().TakeDamage(damage);
+        playerCollider.gameObject.GetComponent<PlayerStats>().TakeDamage(damage,WhoShotMe);
         Debug.Log("shot other player");
         FindObjectOfType<AudioManager>().Play("Hurt");
     }
@@ -85,8 +87,8 @@ public class Bullet : MonoBehaviour
             }
         }
 
-        else if(collision.gameObject.tag == "BulletWall" || collision.gameObject.tag == "Wall")
-        {       
+        else if (collision.gameObject.tag == "BulletWall" || collision.gameObject.tag == "Wall")
+        {
             var speed = lastVel.magnitude;
             var direction = Vector2.Reflect(lastVel.normalized, collision.contacts[0].normal);
             rb.velocity = direction * Mathf.Max(speed, 0f);
@@ -103,6 +105,11 @@ public class Bullet : MonoBehaviour
         }
         else if (collision.gameObject.tag == "Bullet")
         {
+            if (WhoShotMe == PlayerConfigurationManager.Instance.GetPlayerConfigs()[0])
+            {
+                //Unlock achievement for shooting other players bullet
+                AchievementManager.instance.UnlockAchi(1);
+            }
             Destroy(gameObject);
             FindObjectOfType<AudioManager>().Play("EggHit");
         }

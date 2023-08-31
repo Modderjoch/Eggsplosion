@@ -17,6 +17,7 @@ public class bombScript : MonoBehaviour
     public bool isTeams = false;
     public bool isBlue;
 
+    public PlayerConfiguration WhoShotMe;
     void explode()
     {
         Collider2D[] objects = Physics2D.OverlapCircleAll(transform.position,fieldofImpact,LayerToHit);
@@ -29,7 +30,7 @@ public class bombScript : MonoBehaviour
         }
         foreach(CircleCollider2D obj2 in player)
         {
-            obj2.gameObject.GetComponent<PlayerStats>().TakeDamage(100);
+            obj2.gameObject.GetComponent<PlayerStats>().TakeDamage(100, WhoShotMe);
         }
         GameObject effect = Instantiate(explodeEffect, transform.position, Quaternion.identity);
         Destroy(effect, 1f);
@@ -41,7 +42,8 @@ public class bombScript : MonoBehaviour
         {
             if (!isTeams)
             {
-                collision.gameObject.GetComponent<PlayerStats>().TakeDamage(100);
+                collision.gameObject.GetComponent<PlayerStats>().TakeDamage(100, WhoShotMe);
+                collision.gameObject.GetComponent<PlayerStats>().lastBulletTypeThatHitMe= "bomb";
                 explode();
                 Destroy(gameObject);
                 FindObjectOfType<AudioManager>().Play("Eggsplotion");
@@ -62,7 +64,7 @@ public class bombScript : MonoBehaviour
                 }
                 else
                 {
-                    collision.gameObject.GetComponent<PlayerStats>().TakeDamage(100);
+                    collision.gameObject.GetComponent<PlayerStats>().TakeDamage(100, WhoShotMe);
                     explode();
                     Destroy(gameObject);
                     FindObjectOfType<AudioManager>().Play("Eggsplotion");
