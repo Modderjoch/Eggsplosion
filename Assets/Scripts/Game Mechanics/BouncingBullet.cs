@@ -23,6 +23,8 @@ public class BouncingBullet : MonoBehaviour
     public bool isTeams = false;
     public bool isBlue;
 
+    public PlayerConfiguration WhoShotMe;
+
     private void Awake()
     {
         rb.GetComponent<Rigidbody2D>();
@@ -41,8 +43,9 @@ public class BouncingBullet : MonoBehaviour
             {
                 GameObject killEffect = Instantiate(killPlayer, transform.position, Quaternion.identity);
                 Destroy(killEffect, 1f);
-                collision.gameObject.GetComponent<PlayerStats>().TakeDamage(bounceDamage);
-                FindObjectOfType<AudioManager>().Play("Bounce");
+                collision.gameObject.GetComponent<PlayerStats>().TakeDamage(bounceDamage,WhoShotMe);
+                collision.gameObject.GetComponent<PlayerStats>().lastBulletTypeThatHitMe = "bounce";
+                FindObjectOfType<AudioManager>().Play("Bounce");    
                 Destroy(gameObject);
             }
             else if (isTeams)
@@ -63,7 +66,7 @@ public class BouncingBullet : MonoBehaviour
                 {
                     GameObject killEffect = Instantiate(killPlayer, transform.position, Quaternion.identity);
                     Destroy(killEffect, 1f);
-                    collision.gameObject.GetComponent<PlayerStats>().TakeDamage(bounceDamage);
+                    collision.gameObject.GetComponent<PlayerStats>().TakeDamage(bounceDamage,WhoShotMe);
                     FindObjectOfType<AudioManager>().Play("Bounce");
                     Destroy(gameObject);
                 }

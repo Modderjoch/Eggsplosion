@@ -14,6 +14,7 @@ using UnityEngine;
 using System.Collections;
 using Steamworks;
 using UnityEditor;
+using Unity;
 #endif
 
 //
@@ -122,7 +123,7 @@ public class SteamManager : MonoBehaviour {
 		// Valve's documentation for this is located here:
 		// https://partner.steamgames.com/doc/sdk/api#initialization_and_shutdown
 		m_bInitialized = SteamAPI.Init();
-		SteamInput.Init(false);
+		SteamInput.Init(true);
 		if (!m_bInitialized) {
 			Debug.LogError("[Steamworks.NET] SteamAPI_Init() failed. Refer to Valve's documentation or the comment above this line for more information.", this);
 
@@ -166,7 +167,43 @@ public class SteamManager : MonoBehaviour {
 		SteamInput.Shutdown();
 		SteamAPI.Shutdown();
 	}
+
+	private void OnApplicationCancelQuit() // (CUSTOM)
+	{
+		if (s_instance != this)
+		{
+			return;
+		}
+
+		s_instance = null;
+
+		if (!m_bInitialized)
+		{
+			return;
+		}
+
+		SteamAPI.Shutdown();
+	}
 	
+	private void OnApplicationQuit() // (CUSTOM)
+	{
+
+		if (s_instance != this)
+		{
+			return;
+		}
+
+		s_instance = null;
+
+		if (!m_bInitialized)
+		{
+			return;
+		}
+
+		SteamAPI.Shutdown();
+
+	}
+
 
 	protected virtual void Update() {
 		if (!m_bInitialized) {

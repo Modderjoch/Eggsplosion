@@ -25,7 +25,7 @@ public class ResultsManager : MonoBehaviour
                 AddScoreBoard();
                 UpdateScoreBoard(playerConfigs[i].playerScore, i, playerConfigs[i].playerIndex, true, playerConfigs[i].playerName, playerConfigs[i].playerSprite);
                 Debug.Log("Game Over");
-                
+
             }
             else if (!playerConfigs[i].isAlive)
             {
@@ -37,6 +37,8 @@ public class ResultsManager : MonoBehaviour
             numberOfPlayers++;
         }
         highScores = PlayerConfigurationManager.Instance.GetPlayerHighScores();
+        AchievementTracker.instance.SaveScores(playerConfigs[0].killAmount, playerConfigs[0].playerScore);
+
         Save();
     }
     void Save()
