@@ -27993,7 +27993,7 @@ MonoBehaviour:
   - {fileID: 1741926982}
   - {fileID: 2095249450}
   - {fileID: 1404655800}
-  playerPrefab: {fileID: 161273018238503366, guid: 96b1475c953b1724cb04ccdae6561b3b, type: 3}
+  playerPrefab: {fileID: 161273018238503366, guid: 810ba13fbbd4d30478e0803b8ce20b8a, type: 3}
   isTeams: 1
 --- !u!4 &438847581
 Transform:
@@ -28028,13 +28028,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   teams: 1
   casualTimerText: {fileID: 0}
+  timerImage: {fileID: 0}
   timer: 5
   redPlayerCount: 0
   bluePlayerCount: 0
   scored: 0
   isCompetitive: 1
   isCasual: 0
-  casualLevelTime: 1200
   levelName: RoundOver
 --- !u!1 &448226343
 GameObject:

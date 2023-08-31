@@ -13,6 +13,7 @@ public class PlayerConfigurationManager : MonoBehaviour
     private int maxPlayers = 2;
 
     public int maxAmountOfRounds = 1;
+    public int maxDurationAmount = 60;
     public PlayerInputManager InputManager;
     public string[] sceneName;
     //[SerializeField]

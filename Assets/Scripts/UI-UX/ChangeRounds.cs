@@ -41,4 +41,10 @@ public class ChangeRounds : MonoBehaviour
         PlayerConfigurationManager.Instance.maxAmountOfRounds =  int.Parse(maxRoundText.text);
         Debug.Log(PlayerConfigurationManager.Instance.maxAmountOfRounds);
     }
+
+    public void ChangeMaxDuration()
+    {
+        PlayerConfigurationManager.Instance.maxDurationAmount = int.Parse(maxRoundText.text);
+        Debug.Log(PlayerConfigurationManager.Instance.maxDurationAmount);
+    }
 }
