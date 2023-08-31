@@ -14,6 +14,8 @@ public class SmallVestBomb : MonoBehaviour
     public bool isTeams = false;
     public bool isBlue;
 
+    public PlayerConfiguration WhoShotMe;
+
     private void Awake()
     {
         ExplodeSmall();
@@ -30,12 +32,12 @@ public class SmallVestBomb : MonoBehaviour
                 Shooting shooting = obj2.GetComponent<Shooting>();
                 if (shooting.vestDeployed)
                 {
-                    obj2.gameObject.GetComponent<PlayerStats>().TakeDamage(damagePlayer);
+                    obj2.gameObject.GetComponent<PlayerStats>().TakeDamage(damagePlayer, WhoShotMe);
                     shooting.vestDeployed = false;
                 }
                 else
                 {
-                    obj2.gameObject.GetComponent<PlayerStats>().TakeDamage(damageEnemy);
+                    obj2.gameObject.GetComponent<PlayerStats>().TakeDamage(damageEnemy, WhoShotMe);
                 }
             }
             else if (isTeams)
@@ -43,7 +45,7 @@ public class SmallVestBomb : MonoBehaviour
                 Shooting shooting = obj2.GetComponent<Shooting>();
                 if (shooting.vestDeployed)
                 {
-                    obj2.gameObject.GetComponent<PlayerStats>().TakeDamage(damagePlayer);
+                    obj2.gameObject.GetComponent<PlayerStats>().TakeDamage(damagePlayer, WhoShotMe);
                     shooting.vestDeployed = false;
                 }
                 else
@@ -58,7 +60,7 @@ public class SmallVestBomb : MonoBehaviour
                     }
                     else
                     {
-                        obj2.gameObject.GetComponent<PlayerStats>().TakeDamage(damageEnemy);
+                        obj2.gameObject.GetComponent<PlayerStats>().TakeDamage(damageEnemy, WhoShotMe);
                     }
                 }
             }

@@ -13,6 +13,7 @@ public class PlayerConfigurationManager : MonoBehaviour
     private int maxPlayers = 2;
 
     public int maxAmountOfRounds = 1;
+    public int maxDurationAmount = 60;
     public PlayerInputManager InputManager;
     public string[] sceneName;
     //[SerializeField]
@@ -101,7 +102,8 @@ public class PlayerConfigurationManager : MonoBehaviour
             {
                 AudioManager.Instance.Play("GameMusic");
             }
-
+            //Unlock achievement for playing for the first time
+            AchievementManager.instance.UnlockAchi(0);
             SceneManager.LoadScene(LoadRandomLevel());
         }
     }
@@ -114,7 +116,7 @@ public class PlayerConfigurationManager : MonoBehaviour
     public string LoadRandomLevel()
     {
         int random;
-        random = Random.Range(0, 1);
+        random = Random.Range(0, sceneName.Length);
         if (sceneName.Length == 1)
         {
             return sceneName[0];
@@ -168,6 +170,10 @@ public class PlayerConfiguration
     public Sprite playerSprite { get; set; }
     public int playerColour { get; set; }
     public int spriteId { get; set; }
+
+    //New for scoring
+    public int killAmount { get; set; }
+
     public AnimatorOverrideController animatorOverrideController { get; set; }
 
 }

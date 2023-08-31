@@ -480,15 +480,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 832986002316090046, guid: eda6f9bfdc33940429f9717976bb8ad0, type: 3}
       propertyPath: sceneName.Array.size
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 832986002316090046, guid: eda6f9bfdc33940429f9717976bb8ad0, type: 3}
       propertyPath: sceneName.Array.data[0]
-      value: Level2v2
+      value: FarmLevel2v2
       objectReference: {fileID: 0}
     - target: {fileID: 832986002316090046, guid: eda6f9bfdc33940429f9717976bb8ad0, type: 3}
       propertyPath: sceneName.Array.data[1]
-      value: Level2v2
+      value: Supermarket_Teams
       objectReference: {fileID: 0}
     - target: {fileID: 832986002316090046, guid: eda6f9bfdc33940429f9717976bb8ad0, type: 3}
       propertyPath: sceneName.Array.data[2]
@@ -1817,4 +1817,5 @@ MonoBehaviour:
   level: 
   mixer: 
   confirmationButton: {fileID: 0}
+  selectables: []
   audioMixer: {fileID: 0}

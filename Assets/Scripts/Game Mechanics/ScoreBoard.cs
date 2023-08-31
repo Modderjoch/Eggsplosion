@@ -11,13 +11,13 @@ public class ScoreBoard : MonoBehaviour
     public Image[] fullChickens;
     public Image[] emptyChickens;
 
-    public ScoreBoard(int _playerIndex, int _playerScore, bool _wasAlive, string _playerName, Sprite _playerSprite)
+    public ScoreBoard( int _playerScore = 0, bool _wasAlive = false, string _playerName = null, Sprite _playerSprite = null, int _rank = 0)
     {
-        playerIndex = _playerIndex;
         playerScore = _playerScore;
         wasAlive = _wasAlive;
         playerName = _playerName;
         playerIcon = _playerSprite;
+        rank = _rank;
     }
 
     public int playerIndex { get; set; }
@@ -25,6 +25,7 @@ public class ScoreBoard : MonoBehaviour
     public int playerScore { get; set; }
     public bool wasAlive { get; set; }
     public Sprite playerIcon { get; set; }
+    public int rank { get; set; }
     void Start()
     {
         playerNameText.text = playerName;

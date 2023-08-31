@@ -1396,6 +1396,10 @@ PrefabInstance:
       value: CasualSetup
       objectReference: {fileID: 0}
     - target: {fileID: 832986002316090046, guid: 2e1c0c05460761449a1bbcaa67a01958, type: 3}
+      propertyPath: sceneName.Array.data[1]
+      value: Supermarket_FFACasual
+      objectReference: {fileID: 0}
+    - target: {fileID: 832986002316090046, guid: 2e1c0c05460761449a1bbcaa67a01958, type: 3}
       propertyPath: sceneName.Array.data[2]
       value: LevelDesign1
       objectReference: {fileID: 0}
@@ -1454,7 +1458,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 453237632123231194, guid: 675c1b5bf12297a458538b5632ca1ada, type: 3}
       propertyPath: m_text
-      value: '0
+      value: '60
 
 '
       objectReference: {fileID: 0}
@@ -1462,6 +1466,26 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: aab143b11d1671b41befd5ef50c88214, type: 3}
+    - target: {fileID: 1130434286455977294, guid: 675c1b5bf12297a458538b5632ca1ada, type: 3}
+      propertyPath: roundOptions.Array.data[0]
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 1130434286455977294, guid: 675c1b5bf12297a458538b5632ca1ada, type: 3}
+      propertyPath: roundOptions.Array.data[1]
+      value: 120
+      objectReference: {fileID: 0}
+    - target: {fileID: 1130434286455977294, guid: 675c1b5bf12297a458538b5632ca1ada, type: 3}
+      propertyPath: roundOptions.Array.data[2]
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 1130434286455977294, guid: 675c1b5bf12297a458538b5632ca1ada, type: 3}
+      propertyPath: roundOptions.Array.data[3]
+      value: 240
+      objectReference: {fileID: 0}
+    - target: {fileID: 1130434286455977294, guid: 675c1b5bf12297a458538b5632ca1ada, type: 3}
+      propertyPath: roundOptions.Array.data[4]
+      value: 300
+      objectReference: {fileID: 0}
     - target: {fileID: 2219953396286518821, guid: 675c1b5bf12297a458538b5632ca1ada, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: -799
@@ -1469,6 +1493,18 @@ PrefabInstance:
     - target: {fileID: 2219953396286518821, guid: 675c1b5bf12297a458538b5632ca1ada, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -679
+      objectReference: {fileID: 0}
+    - target: {fileID: 2749963403450563089, guid: 675c1b5bf12297a458538b5632ca1ada, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3170805639529494598, guid: 675c1b5bf12297a458538b5632ca1ada, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0.000045776
+      objectReference: {fileID: 0}
+    - target: {fileID: 3170805639529494598, guid: 675c1b5bf12297a458538b5632ca1ada, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 51.868
       objectReference: {fileID: 0}
     - target: {fileID: 3199962912182489621, guid: 675c1b5bf12297a458538b5632ca1ada, type: 3}
       propertyPath: m_Sprite
@@ -1482,6 +1518,10 @@ PrefabInstance:
       propertyPath: steamDeckInput
       value: 
       objectReference: {fileID: 21300000, guid: 385352a407ddc55438652fb4cc8058f3, type: 3}
+    - target: {fileID: 4542377719801788685, guid: 675c1b5bf12297a458538b5632ca1ada, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: ChangeMaxDuration
+      objectReference: {fileID: 0}
     - target: {fileID: 5618219312855107132, guid: 675c1b5bf12297a458538b5632ca1ada, type: 3}
       propertyPath: m_Navigation.m_Mode
       value: 0
@@ -1490,6 +1530,14 @@ PrefabInstance:
       propertyPath: steamDeckInput
       value: 
       objectReference: {fileID: 21300000, guid: ec6cf37187bb2b04aaa4dbc18cf3ac9d, type: 3}
+    - target: {fileID: 7970047039492550919, guid: 675c1b5bf12297a458538b5632ca1ada, type: 3}
+      propertyPath: m_text
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7970047039500316820, guid: 675c1b5bf12297a458538b5632ca1ada, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7970047040788439672, guid: 675c1b5bf12297a458538b5632ca1ada, type: 3}
       propertyPath: m_Name
       value: RoundsInput
@@ -1578,6 +1626,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8650808793703921028, guid: 675c1b5bf12297a458538b5632ca1ada, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: ChangeMaxDuration
+      objectReference: {fileID: 0}
+    - target: {fileID: 8855686469328459582, guid: 675c1b5bf12297a458538b5632ca1ada, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 125f613a5d896b34c8557a9a289fe632, type: 3}
     - target: {fileID: 9155949326202706948, guid: 675c1b5bf12297a458538b5632ca1ada, type: 3}
       propertyPath: m_Name
       value: AddRound

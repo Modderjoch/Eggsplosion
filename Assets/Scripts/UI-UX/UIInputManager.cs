@@ -33,6 +33,8 @@ public class UIInputManager : MonoBehaviour
         uiActions.Options.performed += _ => menuHandler.Options();
         uiActions.AddRound.performed += _ => menuHandler.AddRound();
         uiActions.SubtractRound.performed += _ => menuHandler.SubtractRound();
+        uiActions.NextBoard.performed += _ => menuHandler.NextBoard();
+        uiActions.PreviousBoard.performed += _ => menuHandler.PreviousBoard();
     }
 
     private void Update()
