@@ -39149,6 +39149,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3718782626977504666, guid: 465d97cbec5da134a96e2f5b7515c783, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -150
+      objectReference: {fileID: 0}
     - target: {fileID: 8029423004486222391, guid: 465d97cbec5da134a96e2f5b7515c783, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -39233,6 +39237,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8029423004486222393, guid: 465d97cbec5da134a96e2f5b7515c783, type: 3}
+      propertyPath: m_UiScaleMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8029423004486222393, guid: 465d97cbec5da134a96e2f5b7515c783, type: 3}
+      propertyPath: m_ReferenceResolution.x
+      value: 1920
+      objectReference: {fileID: 0}
+    - target: {fileID: 8029423004486222393, guid: 465d97cbec5da134a96e2f5b7515c783, type: 3}
+      propertyPath: m_ReferenceResolution.y
+      value: 1080
+      objectReference: {fileID: 0}
     - target: {fileID: 8029423004486222395, guid: 465d97cbec5da134a96e2f5b7515c783, type: 3}
       propertyPath: m_Name
       value: TimerUI
@@ -39248,6 +39264,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &551299640 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2706701333261493280, guid: 465d97cbec5da134a96e2f5b7515c783, type: 3}
+  m_PrefabInstance: {fileID: 551299638}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &552910591
@@ -125293,6 +125320,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   teams: 0
   casualTimerText: {fileID: 551299639}
+  timerImage: {fileID: 551299640}
   timer: 5
   redPlayerCount: 0
   bluePlayerCount: 0
