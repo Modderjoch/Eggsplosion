@@ -195,7 +195,7 @@ public class PlayerStats : MonoBehaviour
         else if(LastPlayerThatHitMe != null && LastPlayerThatHitMe == playerConfig)
         {
             //Achievement for killing yourself with bounce egg
-            if (lastBulletTypeThatHitMe == "bounce")
+            if (lastBulletTypeThatHitMe == "bounce" && playerConfig.playerIndex == 0)
             {
                 AchievementManager.instance.UnlockAchi(2);
             }
