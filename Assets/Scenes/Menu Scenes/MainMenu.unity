@@ -1646,6 +1646,7 @@ MonoBehaviour:
   inGameContinue: {fileID: 0}
   eggsplanationButton: {fileID: 1739015769}
   backButton: {fileID: 0}
+  playButton: {fileID: 502577486}
   controlsCanvas: {fileID: 0}
   storyCanvas: {fileID: 0}
   powerupCanvas: {fileID: 0}
