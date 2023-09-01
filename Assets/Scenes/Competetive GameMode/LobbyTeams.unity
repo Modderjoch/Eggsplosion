@@ -476,7 +476,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 832986002316090045, guid: eda6f9bfdc33940429f9717976bb8ad0, type: 3}
       propertyPath: m_JoinAction.m_Action.m_SingletonActionBindings.Array.data[1].m_Path
-      value: <Keyboard>/minus
+      value: <Keyboard>/space
       objectReference: {fileID: 0}
     - target: {fileID: 832986002316090046, guid: eda6f9bfdc33940429f9717976bb8ad0, type: 3}
       propertyPath: sceneName.Array.size
