@@ -18,6 +18,7 @@ GameObject:
   - component: {fileID: 7338101077393097795}
   - component: {fileID: 3104446220764264861}
   - component: {fileID: 1153298282077134937}
+  - component: {fileID: 5380849457961979060}
   m_Layer: 7
   m_Name: DashPartPlayerCasual
   m_TagString: Player
@@ -97,6 +98,7 @@ MonoBehaviour:
   freezeDuration: 3
   isTeams: 0
   allowShoot: 0
+  playerStats: {fileID: 0}
 --- !u!114 &161273018238503362
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -150,6 +152,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd2983638d7a61c479822c174bc0a88a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  slightDamageThreshold: 70
+  heavyDamageThreshold: 33
+  animator: {fileID: 3195372699508575020}
+  animationManager: {fileID: 5380849457961979060}
   HP: 100
   MaxHP: 100
   currentHealth: 0
@@ -157,6 +163,7 @@ MonoBehaviour:
   sprite: {fileID: 6968566838566790352}
   playerNameText: {fileID: 3466384369924658320}
   ID: 0
+  controlscheme: 
   player: {fileID: 161273018238503366}
   anim: {fileID: 3195372699508575020}
   myPrefab: {fileID: 3107902083938792372, guid: df7d7032f0f734944aaac56e73c1a147, type: 3}
@@ -186,6 +193,7 @@ MonoBehaviour:
   - {fileID: 3546632701515509985, guid: 490deef9502d5497da4d092b73289c37, type: 3}
   - {fileID: 3680830332481492951, guid: 580c2c6121ca04361871e4519fca3cfa, type: 3}
   activateTimer: 0
+  lastBulletTypeThatHitMe: 
 --- !u!114 &2884702812988646656
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -340,6 +348,33 @@ MonoBehaviour:
   speedTrail: {fileID: 4546097943069312648}
   dashTrail: {fileID: 1138411048561790242}
   rapidEffect: {fileID: 7108525877452180080}
+--- !u!114 &5380849457961979060
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 161273018238503366}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66f4461909a670d4297e8beb47832ad1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animatorOverrideControllerSlightlyDmg:
+  - {fileID: 22100000, guid: 8f2cf9c8e02b0e14c8484f5a08c8316d, type: 2}
+  - {fileID: 22100000, guid: 0cb4437ffd2b5934eb8c2260a4f5ca08, type: 2}
+  - {fileID: 22100000, guid: 22d6816883204a54c9f179cbcb7e86d6, type: 2}
+  - {fileID: 22100000, guid: f939f6147fb60284fa82d3cfde4905fc, type: 2}
+  animatorOverrideControllersHeavyDmg:
+  - {fileID: 22100000, guid: 4ec763ac27ff3f9498e7579a8a356a40, type: 2}
+  - {fileID: 22100000, guid: 13412958a0a92254b8d35db36fe343d3, type: 2}
+  - {fileID: 22100000, guid: 86d1fe890997d704a8d491e44c69a87a, type: 2}
+  - {fileID: 22100000, guid: 1f2427ed6d6180e46902ada337210754, type: 2}
+  animatorOverrideControllerNoDamage:
+  - {fileID: 22100000, guid: 50d1ecbfd4a9d5847bc90af48b7e5618, type: 2}
+  - {fileID: 22100000, guid: d8bc799cc05be4945a6add60772ff900, type: 2}
+  - {fileID: 22100000, guid: f1ddb3cd27e3cca4b831d39b03920b07, type: 2}
+  - {fileID: 22100000, guid: e451ac840ffe49a43b120de87b0b07e1, type: 2}
 --- !u!1 &161273019067780492
 GameObject:
   m_ObjectHideFlags: 0
