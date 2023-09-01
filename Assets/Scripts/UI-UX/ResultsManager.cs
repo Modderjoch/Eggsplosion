@@ -41,6 +41,11 @@ public class ResultsManager : MonoBehaviour
 
         Save();
     }
+
+    public void DestroyPlayerConfigManager()
+    {
+        PlayerConfigurationManager.Instance.SelfDestroy();
+    }
     void Save()
     {
         XMLManager.instance.SaveScores(highScores);

@@ -149,6 +149,11 @@ public class PlayerConfigurationManager : MonoBehaviour
             maxAmountOfRounds = 5;
         }
     }
+
+    public void SelfDestroy()
+    {
+        Destroy(this);
+    }
 }
 
 public class PlayerConfiguration
