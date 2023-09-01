@@ -30,6 +30,11 @@ public class Menu : MonoBehaviour, ISelectHandler, IDeselectHandler, ICancelHand
         }
     }
 
+    public void DestroyPlayerConfigManager()
+    {
+        PlayerConfigurationManager.Instance.SelfDestroy();
+    }
+
     public void ClickSound()
     {
         FindObjectOfType<AudioManager>().Play("MenuClick");
