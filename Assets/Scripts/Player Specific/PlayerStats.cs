@@ -16,9 +16,6 @@ public class PlayerStats : MonoBehaviour
     //Animator
     [SerializeField]
     private Animator animator;
-    //HealthState Animator
-    [SerializeField]
-    private AnimatorOverrideController animatorOverrideController;
     [SerializeField]
     private SpriteAnimationManager animationManager;
     [SerializeField]
