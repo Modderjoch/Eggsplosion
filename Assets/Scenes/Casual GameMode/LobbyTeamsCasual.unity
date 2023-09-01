@@ -448,11 +448,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 832986002316090045, guid: eda6f9bfdc33940429f9717976bb8ad0, type: 3}
       propertyPath: m_JoinAction.m_Action.m_SingletonActionBindings.Array.data[1].m_Id
-      value: 2db43d65-825b-44a4-a814-0d924aacdb16
+      value: e4d3a2a0-fd20-40c8-ae63-3197fe440ec2
+      objectReference: {fileID: 0}
+    - target: {fileID: 832986002316090045, guid: eda6f9bfdc33940429f9717976bb8ad0, type: 3}
+      propertyPath: m_JoinAction.m_Action.m_SingletonActionBindings.Array.data[2].m_Id
+      value: e4d3a2a0-fd20-40c8-ae63-3197fe440ec2
       objectReference: {fileID: 0}
     - target: {fileID: 832986002316090045, guid: eda6f9bfdc33940429f9717976bb8ad0, type: 3}
       propertyPath: m_JoinAction.m_Action.m_SingletonActionBindings.Array.data[1].m_Path
-      value: <Keyboard>/minus
+      value: <Keyboard>/space
+      objectReference: {fileID: 0}
+    - target: {fileID: 832986002316090045, guid: eda6f9bfdc33940429f9717976bb8ad0, type: 3}
+      propertyPath: m_JoinAction.m_Action.m_SingletonActionBindings.Array.data[2].m_Path
+      value: <Keyboard>/space
+      objectReference: {fileID: 0}
+    - target: {fileID: 832986002316090045, guid: eda6f9bfdc33940429f9717976bb8ad0, type: 3}
+      propertyPath: m_JoinAction.m_Action.m_SingletonActionBindings.Array.data[2].m_Action
+      value: Join
       objectReference: {fileID: 0}
     - target: {fileID: 832986002316090046, guid: eda6f9bfdc33940429f9717976bb8ad0, type: 3}
       propertyPath: sceneName.Array.size
@@ -904,7 +916,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6397157966410856476, guid: ed8967b0aab07e144bfbf7433cf5f0af, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6397157966410856476, guid: ed8967b0aab07e144bfbf7433cf5f0af, type: 3}
       propertyPath: m_AnchorMax.x

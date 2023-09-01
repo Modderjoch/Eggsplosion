@@ -9,6 +9,7 @@ public class CasualGameInfo : MonoBehaviour
 {
     public static CasualGameInfo instance { get; private set; }
     public bool[] disableList;
+    public bool[] disableListProbabilities;
     void Awake()
     {     
         if (instance != null)
@@ -28,11 +29,12 @@ public class CasualGameInfo : MonoBehaviour
         if (disableList[number] == false)
         {
             disableList[number] = true;
+            disableListProbabilities[number] = true;
         }
         else
         {
             disableList[number] = false;
-
+            disableListProbabilities[number] = false;
         }
     }
     public void changeButtonColor(GameObject button)

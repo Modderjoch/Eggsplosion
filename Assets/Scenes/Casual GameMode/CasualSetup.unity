@@ -1660,6 +1660,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   disableList: 0000000000000000
+  disableListProbabilities: 0000000000000000
 --- !u!4 &697293608
 Transform:
   m_ObjectHideFlags: 0
