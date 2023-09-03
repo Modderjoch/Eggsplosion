@@ -73,7 +73,7 @@ public class ResultsManager : MonoBehaviour
     {
         GameObject configManager = GameObject.FindGameObjectWithTag("GameController");
         Destroy(configManager);
-        AudioManager.Instance.Stop("GameMusic");
+        AudioManager.Instance.StopAllMusic();
 
         if (AudioManager.Instance.IsSoundPlaying("MenuMusic"))
         {
