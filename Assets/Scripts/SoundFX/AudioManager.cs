@@ -76,4 +76,43 @@ public class AudioManager : MonoBehaviour
 
         return sound.source.isPlaying;
     }
+
+    private void Update()
+    {
+        if (IsSoundPlaying("MenuMusic"))
+        {
+            return;
+        }
+        else if (IsSoundPlaying("GameMusic0"))
+        {
+            return;
+        }
+        else if (IsSoundPlaying("GameMusic1"))
+        {
+            return;
+        }
+        else if (IsSoundPlaying("GameMusic2"))
+        {
+            return;
+        }
+        else if (!IsSoundPlaying("GameMusic0") || !IsSoundPlaying("GameMusic1") || !IsSoundPlaying("GameMusic2"))
+        {
+            StartRandomMusicTrack();
+        }
+    }
+
+    public void StartRandomMusicTrack()
+    {
+        int newTrack = UnityEngine.Random.Range(0, 3);
+        string trackToPlay = string.Format("GameMusic{0}", newTrack);
+
+        Play(trackToPlay);
+    }
+
+    public void StopAllMusic()
+    {
+        Stop("GameMusic0");
+        Stop("GameMusic1");
+        Stop("GameMusic2");
+    }
 }
