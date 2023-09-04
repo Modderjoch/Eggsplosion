@@ -12,7 +12,7 @@ public class MainMenuMusic : MonoBehaviour
         }
         else if(AudioManager.Instance.IsSoundPlaying("GameMusic"))
         {
-            AudioManager.Instance.Stop("GameMusic");
+            AudioManager.Instance.StopAllMusic();
             AudioManager.Instance.Play("MenuMusic");
         }
         else
