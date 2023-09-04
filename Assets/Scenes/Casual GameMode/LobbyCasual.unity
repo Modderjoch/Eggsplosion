@@ -1388,6 +1388,14 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1492992185}
     - target: {fileID: 832986002316090046, guid: 2e1c0c05460761449a1bbcaa67a01958, type: 3}
+      propertyPath: maxAmountOfRounds
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 832986002316090046, guid: 2e1c0c05460761449a1bbcaa67a01958, type: 3}
+      propertyPath: maxDurationAmount
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 832986002316090046, guid: 2e1c0c05460761449a1bbcaa67a01958, type: 3}
       propertyPath: sceneName.Array.size
       value: 1
       objectReference: {fileID: 0}
