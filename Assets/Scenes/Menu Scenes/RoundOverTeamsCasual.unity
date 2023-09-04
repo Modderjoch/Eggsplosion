@@ -756,7 +756,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isCasual: 1
   panel: {fileID: 2086213110}
-  prefab: {fileID: 1006011200813512078, guid: 955d7b22151f0d247a1ce41f9a873ac1, type: 3}
+  prefab: {fileID: 1006011200813512078, guid: af9163902eb639446835725658f4a793, type: 3}
   confirmationButton: {fileID: 54363793}
   continueButton: {fileID: 1616999396}
   sceneName:
@@ -2168,3 +2168,5 @@ MonoBehaviour:
   playerNameText: {fileID: 0}
   fullChickens: []
   emptyChickens: []
+  killsText: {fileID: 0}
+  isCasual: 0
