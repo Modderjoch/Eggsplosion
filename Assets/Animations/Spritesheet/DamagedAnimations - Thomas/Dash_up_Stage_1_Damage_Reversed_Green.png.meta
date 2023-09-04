@@ -1,0 +1,1039 @@
+fileFormatVersion: 2
+guid: b8ca6b1ae98d42d4cb658266eaa43433
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 2
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Dash_up_Stage_1_Damage_Reversed_Green_0
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 126
+        width: 388
+        height: 435
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ede356794e6a5634cae0769832e304d0
+      internalID: -2100133955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dash_up_Stage_1_Damage_Reversed_Green_1
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 160
+        width: 357
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d769c8d8759805941bdcc787b221b81e
+      internalID: 732778096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dash_up_Stage_1_Damage_Reversed_Green_2
+      rect:
+        serializedVersion: 2
+        x: 1566
+        y: 180
+        width: 361
+        height: 331
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d8a1b6606c48f64296565d23e4726d1
+      internalID: -1063926591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dash_up_Stage_1_Damage_Reversed_Green_3
+      rect:
+        serializedVersion: 2
+        x: 2265
+        y: 203
+        width: 361
+        height: 293
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cc98c0d13f1fd4449775bc0afc1b18b
+      internalID: 968394842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dash_up_Stage_1_Damage_Reversed_Green_4
+      rect:
+        serializedVersion: 2
+        x: 4367
+        y: 160
+        width: 364
+        height: 327
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87db8921994b8c14dbb4696bbee2bad5
+      internalID: -342288869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dash_up_Stage_1_Damage_Reversed_Green_5
+      rect:
+        serializedVersion: 2
+        x: 5049
+        y: 160
+        width: 393
+        height: 327
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ad7e148113dc8741ac6b7e63712683f
+      internalID: -1511689275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dash_up_Stage_1_Damage_Reversed_Green_6
+      rect:
+        serializedVersion: 2
+        x: 5748
+        y: 152
+        width: 397
+        height: 343
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 928c99e90d14edb4fa0e450718214e70
+      internalID: 1344528471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dash_up_Stage_1_Damage_Reversed_Green_7
+      rect:
+        serializedVersion: 2
+        x: 6022
+        y: 486
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f822a48bf11eab44b9fe76c9777235aa
+      internalID: 1575059644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dash_up_Stage_1_Damage_Reversed_Green_8
+      rect:
+        serializedVersion: 2
+        x: 6449
+        y: 140
+        width: 389
+        height: 355
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cebcb74f652f2934f8ba0f4e1f9bb5d7
+      internalID: 959879736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dash_up_Stage_1_Damage_Reversed_Green_9
+      rect:
+        serializedVersion: 2
+        x: 7151
+        y: 125
+        width: 368
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 232ee30ab0ceda641a3594fb0bb57c89
+      internalID: 450004236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dash_up_Stage_1_Damage_Reversed_Green_10
+      rect:
+        serializedVersion: 2
+        x: 7851
+        y: 125
+        width: 368
+        height: 379
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fa6dd361929f2c4ab8024c58e515704
+      internalID: -996701318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dash_up_Stage_1_Damage_Reversed_Green_11
+      rect:
+        serializedVersion: 2
+        x: 9951
+        y: 124
+        width: 367
+        height: 379
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e2e7598423292f4ba6b7d9ce71021a3
+      internalID: -365963657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dash_up_Stage_1_Damage_Reversed_Green_12
+      rect:
+        serializedVersion: 2
+        x: 10651
+        y: 125
+        width: 368
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2288bbf68edd91e49858c098da4144f3
+      internalID: -608950934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dash_up_Stage_1_Damage_Reversed_Green_13
+      rect:
+        serializedVersion: 2
+        x: 12039
+        y: 124
+        width: 395
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9298263972eb91d4db3de6613d6ff7b4
+      internalID: 1451420184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dash_up_Stage_1_Damage_Reversed_Green_14
+      rect:
+        serializedVersion: 2
+        x: 12748
+        y: 120
+        width: 393
+        height: 402
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c9389d7ec1f392468d0fcab7deff62b
+      internalID: -1416695264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dash_up_Stage_1_Damage_Reversed_Green_15
+      rect:
+        serializedVersion: 2
+        x: 13451
+        y: 102
+        width: 387
+        height: 436
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f11bb912a34608e4bb96741337b07f66
+      internalID: -2021799131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dash_up_Stage_1_Damage_Reversed_Green_16
+      rect:
+        serializedVersion: 2
+        x: 1227
+        y: 314
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 935bad33ce842264e9141a4f78a91062
+      internalID: 177886952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dash_up_Stage_1_Damage_Reversed_Green_17
+      rect:
+        serializedVersion: 2
+        x: 2966
+        y: 196
+        width: 364
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f3b90b86277c5342a09b05730f0608f
+      internalID: -1433762110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dash_up_Stage_1_Damage_Reversed_Green_18
+      rect:
+        serializedVersion: 2
+        x: 3667
+        y: 158
+        width: 358
+        height: 328
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb0eb33324557c44d94c2924d8f6460d
+      internalID: 2144132013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dash_up_Stage_1_Damage_Reversed_Green_19
+      rect:
+        serializedVersion: 2
+        x: 8551
+        y: 124
+        width: 367
+        height: 355
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9d8b3292e9c3e74799ca1c639e61379
+      internalID: 2104198568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dash_up_Stage_1_Damage_Reversed_Green_20
+      rect:
+        serializedVersion: 2
+        x: 9251
+        y: 125
+        width: 366
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a86381f633feafe4e8f3c06f379ac471
+      internalID: -24950236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dash_up_Stage_1_Damage_Reversed_Green_21
+      rect:
+        serializedVersion: 2
+        x: 11349
+        y: 125
+        width: 369
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf9fceb59250a5746b4a7c186a71a432
+      internalID: -1833621970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dash_up_Stage_1_Damage_Reversed_Green_22
+      rect:
+        serializedVersion: 2
+        x: 11340
+        y: 283
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f710d42deccbfa94ba668b00c4e0ea5c
+      internalID: 1019827398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dash_up_Stage_1_Damage_Reversed_Green_23
+      rect:
+        serializedVersion: 2
+        x: 2370
+        y: 197
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f30ce1749c37aa0439535f7a7618b8a0
+      internalID: 1754342090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dash_up_Stage_1_Damage_Reversed_Green_24
+      rect:
+        serializedVersion: 2
+        x: 2486
+        y: 201
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c17723c9eebc54e489a6629734df3cb4
+      internalID: -1963534759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dash_up_Stage_1_Damage_Reversed_Green_25
+      rect:
+        serializedVersion: 2
+        x: 2437
+        y: 179
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d55089f27697c804fb8352f6f8621c8e
+      internalID: 560746026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dash_up_Stage_1_Damage_Reversed_Green_26
+      rect:
+        serializedVersion: 2
+        x: 3137
+        y: 179
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93da46fb02f6fc347a80ac40e1fa5575
+      internalID: -1725433488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dash_up_Stage_1_Damage_Reversed_Green_27
+      rect:
+        serializedVersion: 2
+        x: 7400
+        y: 155
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d55ea1cabbdea0640b15850c248b38ba
+      internalID: 2039065952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dash_up_Stage_1_Damage_Reversed_Green_28
+      rect:
+        serializedVersion: 2
+        x: 8100
+        y: 155
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 231706b73fefe7a4db22c7346822a8c6
+      internalID: 616832190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dash_up_Stage_1_Damage_Reversed_Green_29
+      rect:
+        serializedVersion: 2
+        x: 8796
+        y: 134
+        width: 8
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 921c4f516d33e6b44877504ec37875bc
+      internalID: 1477944763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dash_up_Stage_1_Damage_Reversed_Green_30
+      rect:
+        serializedVersion: 2
+        x: 9495
+        y: 134
+        width: 9
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edc6a71aed24371428246e35f963230b
+      internalID: 1681989229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dash_up_Stage_1_Damage_Reversed_Green_31
+      rect:
+        serializedVersion: 2
+        x: 10195
+        y: 134
+        width: 9
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef1ece40f491e234188b945ce6a5d8bc
+      internalID: -1487628054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dash_up_Stage_1_Damage_Reversed_Green_32
+      rect:
+        serializedVersion: 2
+        x: 10900
+        y: 155
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9247d0bf336b18f47aff4961b90c1d08
+      internalID: 178323502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dash_up_Stage_1_Damage_Reversed_Green_33
+      rect:
+        serializedVersion: 2
+        x: 5995
+        y: 150
+        width: 11
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 188f4795b8a16e04f9cf28f02f7e78da
+      internalID: -960220817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dash_up_Stage_1_Damage_Reversed_Green_34
+      rect:
+        serializedVersion: 2
+        x: 6695
+        y: 150
+        width: 10
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4884a65789af1d2478e07b4d5089ab6b
+      internalID: -1813799430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dash_up_Stage_1_Damage_Reversed_Green_35
+      rect:
+        serializedVersion: 2
+        x: 5781
+        y: 139
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc1edbbb2e2238c45ac2c7a10d291838
+      internalID: 1663654775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dash_up_Stage_1_Damage_Reversed_Green_36
+      rect:
+        serializedVersion: 2
+        x: 7395
+        y: 134
+        width: 9
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24d34e303d551c540b6f201671d160b9
+      internalID: -1094275946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dash_up_Stage_1_Damage_Reversed_Green_37
+      rect:
+        serializedVersion: 2
+        x: 8095
+        y: 134
+        width: 9
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ac9d12560f7d244e8298a52af093931
+      internalID: 894457567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dash_up_Stage_1_Damage_Reversed_Green_38
+      rect:
+        serializedVersion: 2
+        x: 10895
+        y: 134
+        width: 9
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d134ab796847b9439d7719f763f90c5
+      internalID: 421648785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dash_up_Stage_1_Damage_Reversed_Green_39
+      rect:
+        serializedVersion: 2
+        x: 11595
+        y: 134
+        width: 9
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb139131c05ff6d4aa7b8e19cf2d2b44
+      internalID: 1759949790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Dash_up_Stage_1_Damage_Reversed_Green_0: -2100133955
+      Dash_up_Stage_1_Damage_Reversed_Green_1: 732778096
+      Dash_up_Stage_1_Damage_Reversed_Green_10: -996701318
+      Dash_up_Stage_1_Damage_Reversed_Green_11: -365963657
+      Dash_up_Stage_1_Damage_Reversed_Green_12: -608950934
+      Dash_up_Stage_1_Damage_Reversed_Green_13: 1451420184
+      Dash_up_Stage_1_Damage_Reversed_Green_14: -1416695264
+      Dash_up_Stage_1_Damage_Reversed_Green_15: -2021799131
+      Dash_up_Stage_1_Damage_Reversed_Green_16: 177886952
+      Dash_up_Stage_1_Damage_Reversed_Green_17: -1433762110
+      Dash_up_Stage_1_Damage_Reversed_Green_18: 2144132013
+      Dash_up_Stage_1_Damage_Reversed_Green_19: 2104198568
+      Dash_up_Stage_1_Damage_Reversed_Green_2: -1063926591
+      Dash_up_Stage_1_Damage_Reversed_Green_20: -24950236
+      Dash_up_Stage_1_Damage_Reversed_Green_21: -1833621970
+      Dash_up_Stage_1_Damage_Reversed_Green_22: 1019827398
+      Dash_up_Stage_1_Damage_Reversed_Green_23: 1754342090
+      Dash_up_Stage_1_Damage_Reversed_Green_24: -1963534759
+      Dash_up_Stage_1_Damage_Reversed_Green_25: 560746026
+      Dash_up_Stage_1_Damage_Reversed_Green_26: -1725433488
+      Dash_up_Stage_1_Damage_Reversed_Green_27: 2039065952
+      Dash_up_Stage_1_Damage_Reversed_Green_28: 616832190
+      Dash_up_Stage_1_Damage_Reversed_Green_29: 1477944763
+      Dash_up_Stage_1_Damage_Reversed_Green_3: 968394842
+      Dash_up_Stage_1_Damage_Reversed_Green_30: 1681989229
+      Dash_up_Stage_1_Damage_Reversed_Green_31: -1487628054
+      Dash_up_Stage_1_Damage_Reversed_Green_32: 178323502
+      Dash_up_Stage_1_Damage_Reversed_Green_33: -960220817
+      Dash_up_Stage_1_Damage_Reversed_Green_34: -1813799430
+      Dash_up_Stage_1_Damage_Reversed_Green_35: 1663654775
+      Dash_up_Stage_1_Damage_Reversed_Green_36: -1094275946
+      Dash_up_Stage_1_Damage_Reversed_Green_37: 894457567
+      Dash_up_Stage_1_Damage_Reversed_Green_38: 421648785
+      Dash_up_Stage_1_Damage_Reversed_Green_39: 1759949790
+      Dash_up_Stage_1_Damage_Reversed_Green_4: -342288869
+      Dash_up_Stage_1_Damage_Reversed_Green_5: -1511689275
+      Dash_up_Stage_1_Damage_Reversed_Green_6: 1344528471
+      Dash_up_Stage_1_Damage_Reversed_Green_7: 1575059644
+      Dash_up_Stage_1_Damage_Reversed_Green_8: 959879736
+      Dash_up_Stage_1_Damage_Reversed_Green_9: 450004236
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

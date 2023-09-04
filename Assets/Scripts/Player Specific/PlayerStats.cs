@@ -5,6 +5,8 @@ using UnityEngine.UI;
 using TMPro;
 using UnityEngine.InputSystem;
 using System;
+using Unity.Mathematics;
+using Random = UnityEngine.Random;
 
 public class PlayerStats : MonoBehaviour
 {
@@ -52,6 +54,8 @@ public class PlayerStats : MonoBehaviour
 
     public Vector3 scale;
     public Vector3 spawnPos;
+    public Transform[] spawnPositions;
+    // for respawning in casual
     private bool scored = false;
 
     //UI Icons PowerUps
@@ -270,7 +274,7 @@ public class PlayerStats : MonoBehaviour
     {
         HP = MaxHP;
         playerConfig.isAlive = true;
-        player.transform.position = spawnPos;
+        player.transform.position = spawnPositions[Random.Range(1,4)].transform.position;
         GetHealth(HP);
     }
 

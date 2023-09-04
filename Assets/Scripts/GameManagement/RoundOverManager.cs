@@ -31,7 +31,7 @@ public class RoundOverManager : MonoBehaviour
             if (playerConfigs[i].isAlive)
             {  
                 AddScoreBoard();
-                UpdateScoreBoard(playerConfigs[i].playerScore, i, playerConfigs[i].playerIndex, true, playerConfigs[i].playerName, playerConfigs[i].playerSprite);
+                UpdateScoreBoard(playerConfigs[i].playerScore, i, playerConfigs[i].playerIndex, true, playerConfigs[i].playerName, playerConfigs[i].playerSprite, playerConfigs[i].killAmount);
                 Debug.Log("Round Over");
                 PlayerConfigurationManager.Instance.SetHighScoreEntry(i, playerConfigs[i].playerScore, playerConfigs[i].playerName, playerConfigs[i].spriteId);
                 if (playerConfigs[i].playerScore >= PlayerConfigurationManager.Instance.maxAmountOfRounds)
@@ -45,7 +45,7 @@ public class RoundOverManager : MonoBehaviour
                 PlayerConfigurationManager.Instance.SetHighScoreEntry(i, playerConfigs[i].playerScore, playerConfigs[i].playerName, playerConfigs[i].spriteId);
                 Debug.Log("Added Score for player " + playerConfigs[i].playerName);
                 AddScoreBoard();
-                UpdateScoreBoard(playerConfigs[i].playerScore, i, playerConfigs[i].playerIndex, false, playerConfigs[i].playerName, playerConfigs[i].playerSprite);
+                UpdateScoreBoard(playerConfigs[i].playerScore, i, playerConfigs[i].playerIndex, false, playerConfigs[i].playerName, playerConfigs[i].playerSprite, playerConfigs[i].killAmount);
             }
             numberOfPlayers++;
         }
@@ -68,7 +68,7 @@ public class RoundOverManager : MonoBehaviour
         return sceneName[random];
     }
 
-    public void UpdateScoreBoard(int score, int boardInstance, int playerIndex, bool wasAlive, string playerName, Sprite playerIcon)
+    public void UpdateScoreBoard(int score, int boardInstance, int playerIndex, bool wasAlive, string playerName, Sprite playerIcon, int kills)
     {
 
         scores[boardInstance].GetComponent<ScoreBoard>().playerName = playerName;
@@ -76,6 +76,7 @@ public class RoundOverManager : MonoBehaviour
         scores[boardInstance].GetComponent<ScoreBoard>().playerIndex = playerIndex;
         scores[boardInstance].GetComponent<ScoreBoard>().wasAlive = wasAlive;
         scores[boardInstance].GetComponent<ScoreBoard>().playerIcon = playerIcon;
+        scores[boardInstance].GetComponent<ScoreBoard>().kills = kills;
     }
     public void NextLevel()
     {

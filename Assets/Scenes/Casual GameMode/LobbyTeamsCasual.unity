@@ -467,6 +467,14 @@ PrefabInstance:
       value: Join
       objectReference: {fileID: 0}
     - target: {fileID: 832986002316090046, guid: eda6f9bfdc33940429f9717976bb8ad0, type: 3}
+      propertyPath: maxAmountOfRounds
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 832986002316090046, guid: eda6f9bfdc33940429f9717976bb8ad0, type: 3}
+      propertyPath: maxDurationAmount
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 832986002316090046, guid: eda6f9bfdc33940429f9717976bb8ad0, type: 3}
       propertyPath: sceneName.Array.size
       value: 1
       objectReference: {fileID: 0}
