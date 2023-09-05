@@ -388,7 +388,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &185257682
 RectTransform:
   m_ObjectHideFlags: 0
@@ -431,8 +431,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Top 5 rounds won
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: d0f9c16d6e2aba34ea51465ff2e959aa, type: 2}
-  m_sharedMaterial: {fileID: 4113965531384667672, guid: d0f9c16d6e2aba34ea51465ff2e959aa, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: f08e5941372ac85479680a708206f555, type: 2}
+  m_sharedMaterial: {fileID: 4113965531384667672, guid: f08e5941372ac85479680a708206f555, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -495,7 +495,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 1
+  m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &185257684
@@ -1499,8 +1499,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Top 5 number of kills
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: d0f9c16d6e2aba34ea51465ff2e959aa, type: 2}
-  m_sharedMaterial: {fileID: 4113965531384667672, guid: d0f9c16d6e2aba34ea51465ff2e959aa, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: f08e5941372ac85479680a708206f555, type: 2}
+  m_sharedMaterial: {fileID: 4113965531384667672, guid: f08e5941372ac85479680a708206f555, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
