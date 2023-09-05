@@ -52,8 +52,11 @@ public class RoundOverManager : MonoBehaviour
  
 
     }
-    void Save()
+
+    public void SaveAndQuit()
     {
+        highScores = PlayerConfigurationManager.Instance.GetPlayerHighScores();
+        AchievementTracker.instance.SaveScores(playerConfigs[0].killAmount, playerConfigs[0].playerScore);
         XMLManager.instance.SaveScores(highScores);
     }
     public void AddScoreBoard()

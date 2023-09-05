@@ -88,7 +88,7 @@ public class PlayerConfigurationManager : MonoBehaviour
         //Debug.Log(playerConfigs.Count);
         //Debug.Log(i + "is ready");
         playerConfigs[i].isReady = true;
-        if (playerConfigs.Count >= 1  && playerConfigs.All(p => p.isReady == true))
+        if (playerConfigs.Count >= 2  && playerConfigs.All(p => p.isReady == true))
         {
             InputManager.DisableJoining();
 
