@@ -532,7 +532,6 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1068120917}
   - {fileID: 1953504864}
   m_Father: {fileID: 347886043}
   m_RootOrder: 6
@@ -1394,6 +1393,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 526134817}
+        m_TargetAssemblyTypeName: RoundOverManager, Assembly-CSharp
+        m_MethodName: SaveAndQuit
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1664470979
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1810,7 +1821,7 @@ RectTransform:
   - {fileID: 1377426443}
   - {fileID: 1233142336}
   m_Father: {fileID: 600787240}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -2104,3 +2115,5 @@ MonoBehaviour:
   playerNameText: {fileID: 0}
   fullChickens: []
   emptyChickens: []
+  killsText: {fileID: 0}
+  isCasual: 0
