@@ -72,17 +72,10 @@ public class ResultsManager : MonoBehaviour
     public void MainMenu()
     {
         GameObject configManager = GameObject.FindGameObjectWithTag("GameController");
+        GameObject casualManager = GameObject.FindGameObjectWithTag("CasualInfo");
         Destroy(configManager);
+        Destroy(casualManager);
         AudioManager.Instance.StopAllMusic();
-
-        if (AudioManager.Instance.IsSoundPlaying("MenuMusic"))
-        {
-            return;
-        }
-        else
-        {
-            AudioManager.Instance.Play("MenuMusic");
-        }
 
         SceneManager.LoadScene("MainMenu");
     }
