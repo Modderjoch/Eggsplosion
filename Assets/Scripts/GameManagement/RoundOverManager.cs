@@ -109,7 +109,11 @@ public class RoundOverManager : MonoBehaviour
     public void MainMenu()
     {
         GameObject configManager = GameObject.FindGameObjectWithTag("GameController");
+        GameObject casualManager = GameObject.FindGameObjectWithTag("CasualInfo");
         Destroy(configManager);
+        Destroy(casualManager);
+        AudioManager.Instance.StopAllMusic();
+
         SceneManager.LoadScene("MainMenu");
     }
 }

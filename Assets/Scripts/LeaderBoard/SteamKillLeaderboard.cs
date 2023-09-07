@@ -127,15 +127,4 @@ public class SteamKillLeaderboard : MonoBehaviour
         UnityEngine.Debug.Log("STEAM LEADERBOARDS: failure - " + failure + " Completed - " + pCallback.m_bSuccess + " NewScore: " + pCallback.m_nGlobalRankNew + " Score " + pCallback.m_nScore + " HasChanged - " + pCallback.m_bScoreChanged);
     }
 
-
-    private static Timer timer1;
-    public static void InitTimer()
-    {
-        timer1 = new Timer(timer1_Tick, null, 0, 1000);
-    }
-
-    private static void timer1_Tick(object state)
-    {
-        SteamAPI.RunCallbacks();
-    }
 }
