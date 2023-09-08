@@ -88,26 +88,6 @@ PrefabInstance:
       propertyPath: m_Colors.m_HighlightedColor.r
       value: 0.8396226
       objectReference: {fileID: 0}
-    - target: {fileID: 283765317523723483, guid: 9f428de876857bd41af568e83fc6bf38, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 283765317523723483, guid: 9f428de876857bd41af568e83fc6bf38, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 283765317523723483, guid: 9f428de876857bd41af568e83fc6bf38, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: DestroyPlayerConfigManager
-      objectReference: {fileID: 0}
-    - target: {fileID: 283765317523723483, guid: 9f428de876857bd41af568e83fc6bf38, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: Menu, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 283765317523723483, guid: 9f428de876857bd41af568e83fc6bf38, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
     - target: {fileID: 283765317523723487, guid: 9f428de876857bd41af568e83fc6bf38, type: 3}
       propertyPath: m_AnchorMax.y
       value: 1

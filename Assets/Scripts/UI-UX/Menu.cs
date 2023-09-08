@@ -30,9 +30,15 @@ public class Menu : MonoBehaviour, ISelectHandler, IDeselectHandler, ICancelHand
         }
     }
 
-    public void DestroyPlayerConfigManager()
+    public void MainMenu()
     {
-        PlayerConfigurationManager.Instance.SelfDestroy();
+        GameObject configManager = GameObject.FindGameObjectWithTag("GameController");
+        GameObject casualManager = GameObject.FindGameObjectWithTag("CasualInfo");
+        Destroy(configManager);
+        Destroy(casualManager);
+        AudioManager.Instance.StopAllMusic();
+
+        SceneManager.LoadScene("MainMenu");
     }
 
     public void ClickSound()

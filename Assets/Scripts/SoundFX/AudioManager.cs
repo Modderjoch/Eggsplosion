@@ -10,18 +10,19 @@ public class AudioManager : MonoBehaviour
 
     private void Awake()
     {
-        if (Instance == null)
-        {
-            Instance = this;
-            DontDestroyOnLoad(gameObject);
 
-            InitializeAudioSources();
+        if (Instance != null)
+        {
+            Debug.Log("[Singleton] Trying to create another instance of singleton");
+            Destroy(gameObject);
         }
         else
         {
-            Destroy(gameObject);
-            return;
+            Instance = this;
+            DontDestroyOnLoad(Instance);
+            InitializeAudioSources();
         }
+
     }
 
     private void InitializeAudioSources()
