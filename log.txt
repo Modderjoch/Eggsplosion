@@ -866,3 +866,265 @@ k_ESteamInputType_Unknown connected on: 7,832669controller is nr: 0
 this is the first controller
 k_ESteamInputType_Unknown connected on: 12,67357controller is nr: 0
 this is the first controller
+k_ESteamInputType_Unknown connected on: 0controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 0controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 0,22controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 0,22controller is nr: 0
+this is the first controller
+k_ESteamInputType_Unknown connected on: 0,22controller is nr: 0
+this is the first controller
+k_ESteamInputType_PS5Controller connected on: 0controller is nr: 0
+this is the first controller
+k_ESteamInputType_PS5Controller connected on: 0controller is nr: 0
+this is the first controller
+k_ESteamInputType_PS5Controller connected on: 0,22controller is nr: 0
+this is the first controller
+k_ESteamInputType_PS5Controller connected on: 0,22controller is nr: 0
+this is the first controller
+k_ESteamInputType_PS5Controller connected on: 0,22controller is nr: 0
+this is the first controller
+k_ESteamInputType_PS5Controller connected on: 1,865781controller is nr: 0
+this is the first controller
+k_ESteamInputType_PS5Controller connected on: 3,002548controller is nr: 0
+this is the first controller
+k_ESteamInputType_PS5Controller connected on: 3,002548controller is nr: 0
+this is the first controller
+k_ESteamInputType_PS5Controller connected on: 3,002548controller is nr: 0
+this is the first controller
+k_ESteamInputType_PS5Controller connected on: 3,002548controller is nr: 0
+this is the first controller
+k_ESteamInputType_PS5Controller connected on: 29,81289controller is nr: 0
+this is the first controller
+k_ESteamInputType_PS5Controller connected on: 29,81289controller is nr: 0
+this is the first controller
+k_ESteamInputType_PS5Controller connected on: 0controller is nr: 0
+this is the first controller
+k_ESteamInputType_PS5Controller connected on: 0controller is nr: 0
+this is the first controller
+k_ESteamInputType_PS5Controller connected on: 0,7663733controller is nr: 0
+this is the first controller
+k_ESteamInputType_PS5Controller connected on: 1,873221controller is nr: 0
+this is the first controller
+k_ESteamInputType_PS5Controller connected on: 1,873221controller is nr: 0
+this is the first controller
+k_ESteamInputType_PS5Controller connected on: 1,873221controller is nr: 0
+this is the first controller
+k_ESteamInputType_PS5Controller connected on: 1,873221controller is nr: 0
+this is the first controller
+k_ESteamInputType_PS5Controller connected on: 6,571105controller is nr: 0
+this is the first controller
+k_ESteamInputType_PS5Controller connected on: 6,571105controller is nr: 0
+this is the first controller
+k_ESteamInputType_PS5Controller connected on: 0controller is nr: 0
+this is the first controller
+k_ESteamInputType_PS5Controller connected on: 0controller is nr: 0
+this is the first controller
+k_ESteamInputType_PS5Controller connected on: 0,9452904controller is nr: 0
+this is the first controller
+k_ESteamInputType_PS5Controller connected on: 2,925075controller is nr: 0
+this is the first controller
+k_ESteamInputType_PS5Controller connected on: 2,925075controller is nr: 0
+this is the first controller
+k_ESteamInputType_PS5Controller connected on: 2,925075controller is nr: 0
+this is the first controller
+k_ESteamInputType_PS5Controller connected on: 2,925075controller is nr: 0
+this is the first controller
+k_ESteamInputType_PS5Controller connected on: 10,33748controller is nr: 0
+this is the first controller
+k_ESteamInputType_PS5Controller connected on: 10,33748controller is nr: 0
+this is the first controller
+k_ESteamInputType_PS5Controller connected on: 0controller is nr: 0
+this is the first controller
+k_ESteamInputType_PS5Controller connected on: 0controller is nr: 0
+this is the first controller
+k_ESteamInputType_PS5Controller connected on: 0,2568336controller is nr: 0
+this is the first controller
+k_ESteamInputType_PS5Controller connected on: 1,309776controller is nr: 0
+this is the first controller
+k_ESteamInputType_PS5Controller connected on: 1,309776controller is nr: 0
+this is the first controller
+k_ESteamInputType_PS5Controller connected on: 1,897336controller is nr: 0
+this is the first controller
+k_ESteamInputType_PS5Controller connected on: 2,739573controller is nr: 0
+this is the first controller
+k_ESteamInputType_PS5Controller connected on: 2,739573controller is nr: 0
+this is the first controller
+k_ESteamInputType_PS5Controller connected on: 2,739573controller is nr: 0
+this is the first controller
+k_ESteamInputType_PS5Controller connected on: 2,739573controller is nr: 0
+this is the first controller
+k_ESteamInputType_PS5Controller connected on: 11,55719controller is nr: 0
+this is the first controller
+k_ESteamInputType_PS5Controller connected on: 11,55719controller is nr: 0
+this is the first controller
+k_ESteamInputType_PS5Controller connected on: 11,55719controller is nr: 0
+this is the first controller
+k_ESteamInputType_PS5Controller connected on: 12,17018controller is nr: 0
+this is the first controller
+k_ESteamInputType_PS5Controller connected on: 12,17018controller is nr: 0
+this is the first controller
+k_ESteamInputType_PS5Controller connected on: 0controller is nr: 0
+this is the first controller
+k_ESteamInputType_PS5Controller connected on: 0controller is nr: 0
+this is the first controller
+k_ESteamInputType_PS5Controller connected on: 1,620131controller is nr: 0
+this is the first controller
+k_ESteamInputType_PS5Controller connected on: 1,620131controller is nr: 0
+this is the first controller
+k_ESteamInputType_PS5Controller connected on: 1,620131controller is nr: 0
+this is the first controller
+k_ESteamInputType_PS5Controller connected on: 4,731823controller is nr: 0
+this is the first controller
+k_ESteamInputType_PS5Controller connected on: 5,718005controller is nr: 0
+this is the first controller
+k_ESteamInputType_PS5Controller connected on: 5,718005controller is nr: 0
+this is the first controller
+k_ESteamInputType_PS5Controller connected on: 6,406549controller is nr: 0
+this is the first controller
+k_ESteamInputType_PS5Controller connected on: 6,406549controller is nr: 0
+this is the first controller
+k_ESteamInputType_PS5Controller connected on: 6,406549controller is nr: 0
+this is the first controller
+k_ESteamInputType_PS5Controller connected on: 7,848905controller is nr: 0
+this is the first controller
+k_ESteamInputType_PS5Controller connected on: 9,218042controller is nr: 0
+this is the first controller
+k_ESteamInputType_PS5Controller connected on: 9,218042controller is nr: 0
+this is the first controller
+k_ESteamInputType_PS5Controller connected on: 9,218042controller is nr: 0
+this is the first controller
+k_ESteamInputType_PS5Controller connected on: 9,218042controller is nr: 0
+this is the first controller
+k_ESteamInputType_PS5Controller connected on: 18,04704controller is nr: 0
+this is the first controller
+k_ESteamInputType_PS5Controller connected on: 18,04704controller is nr: 0
+this is the first controller
+k_ESteamInputType_PS5Controller connected on: 26,23801controller is nr: 0
+this is the first controller
+k_ESteamInputType_PS5Controller connected on: 26,23801controller is nr: 0
+this is the first controller
+k_ESteamInputType_PS5Controller connected on: 0controller is nr: 0
+this is the first controller
+k_ESteamInputType_PS5Controller connected on: 0controller is nr: 0
+this is the first controller
+k_ESteamInputType_PS5Controller connected on: 0,7298778controller is nr: 0
+this is the first controller
+k_ESteamInputType_PS5Controller connected on: 1,932212controller is nr: 0
+this is the first controller
+k_ESteamInputType_PS5Controller connected on: 1,932212controller is nr: 0
+this is the first controller
+k_ESteamInputType_PS5Controller connected on: 1,932212controller is nr: 0
+this is the first controller
+k_ESteamInputType_PS5Controller connected on: 1,932212controller is nr: 0
+this is the first controller
+k_ESteamInputType_PS5Controller connected on: 7,188601controller is nr: 0
+this is the first controller
+k_ESteamInputType_PS5Controller connected on: 7,188601controller is nr: 0
+this is the first controller
+k_ESteamInputType_PS5Controller connected on: 7,188601controller is nr: 0
+this is the first controller
+k_ESteamInputType_PS5Controller connected on: 7,188601controller is nr: 0
+this is the first controller
+k_ESteamInputType_PS5Controller connected on: 7,188601controller is nr: 0
+this is the first controller
+k_ESteamInputType_PS5Controller connected on: 7,188601controller is nr: 0
+this is the first controller
+k_ESteamInputType_PS5Controller connected on: 7,188601controller is nr: 0
+this is the first controller
+k_ESteamInputType_PS5Controller connected on: 7,188601controller is nr: 0
+this is the first controller
+k_ESteamInputType_PS5Controller connected on: 7,188601controller is nr: 0
+this is the first controller
+k_ESteamInputType_PS5Controller connected on: 7,188601controller is nr: 0
+this is the first controller
+k_ESteamInputType_PS5Controller connected on: 0controller is nr: 0
+this is the first controller
+k_ESteamInputType_PS5Controller connected on: 0controller is nr: 0
+this is the first controller
+k_ESteamInputType_PS5Controller connected on: 0,9377003controller is nr: 0
+this is the first controller
+k_ESteamInputType_PS5Controller connected on: 2,433204controller is nr: 0
+this is the first controller
+k_ESteamInputType_PS5Controller connected on: 2,433204controller is nr: 0
+this is the first controller
+k_ESteamInputType_PS5Controller connected on: 2,433204controller is nr: 0
+this is the first controller
+k_ESteamInputType_PS5Controller connected on: 2,433204controller is nr: 0
+this is the first controller
+k_ESteamInputType_PS5Controller connected on: 6,99969controller is nr: 0
+this is the first controller
+k_ESteamInputType_PS5Controller connected on: 6,99969controller is nr: 0
+this is the first controller
+k_ESteamInputType_PS5Controller connected on: 7,722674controller is nr: 0
+this is the first controller
+k_ESteamInputType_PS5Controller connected on: 9,542639controller is nr: 0
+this is the first controller
+k_ESteamInputType_PS5Controller connected on: 9,542639controller is nr: 0
+this is the first controller
+k_ESteamInputType_PS5Controller connected on: 9,542639controller is nr: 0
+this is the first controller
+k_ESteamInputType_PS5Controller connected on: 9,542639controller is nr: 0
+this is the first controller
+k_ESteamInputType_PS5Controller connected on: 19,4212controller is nr: 0
+this is the first controller
+k_ESteamInputType_PS5Controller connected on: 19,4212controller is nr: 0
+this is the first controller
+k_ESteamInputType_PS5Controller connected on: 25,20737controller is nr: 0
+this is the first controller
+k_ESteamInputType_PS5Controller connected on: 25,20737controller is nr: 0
+this is the first controller
+k_ESteamInputType_PS5Controller connected on: 25,20737controller is nr: 0
+this is the first controller
+k_ESteamInputType_PS5Controller connected on: 26,09057controller is nr: 0
+this is the first controller
+k_ESteamInputType_PS5Controller connected on: 26,09057controller is nr: 0
+this is the first controller
+k_ESteamInputType_PS5Controller connected on: 26,89701controller is nr: 0
+this is the first controller
+k_ESteamInputType_PS5Controller connected on: 26,89701controller is nr: 0
+this is the first controller
+k_ESteamInputType_PS5Controller connected on: 26,89701controller is nr: 0
+this is the first controller
+k_ESteamInputType_PS5Controller connected on: 28,37926controller is nr: 0
+this is the first controller
+k_ESteamInputType_PS5Controller connected on: 29,0465controller is nr: 0
+this is the first controller
+k_ESteamInputType_PS5Controller connected on: 29,0465controller is nr: 0
+this is the first controller
+k_ESteamInputType_PS5Controller connected on: 30,83847controller is nr: 0
+this is the first controller
+k_ESteamInputType_PS5Controller connected on: 32,05416controller is nr: 0
+this is the first controller
+k_ESteamInputType_PS5Controller connected on: 32,05416controller is nr: 0
+this is the first controller
+k_ESteamInputType_PS5Controller connected on: 32,05416controller is nr: 0
+this is the first controller
+k_ESteamInputType_PS5Controller connected on: 32,05416controller is nr: 0
+this is the first controller
+k_ESteamInputType_PS5Controller connected on: 40,95468controller is nr: 0
+this is the first controller
+k_ESteamInputType_PS5Controller connected on: 40,95468controller is nr: 0
+this is the first controller
+k_ESteamInputType_PS5Controller connected on: 43,84592controller is nr: 0
+this is the first controller
+k_ESteamInputType_PS5Controller connected on: 43,84592controller is nr: 0
+this is the first controller
+k_ESteamInputType_PS5Controller connected on: 44,75681controller is nr: 0
+this is the first controller
+k_ESteamInputType_PS5Controller connected on: 45,86884controller is nr: 0
+this is the first controller
+k_ESteamInputType_PS5Controller connected on: 45,86884controller is nr: 0
+this is the first controller
+k_ESteamInputType_PS5Controller connected on: 46,82154controller is nr: 0
+this is the first controller
+k_ESteamInputType_PS5Controller connected on: 47,74577controller is nr: 0
+this is the first controller
+k_ESteamInputType_PS5Controller connected on: 47,74577controller is nr: 0
+this is the first controller
+k_ESteamInputType_PS5Controller connected on: 47,74577controller is nr: 0
+this is the first controller
+k_ESteamInputType_PS5Controller connected on: 47,74577controller is nr: 0
+this is the first controller
