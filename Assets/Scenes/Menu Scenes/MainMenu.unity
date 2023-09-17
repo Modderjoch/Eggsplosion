@@ -1941,6 +1941,8 @@ MonoBehaviour:
   leaderClose: {fileID: 512538417}
   eggsplanationButton: {fileID: 1739015769}
   playButton: {fileID: 502577486}
+  inGameCanvas: {fileID: 0}
+  inGameContinue: {fileID: 0}
 --- !u!1 &1058965489 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6983698970873213699, guid: 4325e99346af96248adc983e06470f71, type: 3}
@@ -2031,6 +2033,7 @@ MonoBehaviour:
   - {fileID: 6983698969057602002}
   - {fileID: 6983698969057602000}
   - {fileID: 6983698969057601999}
+  isPaused: 0
 --- !u!114 &1358206687
 MonoBehaviour:
   m_ObjectHideFlags: 0
