@@ -11,19 +11,19 @@ using UnityEngine.SceneManagement;
 
 public class MenuHandler : MonoBehaviour
 {
-    [SerializeField] private GameObject leaderboard;
-    [SerializeField] private GameObject leaderButton;
-    [SerializeField] private GameObject leaderOpen;
-    [SerializeField] private GameObject leaderClose;
+    public GameObject leaderboard;
+    public GameObject leaderButton;
+    public GameObject leaderOpen;
+    public GameObject leaderClose;
     [SerializeField] private GameObject leaderNext;
     [SerializeField] private GameObject leaderPrevious;
 
-    [SerializeField] private GameObject inGameCanvas;
-    [SerializeField] private GameObject inGameContinue;
+    public GameObject inGameCanvas;
+    public GameObject inGameContinue;
 
-    [SerializeField] private Button eggsplanationButton;
+    public Button eggsplanationButton;
     [SerializeField] private GameObject backButton;
-    [SerializeField] private GameObject playButton;
+    public GameObject playButton;
 
     [SerializeField] private GameObject controlsCanvas;
     [SerializeField] private GameObject storyCanvas;
@@ -38,7 +38,7 @@ public class MenuHandler : MonoBehaviour
     private int lastSelectedBoard = 0;
 
     private bool keyboardUsed = false;
-    private bool isPaused = false;
+    public bool isPaused = false;
 
     public void Leaderboard()
     {
