@@ -6,7 +6,7 @@ using UnityEngine;
 public class PowerUpManager : MonoBehaviour
 {
     public Transform[] spawnPoints;
-    public float[] percentages;
+    public List<float> percentages;
     public List<GameObject> powerUps;
 
     public float timeBetweenPowerups;
@@ -32,8 +32,7 @@ public class PowerUpManager : MonoBehaviour
             foreach (bool b in casualGameInfo.GetComponent<CasualGameInfo>().disableList)
             {
                 if (b == false)
-                {
-                   
+                {    
                     powerUps.RemoveAt(i - j);
                     Debug.Log("power up " + " was removed");
                     j++;
@@ -41,6 +40,21 @@ public class PowerUpManager : MonoBehaviour
                 //powerUps[i].gameObject.SetActive(b);
                // Debug.Log("power up " + i + "was set to " + b);
                 i++;
+            }
+
+            int r = 0;
+            int d = 0;
+            foreach (bool b in casualGameInfo.GetComponent<CasualGameInfo>().disableListProbabilities)
+            {
+                if (b == false)
+                {    
+                    percentages.RemoveAt(r - d);
+                    Debug.Log("power up " + " was removed");
+                    d++;
+                }
+                //powerUps[i].gameObject.SetActive(b);
+                // Debug.Log("power up " + i + "was set to " + b);
+                r++;
             }
         }
     }

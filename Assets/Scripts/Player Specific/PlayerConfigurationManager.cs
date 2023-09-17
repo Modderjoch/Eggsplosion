@@ -88,7 +88,7 @@ public class PlayerConfigurationManager : MonoBehaviour
         //Debug.Log(playerConfigs.Count);
         //Debug.Log(i + "is ready");
         playerConfigs[i].isReady = true;
-        if (playerConfigs.Count >= 1  && playerConfigs.All(p => p.isReady == true))
+        if (playerConfigs.Count >= 2  && playerConfigs.All(p => p.isReady == true))
         {
             InputManager.DisableJoining();
 
@@ -100,12 +100,17 @@ public class PlayerConfigurationManager : MonoBehaviour
             }
             else
             {
-                AudioManager.Instance.Play("GameMusic");
+                AudioManager.Instance.StartRandomMusicTrack();
             }
             //Unlock achievement for playing for the first time
             AchievementManager.instance.UnlockAchi(0);
             SceneManager.LoadScene(LoadRandomLevel());
         }
+    }
+
+    public void SetPlayerColour(int i, int colour)
+    {
+        playerConfigs[i].playerColour = colour;
     }
 
     public string LoadRandomLevel()
@@ -144,6 +149,11 @@ public class PlayerConfigurationManager : MonoBehaviour
             maxAmountOfRounds = 5;
         }
     }
+
+    public void SelfDestroy()
+    {
+        Destroy(this);
+    }
 }
 
 public class PlayerConfiguration
@@ -163,7 +173,7 @@ public class PlayerConfiguration
     public bool isBlue { get; set; }
     public bool isAlive{ get; set; }
     public Sprite playerSprite { get; set; }
-
+    public int playerColour { get; set; }
     public int spriteId { get; set; }
 
     //New for scoring

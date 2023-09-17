@@ -4160,7 +4160,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   level: 
+  mixer: 
   confirmationButton: {fileID: 0}
+  selectables: []
   audioMixer: {fileID: 0}
 --- !u!1 &3917179497838296678
 GameObject:
@@ -6239,7 +6241,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   level: 
+  mixer: 
   confirmationButton: {fileID: 0}
+  selectables: []
   audioMixer: {fileID: 0}
 --- !u!1 &5952745872998894386
 GameObject:
@@ -6372,7 +6376,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   level: 
+  mixer: 
   confirmationButton: {fileID: 0}
+  selectables: []
   audioMixer: {fileID: 0}
 --- !u!1 &5952745873246309848
 GameObject:

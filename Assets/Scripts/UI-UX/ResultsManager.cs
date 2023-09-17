@@ -41,6 +41,11 @@ public class ResultsManager : MonoBehaviour
 
         Save();
     }
+
+    public void DestroyPlayerConfigManager()
+    {
+        PlayerConfigurationManager.Instance.SelfDestroy();
+    }
     void Save()
     {
         XMLManager.instance.SaveScores(highScores);
@@ -67,17 +72,10 @@ public class ResultsManager : MonoBehaviour
     public void MainMenu()
     {
         GameObject configManager = GameObject.FindGameObjectWithTag("GameController");
+        GameObject casualManager = GameObject.FindGameObjectWithTag("CasualInfo");
         Destroy(configManager);
-        AudioManager.Instance.Stop("GameMusic");
-
-        if (AudioManager.Instance.IsSoundPlaying("MenuMusic"))
-        {
-            return;
-        }
-        else
-        {
-            AudioManager.Instance.Play("MenuMusic");
-        }
+        Destroy(casualManager);
+        AudioManager.Instance.StopAllMusic();
 
         SceneManager.LoadScene("MainMenu");
     }

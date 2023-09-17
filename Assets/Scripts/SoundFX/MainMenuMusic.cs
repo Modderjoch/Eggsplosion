@@ -10,9 +10,9 @@ public class MainMenuMusic : MonoBehaviour
         {
             return;
         }
-        else if(AudioManager.Instance.IsSoundPlaying("GameMusic"))
+        else if(AudioManager.Instance.IsSoundPlaying("GameMusic0") || AudioManager.Instance.IsSoundPlaying("GameMusic1") || AudioManager.Instance.IsSoundPlaying("GameMusic2"))
         {
-            AudioManager.Instance.Stop("GameMusic");
+            AudioManager.Instance.StopAllMusic();
             AudioManager.Instance.Play("MenuMusic");
         }
         else

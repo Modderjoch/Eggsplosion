@@ -5,9 +5,21 @@ using UnityEngine.UI;
 using TMPro;
 using UnityEngine.InputSystem;
 using System;
+using Unity.Mathematics;
+using Random = UnityEngine.Random;
 
 public class PlayerStats : MonoBehaviour
 {
+    //Damage Thresholds
+    [SerializeField]
+    private int slightDamageThreshold;
+    [SerializeField]
+    private int heavyDamageThreshold;
+    //Animator
+    [SerializeField]
+    private Animator animator;
+    [SerializeField]
+    private SpriteAnimationManager animationManager;
     [SerializeField]
     private int HP = 100;
     [SerializeField]
@@ -21,6 +33,7 @@ public class PlayerStats : MonoBehaviour
     public TextMeshPro playerNameText;
     public int score { get; set; }
     public int ID;
+    private int colourID;
     public string controlscheme;
    
     public GameObject player;
@@ -41,6 +54,8 @@ public class PlayerStats : MonoBehaviour
 
     public Vector3 scale;
     public Vector3 spawnPos;
+    public Transform[] spawnPositions;
+    // for respawning in casual
     private bool scored = false;
 
     //UI Icons PowerUps
@@ -79,6 +94,7 @@ public class PlayerStats : MonoBehaviour
     {
         currentHealth = MaxHP;
         healthBar.SetMaxHealth(MaxHP);
+        colourID = PlayerSpriteColour();
     }
 
     public void TakeDamage(int damage, PlayerConfiguration playerThatHitMe)
@@ -88,6 +104,31 @@ public class PlayerStats : MonoBehaviour
         healthBar.SetHealth(HP);
         LastPlayerThatHitMe = playerThatHitMe;
         StartCoroutine(FlashRed());
+    }
+
+    public int PlayerSpriteColour()
+    {
+        int id;
+        switch (playerConfig.playerColour)
+        {
+                case 0://Blue
+                    id = 0;
+                break;
+                case 1://Red
+                    id = 1;
+                break;
+                case 2://Purple
+                    id = 2;
+                break;
+                case 3://Green
+                    id = 3;
+                break;
+                default:
+                    id = 0; 
+                break;
+        }
+
+        return id;
     }
 
     public void GetHealth(int health)
@@ -112,6 +153,18 @@ public class PlayerStats : MonoBehaviour
 
     void FixedUpdate()
     {
+        if(HP > slightDamageThreshold)
+        {
+            animator.runtimeAnimatorController = animationManager.animatorOverrideControllerNoDamage[colourID];
+        }
+        else if(HP < slightDamageThreshold && HP > heavyDamageThreshold)
+        {
+            animator.runtimeAnimatorController = animationManager.animatorOverrideControllerSlightlyDmg[colourID];
+        }
+        else if (HP < heavyDamageThreshold)
+        {
+            animator.runtimeAnimatorController = animationManager.animatorOverrideControllersHeavyDmg[colourID];
+        }
         if (HP <= 0)
         {
             Instantiate(KillEffects[UnityEngine.Random.Range(0,6)], new Vector3(player.transform.position.x, player.transform.position.y, -1), Quaternion.identity);
@@ -221,7 +274,7 @@ public class PlayerStats : MonoBehaviour
     {
         HP = MaxHP;
         playerConfig.isAlive = true;
-        player.transform.position = spawnPos;
+        player.transform.position = spawnPositions[Random.Range(1,4)].transform.position;
         GetHealth(HP);
     }
 

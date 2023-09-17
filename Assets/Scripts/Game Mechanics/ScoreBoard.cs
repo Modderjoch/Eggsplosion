@@ -10,14 +10,16 @@ public class ScoreBoard : MonoBehaviour
     public TMP_Text playerNameText;
     public Image[] fullChickens;
     public Image[] emptyChickens;
-
-    public ScoreBoard( int _playerScore = 0, bool _wasAlive = false, string _playerName = null, Sprite _playerSprite = null, int _rank = 0)
+    public TMP_Text killsText;
+    public bool isCasual = false;
+    public ScoreBoard( int _playerScore = 0, bool _wasAlive = false, string _playerName = null, Sprite _playerSprite = null, int _rank = 0, int _kills=0)
     {
         playerScore = _playerScore;
         wasAlive = _wasAlive;
         playerName = _playerName;
         playerIcon = _playerSprite;
         rank = _rank;
+        kills = _kills;
     }
 
     public int playerIndex { get; set; }
@@ -26,19 +28,28 @@ public class ScoreBoard : MonoBehaviour
     public bool wasAlive { get; set; }
     public Sprite playerIcon { get; set; }
     public int rank { get; set; }
+
+    public int kills { get; set; }
     void Start()
     {
         playerNameText.text = playerName;
   
         icon.sprite = playerIcon;
-        for (int i = 0; i < PlayerConfigurationManager.Instance.maxAmountOfRounds; i++)
+
+        if (!isCasual)
         {
-            emptyChickens[i].gameObject.SetActive(true);
+            for (int i = 0; i < PlayerConfigurationManager.Instance.maxAmountOfRounds; i++)
+            {
+                emptyChickens[i].gameObject.SetActive(true);
+            }
+            for (int i = 0; i < playerScore; i++)
+            {
+                fullChickens[i].gameObject.SetActive(true);
+            }
         }
-        for (int i = 0; i < playerScore; i++)
+        else if (isCasual)
         {
-            fullChickens[i].gameObject.SetActive(true);
+            killsText.text = kills.ToString();
         }
-        
     }
 }

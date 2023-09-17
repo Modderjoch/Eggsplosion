@@ -24,6 +24,7 @@ public class InitializeLevel : MonoBehaviour
             player = Instantiate(playerPrefab, playerSpawns[i].position, playerSpawns[i].rotation, gameObject.transform);
             player.GetComponent<PlayerInputHandler>().InitializePlayer(playerConfiguration[i]);
             player.GetComponent<PlayerStats>().spawnPos = playerSpawns[i].position;
+            player.GetComponent<PlayerStats>().spawnPositions = playerSpawns;
             player.GetComponent<PlayerStats>().AssignPlayerConfig(playerConfiguration[i]);
             if (!isTeams)
             {
