@@ -13,6 +13,7 @@ public class Menu : MonoBehaviour, ISelectHandler, IDeselectHandler, ICancelHand
     public string level;
     public string mixer;
     public GameObject confirmationButton;
+    public bool destroyCasualInfoOnAwake = false;
 
     public GameObject[] selectables;
     private string selected;
@@ -27,6 +28,12 @@ public class Menu : MonoBehaviour, ISelectHandler, IDeselectHandler, ICancelHand
             SaveOptions.Instance.AddSlider(GetComponent<Slider>());
             SaveOptions.Instance.SetVolumes();
             SaveOptions.Instance.ClearSliders();
+        }
+
+        if (destroyCasualInfoOnAwake)
+        {
+            GameObject casualManager = GameObject.FindGameObjectWithTag("CasualInfo");
+            Destroy(casualManager);
         }
     }
 

@@ -27,21 +27,23 @@ public class UIVariables : MonoBehaviour
     {
         menuHandler = UIInputManager.Instance.GetComponent<MenuHandler>();
 
-        if(leaderboard != null)
+        if (menuHandler != null)
         {
-            menuHandler.leaderboard = leaderboard;
-            menuHandler.leaderButton = leaderButton;
-            menuHandler.leaderOpen = leaderOpen;
-            menuHandler.leaderClose = leaderClose;
-            menuHandler.eggsplanationButton = eggsplanationButton;
-            menuHandler.playButton = playButton;
+            if (leaderboard != null)
+            {
+                menuHandler.leaderboard = leaderboard;
+                menuHandler.leaderButton = leaderButton;
+                menuHandler.leaderOpen = leaderOpen;
+                menuHandler.leaderClose = leaderClose;
+                menuHandler.eggsplanationButton = eggsplanationButton;
+                menuHandler.playButton = playButton;
+            }
+            else if (inGameCanvas != null)
+            {
+                menuHandler.inGameCanvas = inGameCanvas;
+                menuHandler.inGameContinue = inGameContinue;
+            }
         }
-        else if(inGameCanvas != null)
-        {
-            menuHandler.inGameCanvas = inGameCanvas;
-            menuHandler.inGameContinue = inGameContinue;
-        }
-        
     }
 
     public void OptionsOut()

@@ -179,16 +179,30 @@ MonoBehaviour:
     mixerChannel: {fileID: 6273719580722482625, guid: 420ea33e405207341997084075498e5a, type: 2}
     source: {fileID: 0}
   - name: MenuMusic
-    clip: {fileID: 8300000, guid: 8a7960e5278d4364d805a1bb74947332, type: 3}
-    volume: 0.138
-    pitch: 0.8
+    clip: {fileID: 8300000, guid: 674eb779c38f8764fbbdf62e39aec03a, type: 3}
+    volume: 0.5
+    pitch: 1
     loop: 1
     mixerChannel: {fileID: -1385206077965335897, guid: 420ea33e405207341997084075498e5a, type: 2}
     source: {fileID: 0}
-  - name: GameMusic
-    clip: {fileID: 8300000, guid: 588fd5187a5998f47abf382e9c459bb4, type: 3}
-    volume: 0.125
-    pitch: 0.8
-    loop: 1
+  - name: GameMusic0
+    clip: {fileID: 8300000, guid: 468f06affab6ec747a460287c4d295be, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    mixerChannel: {fileID: -1385206077965335897, guid: 420ea33e405207341997084075498e5a, type: 2}
+    source: {fileID: 0}
+  - name: GameMusic1
+    clip: {fileID: 8300000, guid: ddfc51f1a148582468ba9e8d80362d06, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    mixerChannel: {fileID: -1385206077965335897, guid: 420ea33e405207341997084075498e5a, type: 2}
+    source: {fileID: 0}
+  - name: GameMusic2
+    clip: {fileID: 8300000, guid: 915b55b4865618c4db1401f6ca17ae4d, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
     mixerChannel: {fileID: -1385206077965335897, guid: 420ea33e405207341997084075498e5a, type: 2}
     source: {fileID: 0}
