@@ -62,8 +62,8 @@ public class Shooting : MonoBehaviour
                 anima.SetTrigger("Shoot1");
                 lastShot = Time.time;
                 int random = Random.Range(0, 3);
-
-                FindObjectOfType<AudioManager>().Play("Throw{random}");
+                string throwSound = string.Format("Throw{0}", random);
+                FindObjectOfType<AudioManager>().Play(throwSound);
                 break;
             case "grenade":
                 SpawnBomb();

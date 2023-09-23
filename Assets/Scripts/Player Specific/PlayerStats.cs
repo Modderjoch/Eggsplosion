@@ -241,7 +241,8 @@ public class PlayerStats : MonoBehaviour
         Invoke("KillPopUp", 5);
         AudioSource.PlayClipAtPoint(EggSploded, transform.position);
         int random = Random.Range(0, 2);
-        AudioManager.Instance.Play("Die{random}");
+        string dieSound = string.Format("Die{0}", random);
+        AudioManager.Instance.Play(dieSound);
         anim.SetBool("Death", true);
         playerConfig.isAlive = false;
         if (LastPlayerThatHitMe != null && LastPlayerThatHitMe != playerConfig)

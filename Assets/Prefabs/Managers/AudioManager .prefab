@@ -82,21 +82,21 @@ MonoBehaviour:
     source: {fileID: 0}
   - name: Dash0
     clip: {fileID: 8300000, guid: f000f5cec0a203744a3824e985e1532d, type: 3}
-    volume: 1
+    volume: 0.17
     pitch: 1
     loop: 0
     mixerChannel: {fileID: 6273719580722482625, guid: 420ea33e405207341997084075498e5a, type: 2}
     source: {fileID: 0}
   - name: Dash1
     clip: {fileID: 8300000, guid: 3b0117f474db1674593d843815dd0886, type: 3}
-    volume: 1
+    volume: 0.17
     pitch: 1
     loop: 0
     mixerChannel: {fileID: 6273719580722482625, guid: 420ea33e405207341997084075498e5a, type: 2}
     source: {fileID: 0}
   - name: Dash2
     clip: {fileID: 8300000, guid: 2d3d72d1da996c142bd5782d7e73d738, type: 3}
-    volume: 1
+    volume: 0.17
     pitch: 1
     loop: 0
     mixerChannel: {fileID: 6273719580722482625, guid: 420ea33e405207341997084075498e5a, type: 2}
@@ -215,34 +215,62 @@ MonoBehaviour:
     source: {fileID: 0}
   - name: Throw0
     clip: {fileID: 8300000, guid: 5b6a9537341b34a469500d65f9c17c63, type: 3}
-    volume: 0.5
+    volume: 0.3
     pitch: 1
     loop: 0
     mixerChannel: {fileID: 6273719580722482625, guid: 420ea33e405207341997084075498e5a, type: 2}
     source: {fileID: 0}
   - name: Throw1
     clip: {fileID: 8300000, guid: 9107a1af3ee3fd04588879e74aacc74b, type: 3}
-    volume: 0.5
+    volume: 0.3
     pitch: 1
     loop: 0
     mixerChannel: {fileID: 6273719580722482625, guid: 420ea33e405207341997084075498e5a, type: 2}
     source: {fileID: 0}
   - name: Throw2
     clip: {fileID: 8300000, guid: 04486e1a13650ec42a86e849a8e5fe59, type: 3}
-    volume: 0.5
+    volume: 0.3
     pitch: 1
     loop: 0
     mixerChannel: {fileID: 6273719580722482625, guid: 420ea33e405207341997084075498e5a, type: 2}
     source: {fileID: 0}
   - name: Die0
     clip: {fileID: 8300000, guid: 7a32beeab8fcdf647be6b22a5876a7e1, type: 3}
-    volume: 0.5
+    volume: 0.3
     pitch: 1
     loop: 0
     mixerChannel: {fileID: 6273719580722482625, guid: 420ea33e405207341997084075498e5a, type: 2}
     source: {fileID: 0}
   - name: Die1
     clip: {fileID: 8300000, guid: 9ec912f1b7f2068408ed2e7f48b36892, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    mixerChannel: {fileID: 6273719580722482625, guid: 420ea33e405207341997084075498e5a, type: 2}
+    source: {fileID: 0}
+  - name: FreezeHit
+    clip: {fileID: 8300000, guid: e3e5cebeb820d4a4e8050a948bc8df56, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    mixerChannel: {fileID: 6273719580722482625, guid: 420ea33e405207341997084075498e5a, type: 2}
+    source: {fileID: 0}
+  - name: FreezeThrow
+    clip: {fileID: 8300000, guid: 862c84812a26c244899f5cc16d796e00, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    mixerChannel: {fileID: 6273719580722482625, guid: 420ea33e405207341997084075498e5a, type: 2}
+    source: {fileID: 0}
+  - name: Health
+    clip: {fileID: 8300000, guid: 3709fe0e75edcd24a8df325205ca8d1f, type: 3}
+    volume: 0.2
+    pitch: 1
+    loop: 0
+    mixerChannel: {fileID: 6273719580722482625, guid: 420ea33e405207341997084075498e5a, type: 2}
+    source: {fileID: 0}
+  - name: RapidFirePickUp
+    clip: {fileID: 8300000, guid: 9127f983fbeecac4ab40952a5146f4b5, type: 3}
     volume: 0.5
     pitch: 1
     loop: 0

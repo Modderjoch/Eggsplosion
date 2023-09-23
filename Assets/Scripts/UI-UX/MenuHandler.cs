@@ -34,7 +34,7 @@ public class MenuHandler : MonoBehaviour
     [HideInInspector] public Gamepad lastGamepad;
     [HideInInspector] public int lastGamepadIndex;
 
-    [SerializeField] private GameObject[] leaderboardButtons;
+    [SerializeField] public GameObject[] leaderboardButtons;
     private int lastSelectedBoard = 0;
 
     private bool keyboardUsed = false;
