@@ -61,7 +61,9 @@ public class Shooting : MonoBehaviour
                 SpawnBullet();
                 anima.SetTrigger("Shoot1");
                 lastShot = Time.time;
-                FindObjectOfType<AudioManager>().Play("Throw");
+                int random = Random.Range(0, 3);
+
+                FindObjectOfType<AudioManager>().Play("Throw{random}");
                 break;
             case "grenade":
                 SpawnBomb();
@@ -95,7 +97,7 @@ public class Shooting : MonoBehaviour
                 anima.SetTrigger("Shoot1");
                 shotType = "normal";
                 lastShot = Time.time;
-                //AudioSource.PlayClipAtPoint(shootSound, transform.position);
+                AudioManager.Instance.Play("FreezeThrow");
                 GetComponent<PickUpAbility>().mainPickUp = "nothing";
                 GetComponent<PickUpAbility>().CanPickUp();
                 playerStats.TurnOff();

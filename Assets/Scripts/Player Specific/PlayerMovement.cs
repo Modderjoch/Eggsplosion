@@ -127,7 +127,10 @@ public class PlayerMovement : MonoBehaviour
                         }
                         speed = DashForce;
                         dashCounter = dashDistance;
-                        FindObjectOfType<AudioManager>().Play("Dash");
+
+                        int random = Random.Range(0, 3);
+
+                        FindObjectOfType<AudioManager>().Play("Dash{random}");
                         CreateDust();
                     }
                 }
