@@ -40,10 +40,13 @@ public class MenuHandler : MonoBehaviour
     private bool keyboardUsed = false;
     public bool isPaused = false;
 
-    public void Leaderboard()
+    protected void FixedUpdate()
     {
         DetectInputDevice();
+    }
 
+    public void Leaderboard()
+    {
         if (leaderboard != null)
         {
             if (leaderboard.activeSelf)
@@ -75,20 +78,17 @@ public class MenuHandler : MonoBehaviour
         if (eggsplanationButton != null)
             eggsplanationButton.onClick.Invoke();
         ClickSound();
-        DetectInputDevice();
     }
 
     public void Cancel()
     {
         backButton = GameObject.FindGameObjectWithTag("BackButton");
-
         if (backButton == null)
         {
             backButton = GameObject.Find("BackButton");
         }
 
         Debug.Log("Cancel");
-        DetectInputDevice();
         backButton.GetComponent<Button>().onClick.Invoke();
     }
 
@@ -120,8 +120,6 @@ public class MenuHandler : MonoBehaviour
 
     public void EnableTabs(string name)
     {
-        DetectInputDevice();
-
         switch (name)
         {
             case "control":
@@ -156,8 +154,6 @@ public class MenuHandler : MonoBehaviour
 
     public void AddRound()
     {
-        DetectInputDevice();
-
         if(SceneManager.GetActiveScene().name == "MainMenu")
         {
             if (leaderNext != null)
@@ -184,8 +180,6 @@ public class MenuHandler : MonoBehaviour
 
     public void SubtractRound()
     {
-        DetectInputDevice();
-
         if (SceneManager.GetActiveScene().name == "MainMenu")
         {
             if (leaderPrevious != null)
@@ -212,8 +206,6 @@ public class MenuHandler : MonoBehaviour
 
     public void NextBoard()
     {
-        DetectInputDevice();
-
         if (leaderboard.activeSelf)
         {
             if(lastSelectedBoard == leaderboardButtons.Length - 1)
@@ -237,8 +229,6 @@ public class MenuHandler : MonoBehaviour
 
     public void PreviousBoard()
     {
-        DetectInputDevice();
-
         if (leaderboard.activeSelf)
         {
             if (lastSelectedBoard == 0)
@@ -316,80 +306,77 @@ public class MenuHandler : MonoBehaviour
     {
         Debug.Log(gamepadIndex);
 
-        if(gamepadIndex == -1)
+        //if(gamepadIndex == -1)
+        //{
+        //    for (int i = 0; i < buttonPrompts.Count; i++)
+        //    {
+        //        //Debug.Log("Switching UI");
+
+        //        if (buttonPrompts[i] != null)
+        //        {
+        //            GameObject prompt = buttonPrompts[i];
+        //            Image image = prompt.GetComponent<Image>();
+        //            SwitchButtonPrompt switchPrompt = prompt.GetComponent<SwitchButtonPrompt>();
+
+        //            if(switchPrompt.keyboardInput != null)
+        //            {
+        //                image.sprite = switchPrompt.keyboardInput;
+        //            }
+        //        }
+        //    }
+        //}
+        InputHandle_t inputHandle = SteamInput.GetControllerForGamepadIndex(gamepadIndex);
+        ESteamInputType inputTypeSteam = SteamInput.GetInputTypeForHandle(inputHandle);
+        
+        string filePath = "log.txt"; // Replace this with the desired file path
+        
+        // Open the file in append mode
+        using (StreamWriter writer = new StreamWriter(Application.dataPath + "/Saves/" + filePath, true))
         {
-            for (int i = 0; i < buttonPrompts.Count; i++)
-            {
-                //Debug.Log("Switching UI");
-
-                if (buttonPrompts[i] != null)
-                {
-                    GameObject prompt = buttonPrompts[i];
-                    Image image = prompt.GetComponent<Image>();
-                    SwitchButtonPrompt switchPrompt = prompt.GetComponent<SwitchButtonPrompt>();
-
-                    if(switchPrompt.keyboardInput != null)
-                    {
-                        image.sprite = switchPrompt.keyboardInput;
-                    }
-                }
-            }
+            writer.WriteLine(inputTypeSteam.ToString() + " connected on: " + Time.time + "controller is nr: " + gamepadIndex);
         }
-        else
+        
+        for (int i = 0; i < buttonPrompts.Count; i++)
         {
-            InputHandle_t inputHandle = SteamInput.GetControllerForGamepadIndex(gamepadIndex);
-            ESteamInputType inputTypeSteam = SteamInput.GetInputTypeForHandle(inputHandle);
-
-            string filePath = "log.txt"; // Replace this with the desired file path
-
-            // Open the file in append mode
-            using (StreamWriter writer = new StreamWriter(Application.dataPath + "/Saves/" + filePath, true))
+            //Debug.Log("Switching UI");
+        
+            if (buttonPrompts[i] != null)
             {
-                writer.WriteLine(inputTypeSteam.ToString() + " connected on: " + Time.time + "controller is nr: " + gamepadIndex);
-            }
-
-            for (int i = 0; i < buttonPrompts.Count; i++)
-            {
-                //Debug.Log("Switching UI");
-
-                if (buttonPrompts[i] != null)
+                GameObject prompt = buttonPrompts[i];
+                Image image = prompt.GetComponent<Image>();
+                SwitchButtonPrompt switchPrompt = prompt.GetComponent<SwitchButtonPrompt>();
+        
+                switch (inputTypeSteam)
                 {
-                    GameObject prompt = buttonPrompts[i];
-                    Image image = prompt.GetComponent<Image>();
-                    SwitchButtonPrompt switchPrompt = prompt.GetComponent<SwitchButtonPrompt>();
-
-                    switch (inputTypeSteam)
-                    {
-                        //Xbox Input Prompts
-                        case ESteamInputType.k_ESteamInputType_XBox360Controller:
-                        case ESteamInputType.k_ESteamInputType_XBoxOneController:
-                            image.sprite = switchPrompt.xboxInput;
-                            break;
-                        //Nintendo Input Prompts
-                        case ESteamInputType.k_ESteamInputType_SwitchJoyConSingle:
-                        case ESteamInputType.k_ESteamInputType_SwitchJoyConPair:
-                        case ESteamInputType.k_ESteamInputType_SwitchProController:
-                            image.sprite = switchPrompt.nintendoInput;
-                            break;
-                        //Playstation Input Prompts
-                        case ESteamInputType.k_ESteamInputType_PS3Controller:
-                        case ESteamInputType.k_ESteamInputType_PS4Controller:
-                        case ESteamInputType.k_ESteamInputType_PS5Controller:
-                            image.sprite = switchPrompt.playstationInput;
-                            break;
-                        //Steam Input Prompts
-                        case ESteamInputType.k_ESteamInputType_SteamController:
-                        case ESteamInputType.k_ESteamInputType_SteamDeckController:
-                            image.sprite = switchPrompt.steamDeckInput;
-                            break;
-                        case ESteamInputType.k_ESteamInputType_Unknown:
-                            image.sprite = switchPrompt.xboxInput;
-                            break;
-                        default:
-                            //Debug.Log("Default case");
-                            image.sprite = switchPrompt.xboxInput;
-                            break;
-                    }
+                    //Xbox Input Prompts
+                    case ESteamInputType.k_ESteamInputType_XBox360Controller:
+                    case ESteamInputType.k_ESteamInputType_XBoxOneController:
+                        image.sprite = switchPrompt.xboxInput;
+                        break;
+                    //Nintendo Input Prompts
+                    case ESteamInputType.k_ESteamInputType_SwitchJoyConSingle:
+                    case ESteamInputType.k_ESteamInputType_SwitchJoyConPair:
+                    case ESteamInputType.k_ESteamInputType_SwitchProController:
+                        image.sprite = switchPrompt.nintendoInput;
+                        break;
+                    //Playstation Input Prompts
+                    case ESteamInputType.k_ESteamInputType_PS3Controller:
+                    case ESteamInputType.k_ESteamInputType_PS4Controller:
+                    case ESteamInputType.k_ESteamInputType_PS5Controller:
+                        image.sprite = switchPrompt.playstationInput;
+                        break;
+                    //Steam Input Prompts
+                    case ESteamInputType.k_ESteamInputType_SteamController:
+                    case ESteamInputType.k_ESteamInputType_SteamDeckController:
+                        image.sprite = switchPrompt.steamDeckInput;
+                        break;
+                    case ESteamInputType.k_ESteamInputType_Unknown:
+                        image.sprite = switchPrompt.xboxInput;
+                        break;
+                    default:
+                        //Debug.Log("Default case");
+                        image.sprite = switchPrompt.xboxInput;
+                        break;
                 }
             }
         }        
