@@ -47,6 +47,11 @@ public class MenuHandler : MonoBehaviour
         DetectInputDevice();
     }
 
+    protected void Awake()
+    {
+        allGamepads = Gamepad.all.ToArray();
+    }
+
     public void Leaderboard()
     {
         if (leaderboard != null)
