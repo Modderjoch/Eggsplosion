@@ -40,6 +40,8 @@ public class MenuHandler : MonoBehaviour
     private bool keyboardUsed = false;
     public bool isPaused = false;
 
+    private Gamepad[] allGamepads;
+
     protected void FixedUpdate()
     {
         DetectInputDevice();
@@ -94,6 +96,8 @@ public class MenuHandler : MonoBehaviour
 
     public void Options()
     {
+        if(inGameContinue != null)
+
         if (!isPaused)
         {
             EventSystem eventSystem = EventSystem.current;
@@ -270,6 +274,15 @@ public class MenuHandler : MonoBehaviour
 
         var gamepads = Gamepad.all.ToArray();
 
+        int gamepadCount = gamepads.Length;
+
+        if(gamepadCount < allGamepads.Length)
+        {
+            Options();
+        }
+
+        allGamepads = gamepads;
+
         // Iterate over all connected gamepads
         for (int i = 0; i < gamepads.Length; i++)
         {
@@ -325,6 +338,7 @@ public class MenuHandler : MonoBehaviour
         //        }
         //    }
         //}
+
         InputHandle_t inputHandle = SteamInput.GetControllerForGamepadIndex(gamepadIndex);
         ESteamInputType inputTypeSteam = SteamInput.GetInputTypeForHandle(inputHandle);
         
@@ -371,7 +385,7 @@ public class MenuHandler : MonoBehaviour
                         image.sprite = switchPrompt.steamDeckInput;
                         break;
                     case ESteamInputType.k_ESteamInputType_Unknown:
-                        image.sprite = switchPrompt.xboxInput;
+                        //Do nothing here
                         break;
                     default:
                         //Debug.Log("Default case");
