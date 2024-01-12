@@ -239,7 +239,10 @@ public class PlayerStats : MonoBehaviour
 
         // Instantiate(myPrefab, new Vector3(player.transform.position.x, player.transform.position.y, -1), Quaternion.identity);
         Invoke("KillPopUp", 5);
-        AudioSource.PlayClipAtPoint(EggSploded, transform.position);
+        //AudioSource.PlayClipAtPoint(EggSploded, transform.position);
+        int random = Random.Range(0, 2);
+        string dieSound = string.Format("Die{0}", random);
+        AudioManager.Instance.Play(dieSound);
         anim.SetBool("Death", true);
         playerConfig.isAlive = false;
         if (LastPlayerThatHitMe != null && LastPlayerThatHitMe != playerConfig)

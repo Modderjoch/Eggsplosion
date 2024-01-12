@@ -20,7 +20,7 @@ public class FreezeExplosion : MonoBehaviour
             obj2.gameObject.GetComponent<Shooting>().StartFreeze();
         }
         GameObject effect = Instantiate(explodeEffect, transform.position, Quaternion.identity);
-        FindObjectOfType<AudioManager>().Play("Freeze");
+        AudioManager.Instance.Play("FreezeHit");
         Destroy(effect, 1f);
     }
 

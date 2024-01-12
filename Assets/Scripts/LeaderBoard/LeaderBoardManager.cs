@@ -43,9 +43,14 @@ public class LeaderBoardManager : MonoBehaviour
     public void UpdateScoreBoard(int score, int boardInstance, string playerName, int spriteId)
     {
         Debug.Log("Updated");
-        textObjects[boardInstance].GetComponent<LeaderBoardPanel>().playerName = playerName;
-        textObjects[boardInstance].GetComponent<LeaderBoardPanel>().playerScore = score;
-        textObjects[boardInstance].GetComponent<LeaderBoardPanel>().spriteId = spriteId;
+
+        if(textObjects.Count > 0)
+        {
+            if (textObjects[boardInstance] != null)
+            textObjects[boardInstance].GetComponent<LeaderBoardPanel>().playerName = playerName;
+            textObjects[boardInstance].GetComponent<LeaderBoardPanel>().playerScore = score;
+            textObjects[boardInstance].GetComponent<LeaderBoardPanel>().spriteId = spriteId;
+        }
     }
 
     public void ClearLeaderBoard()

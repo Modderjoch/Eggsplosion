@@ -15,6 +15,10 @@ public class Options : MonoBehaviour
     public TextMeshProUGUI resolutionText;
     public TextMeshProUGUI screenmodeText;
 
+    public bool isInGameOptions = false;
+    public GameObject buttons;
+    public GameObject[] options;
+
     private bool hasDetected = false;
 
     private void Start()
@@ -30,6 +34,19 @@ public class Options : MonoBehaviour
         if (!hasDetected && !PlayerPrefs.HasKey("ResolutionIndex")) { SetDetectedResolution(); }
         if (resolutionText != null) { resolutionText.text = resolutions[resolutionIndex].x + "x" + resolutions[resolutionIndex].y; }
         if (screenmodeText != null) { screenmodeText.text = screenModes[screenModeIndex]; }
+    }
+
+    private void OnDisable()
+    {
+        if (isInGameOptions)
+        {
+            foreach(GameObject go in options)
+            {
+                go.SetActive(false);
+            }
+
+            buttons.SetActive(true);
+        }
     }
 
     private void SetResolution(int index, int modeIndex)
