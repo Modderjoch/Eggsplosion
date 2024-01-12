@@ -94,14 +94,14 @@ public class Bullet : MonoBehaviour
             rb.velocity = direction * Mathf.Max(speed, 0f);
 
             PlayParticleFX(hitEffect);
-            FindObjectOfType<AudioManager>().Play("CrackEgg");
+            //FindObjectOfType<AudioManager>().Play("CrackEgg");
         }
 
 
         else if (collision.gameObject.tag == "Bomba")
         {
             PlayParticleFX(hitEffect);
-            FindObjectOfType<AudioManager>().Play("CrackEgg");
+            //FindObjectOfType<AudioManager>().Play("CrackEgg");
         }
         else if (collision.gameObject.tag == "Bullet")
         {

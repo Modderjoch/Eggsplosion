@@ -16,32 +16,38 @@ public class UIVariables : MonoBehaviour
     [SerializeField] private GameObject inGameCanvas;
     [SerializeField] private GameObject inGameContinue;
 
+    [SerializeField] private GameObject[] leaderboardButtons;
+
     private MenuHandler menuHandler;
 
-    protected void Awake()
+    protected void Start()
     {
+        menuHandler = UIInputManager.Instance.GetComponent<MenuHandler>();
+
         AssignVariables();
     }
 
     private void AssignVariables()
     {
-        menuHandler = UIInputManager.Instance.GetComponent<MenuHandler>();
+        if (menuHandler != null)
+        {
+            if (leaderboard != null)
+            {
+                menuHandler.leaderboard = leaderboard;
+                menuHandler.leaderButton = leaderButton;
+                menuHandler.leaderOpen = leaderOpen;
+                menuHandler.leaderClose = leaderClose;
+                menuHandler.eggsplanationButton = eggsplanationButton;
+                menuHandler.playButton = playButton;
 
-        if(leaderboard != null)
-        {
-            menuHandler.leaderboard = leaderboard;
-            menuHandler.leaderButton = leaderButton;
-            menuHandler.leaderOpen = leaderOpen;
-            menuHandler.leaderClose = leaderClose;
-            menuHandler.eggsplanationButton = eggsplanationButton;
-            menuHandler.playButton = playButton;
+                menuHandler.leaderboardButtons = leaderboardButtons;
+            }
+            else if (inGameCanvas != null)
+            {
+                menuHandler.inGameCanvas = inGameCanvas;
+                menuHandler.inGameContinue = inGameContinue;
+            }
         }
-        else if(inGameCanvas != null)
-        {
-            menuHandler.inGameCanvas = inGameCanvas;
-            menuHandler.inGameContinue = inGameContinue;
-        }
-        
     }
 
     public void OptionsOut()

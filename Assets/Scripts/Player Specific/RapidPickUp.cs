@@ -21,6 +21,7 @@ public class RapidPickUp : MonoBehaviour
             {
                 other.GetComponent<PickUpAbility>().rapidCount++;
                 other.GetComponent<PickUpAbility>().mainPickUp = "rapid";
+                AudioManager.Instance.Play("RapidFirePickUp");
                 StartCoroutine(PickUp(other)); 
                 GameObject effect = Instantiate(PUEffect, transform.position, Quaternion.identity);
                 FindObjectOfType<AudioManager>().Play("PickUp");

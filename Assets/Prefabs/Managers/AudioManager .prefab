@@ -80,16 +80,23 @@ MonoBehaviour:
     loop: 0
     mixerChannel: {fileID: 6273719580722482625, guid: 420ea33e405207341997084075498e5a, type: 2}
     source: {fileID: 0}
-  - name: Dash
-    clip: {fileID: 8300000, guid: ec4f8a240ca17f446934da1041df47a6, type: 3}
-    volume: 1
+  - name: Dash0
+    clip: {fileID: 8300000, guid: f000f5cec0a203744a3824e985e1532d, type: 3}
+    volume: 0.17
     pitch: 1
     loop: 0
     mixerChannel: {fileID: 6273719580722482625, guid: 420ea33e405207341997084075498e5a, type: 2}
     source: {fileID: 0}
-  - name: Throw
-    clip: {fileID: 8300000, guid: b6e053c928329d64db31fdea3aa6672e, type: 3}
-    volume: 0.5
+  - name: Dash1
+    clip: {fileID: 8300000, guid: 3b0117f474db1674593d843815dd0886, type: 3}
+    volume: 0.17
+    pitch: 1
+    loop: 0
+    mixerChannel: {fileID: 6273719580722482625, guid: 420ea33e405207341997084075498e5a, type: 2}
+    source: {fileID: 0}
+  - name: Dash2
+    clip: {fileID: 8300000, guid: 2d3d72d1da996c142bd5782d7e73d738, type: 3}
+    volume: 0.17
     pitch: 1
     loop: 0
     mixerChannel: {fileID: 6273719580722482625, guid: 420ea33e405207341997084075498e5a, type: 2}
@@ -179,16 +186,93 @@ MonoBehaviour:
     mixerChannel: {fileID: 6273719580722482625, guid: 420ea33e405207341997084075498e5a, type: 2}
     source: {fileID: 0}
   - name: MenuMusic
-    clip: {fileID: 8300000, guid: 8a7960e5278d4364d805a1bb74947332, type: 3}
-    volume: 0.138
-    pitch: 0.8
+    clip: {fileID: 8300000, guid: 674eb779c38f8764fbbdf62e39aec03a, type: 3}
+    volume: 0.5
+    pitch: 1
     loop: 1
     mixerChannel: {fileID: -1385206077965335897, guid: 420ea33e405207341997084075498e5a, type: 2}
     source: {fileID: 0}
-  - name: GameMusic
-    clip: {fileID: 8300000, guid: 588fd5187a5998f47abf382e9c459bb4, type: 3}
-    volume: 0.125
-    pitch: 0.8
-    loop: 1
+  - name: GameMusic0
+    clip: {fileID: 8300000, guid: 468f06affab6ec747a460287c4d295be, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
     mixerChannel: {fileID: -1385206077965335897, guid: 420ea33e405207341997084075498e5a, type: 2}
+    source: {fileID: 0}
+  - name: GameMusic1
+    clip: {fileID: 8300000, guid: ddfc51f1a148582468ba9e8d80362d06, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    mixerChannel: {fileID: -1385206077965335897, guid: 420ea33e405207341997084075498e5a, type: 2}
+    source: {fileID: 0}
+  - name: GameMusic2
+    clip: {fileID: 8300000, guid: 915b55b4865618c4db1401f6ca17ae4d, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    mixerChannel: {fileID: -1385206077965335897, guid: 420ea33e405207341997084075498e5a, type: 2}
+    source: {fileID: 0}
+  - name: Throw0
+    clip: {fileID: 8300000, guid: 5b6a9537341b34a469500d65f9c17c63, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    mixerChannel: {fileID: 6273719580722482625, guid: 420ea33e405207341997084075498e5a, type: 2}
+    source: {fileID: 0}
+  - name: Throw1
+    clip: {fileID: 8300000, guid: 9107a1af3ee3fd04588879e74aacc74b, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    mixerChannel: {fileID: 6273719580722482625, guid: 420ea33e405207341997084075498e5a, type: 2}
+    source: {fileID: 0}
+  - name: Throw2
+    clip: {fileID: 8300000, guid: 04486e1a13650ec42a86e849a8e5fe59, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    mixerChannel: {fileID: 6273719580722482625, guid: 420ea33e405207341997084075498e5a, type: 2}
+    source: {fileID: 0}
+  - name: Die0
+    clip: {fileID: 8300000, guid: 7a32beeab8fcdf647be6b22a5876a7e1, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    mixerChannel: {fileID: 6273719580722482625, guid: 420ea33e405207341997084075498e5a, type: 2}
+    source: {fileID: 0}
+  - name: Die1
+    clip: {fileID: 8300000, guid: 9ec912f1b7f2068408ed2e7f48b36892, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    mixerChannel: {fileID: 6273719580722482625, guid: 420ea33e405207341997084075498e5a, type: 2}
+    source: {fileID: 0}
+  - name: FreezeHit
+    clip: {fileID: 8300000, guid: e3e5cebeb820d4a4e8050a948bc8df56, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    mixerChannel: {fileID: 6273719580722482625, guid: 420ea33e405207341997084075498e5a, type: 2}
+    source: {fileID: 0}
+  - name: FreezeThrow
+    clip: {fileID: 8300000, guid: 862c84812a26c244899f5cc16d796e00, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    mixerChannel: {fileID: 6273719580722482625, guid: 420ea33e405207341997084075498e5a, type: 2}
+    source: {fileID: 0}
+  - name: Health
+    clip: {fileID: 8300000, guid: 3709fe0e75edcd24a8df325205ca8d1f, type: 3}
+    volume: 0.2
+    pitch: 1
+    loop: 0
+    mixerChannel: {fileID: 6273719580722482625, guid: 420ea33e405207341997084075498e5a, type: 2}
+    source: {fileID: 0}
+  - name: RapidFirePickUp
+    clip: {fileID: 8300000, guid: 9127f983fbeecac4ab40952a5146f4b5, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    mixerChannel: {fileID: 6273719580722482625, guid: 420ea33e405207341997084075498e5a, type: 2}
     source: {fileID: 0}

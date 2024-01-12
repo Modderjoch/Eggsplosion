@@ -21,6 +21,7 @@ public class HealthPickUp : MonoBehaviour
     {  
         GameObject effect = Instantiate(PUEffect, transform.position, Quaternion.identity);
         PlayerStats playerStats = player.GetComponent<PlayerStats>();
+        AudioManager.Instance.Play("Health");
         playerStats.GetHealth(healthGain);
         Destroy(gameObject);
     }

@@ -545,7 +545,7 @@ MonoBehaviour:
   isCasual: 1
   panel: {fileID: 2086213110}
   prefab: {fileID: 1006011200813512078, guid: af9163902eb639446835725658f4a793, type: 3}
-  confirmationButton: {fileID: 391868599}
+  confirmationButton: {fileID: 2085404946}
   continueButton: {fileID: 1616999396}
   sceneName:
   - Supermarket_FFACasual
@@ -825,8 +825,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 0.000035286, y: 193.5}
-  m_SizeDelta: {x: 632.8794, y: 210.0625}
+  m_AnchoredPosition: {x: 0, y: 200}
+  m_SizeDelta: {x: 665, y: 300}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1616999398
 MonoBehaviour:
@@ -841,7 +841,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Navigation:
-    m_Mode: 4
+    m_Mode: 0
     m_WrapAround: 0
     m_SelectOnUp: {fileID: 1616999398}
     m_SelectOnDown: {fileID: 1664470978}
@@ -960,7 +960,7 @@ GameObject:
   - component: {fileID: 1664470978}
   m_Layer: 5
   m_Name: QuitButton
-  m_TagString: Untagged
+  m_TagString: BackButton
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -999,7 +999,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Navigation:
-    m_Mode: 4
+    m_Mode: 0
     m_WrapAround: 0
     m_SelectOnUp: {fileID: 1616999398}
     m_SelectOnDown: {fileID: 1664470978}
@@ -1030,7 +1030,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 2085404945}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -1560,7 +1560,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 3296672509994112076, guid: 9da6ef503269c034996a8478a24723da, type: 3}
   m_PrefabInstance: {fileID: 2085404941}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 2085404946}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
@@ -1577,6 +1577,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &2085404945 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3296672508295918189, guid: 9da6ef503269c034996a8478a24723da, type: 3}
+  m_PrefabInstance: {fileID: 2085404941}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2085404946 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3296672509994112078, guid: 9da6ef503269c034996a8478a24723da, type: 3}
+  m_PrefabInstance: {fileID: 2085404941}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2086213110
 GameObject:
   m_ObjectHideFlags: 0
