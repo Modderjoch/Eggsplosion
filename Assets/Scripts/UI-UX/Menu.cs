@@ -54,8 +54,11 @@ public class Menu : MonoBehaviour, ISelectHandler, IDeselectHandler, ICancelHand
 
     public void OnCancel(BaseEventData eventData)
     {
-        Debug.Log("OnCancel");
-        eventData.selectedObject = selectables[4];
+        if(selectables.Length != 0)
+        {
+            Debug.Log("OnCancel");
+            eventData.selectedObject = selectables[4];
+        }
     }
 
     public void OnDeselect(BaseEventData eventData)
