@@ -1943,6 +1943,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   disableList: 0000000000000000
+  disableListProbabilities: 
 --- !u!4 &697293608
 Transform:
   m_ObjectHideFlags: 0
@@ -3473,7 +3474,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2556019629842257044, guid: ed8967b0aab07e144bfbf7433cf5f0af, type: 3}
       propertyPath: level
-      value: CasualSetupTeams
+      value: LobbyTeamsCasual
       objectReference: {fileID: 0}
     - target: {fileID: 6397157966410856476, guid: ed8967b0aab07e144bfbf7433cf5f0af, type: 3}
       propertyPath: m_Pivot.x
@@ -4135,7 +4136,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_FirstSelected: {fileID: 0}
+  m_FirstSelected: {fileID: 1511179928}
   m_sendNavigationEvents: 1
   m_DragThreshold: 10
 --- !u!4 &1434822686
