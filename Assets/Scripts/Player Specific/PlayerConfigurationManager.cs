@@ -16,6 +16,7 @@ public class PlayerConfigurationManager : MonoBehaviour
     public int maxDurationAmount = 60;
     public PlayerInputManager InputManager;
     public string[] sceneName;
+    [SerializeField] private bool is2V2 = false;
     //[SerializeField]
     //private GameObject playerPrefab;
     //[SerializeField]
@@ -88,24 +89,50 @@ public class PlayerConfigurationManager : MonoBehaviour
         //Debug.Log(playerConfigs.Count);
         //Debug.Log(i + "is ready");
         playerConfigs[i].isReady = true;
-        if (playerConfigs.Count >= 2  && playerConfigs.All(p => p.isReady == true))
+
+        if (is2V2)
         {
-            InputManager.DisableJoining();
-
-            AudioManager.Instance.Stop("MenuMusic");
-
-            if (AudioManager.Instance.IsSoundPlaying("GameMusic"))
+            if (playerConfigs.Count >= 4 && playerConfigs.All(p => p.isReady == true))
             {
-                return;
+                InputManager.DisableJoining();
+
+                AudioManager.Instance.Stop("MenuMusic");
+
+                if (AudioManager.Instance.IsSoundPlaying("GameMusic"))
+                {
+                    return;
+                }
+                else
+                {
+                    AudioManager.Instance.StartRandomMusicTrack();
+                }
+                //Unlock achievement for playing for the first time
+                AchievementManager.instance.UnlockAchi(0);
+                SceneManager.LoadScene(LoadRandomLevel());
             }
-            else
-            {
-                AudioManager.Instance.StartRandomMusicTrack();
-            }
-            //Unlock achievement for playing for the first time
-            AchievementManager.instance.UnlockAchi(0);
-            SceneManager.LoadScene(LoadRandomLevel());
         }
+        else
+        {
+            if (playerConfigs.Count >= 2 && playerConfigs.All(p => p.isReady == true))
+            {
+                InputManager.DisableJoining();
+
+                AudioManager.Instance.Stop("MenuMusic");
+
+                if (AudioManager.Instance.IsSoundPlaying("GameMusic"))
+                {
+                    return;
+                }
+                else
+                {
+                    AudioManager.Instance.StartRandomMusicTrack();
+                }
+                //Unlock achievement for playing for the first time
+                AchievementManager.instance.UnlockAchi(0);
+                SceneManager.LoadScene(LoadRandomLevel());
+            }
+        }
+
     }
 
     public void SetPlayerColour(int i, int colour)
